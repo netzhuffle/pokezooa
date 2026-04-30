@@ -1,0 +1,34 @@
+{
+  "name": "pokezooa",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:data": "bun scripts/generate-data.ts",
+    "dev": "bunx --bun vite",
+    "build": "bunx --bun vite build",
+    "format": "bunx --bun oxfmt --write .",
+    "format:check": "bunx --bun oxfmt --check .",
+    "lint": "bunx --bun oxlint --type-aware --type-check --react-plugin --jsx-a11y-plugin .",
+    "preview": "bunx --bun vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "autoprefixer": "^10.5.0",
+    "oxfmt": "^0.47.0",
+    "oxlint": "^1.62.0",
+    "oxlint-tsgolint": "^0.22.1",
+    "postcss": "^8.5.12",
+    "tailwindcss": "^4.2.4",
+    "typescript": "~6.0.2",
+    "vite": "^8.0.10"
+  }
+}
