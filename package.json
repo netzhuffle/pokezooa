@@ -7,7 +7,7 @@
     "generate:data": "bun scripts/generate-data.ts",
     "dev": "bunx --bun vite",
     "build": "bunx --bun vite build",
-    "check:daily": "bun scripts/check-daily-target.ts",
+    "test": "bun test",
     "format": "bunx --bun oxfmt --write .",
     "format:check": "bunx --bun oxfmt --check .",
     "lint": "bunx --bun oxlint --type-aware --type-check --react-plugin --jsx-a11y-plugin .",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.4",
+    "@types/bun": "^1.3.13",
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
