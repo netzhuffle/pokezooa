@@ -23,7 +23,7 @@ interface StoredRoundSnapshot {
   guessSlugs: string[];
   input: string;
   message: string;
-  roundNumber: number | null;
+  roundNumber: number;
   showTable: boolean;
   targetSlug: string;
   version: 1;
@@ -72,20 +72,17 @@ function loadStoredRound(currentDailyNumber: number): RoundSnapshot {
       return defaultDailyRound(currentDailyNumber);
     }
 
-    const storedRoundNumber = stored.roundNumber;
-    const isPracticeRound = storedRoundNumber === null;
-    const isDailyRound = typeof storedRoundNumber === "number";
-    if (!isPracticeRound && !isDailyRound) {
+    if (stored.roundNumber !== currentDailyNumber) {
       return defaultDailyRound(currentDailyNumber);
     }
 
     const storedTarget = pokemonBySlug(String(stored.targetSlug));
-    const target = isDailyRound ? dailyTarget(storedRoundNumber) : storedTarget;
+    const target = dailyTarget(stored.roundNumber);
     if (!target) {
       return defaultDailyRound(currentDailyNumber);
     }
 
-    if (isDailyRound && storedTarget && storedTarget.slug !== target.slug) {
+    if (storedTarget && storedTarget.slug !== target.slug) {
       return defaultDailyRound(currentDailyNumber);
     }
 
@@ -97,7 +94,7 @@ function loadStoredRound(currentDailyNumber: number): RoundSnapshot {
       guesses,
       input: String(stored.input ?? ""),
       message: String(stored.message ?? START_MESSAGE),
-      roundNumber: isDailyRound ? storedRoundNumber : null,
+      roundNumber: stored.roundNumber,
       showTable: Boolean(stored.showTable),
       target,
     };
@@ -107,7 +104,7 @@ function loadStoredRound(currentDailyNumber: number): RoundSnapshot {
 }
 
 function saveStoredRound(currentDailyNumber: number, snapshot: RoundSnapshot): void {
-  if (typeof localStorage === "undefined") {
+  if (typeof localStorage === "undefined" || snapshot.roundNumber === null) {
     return;
   }
 
