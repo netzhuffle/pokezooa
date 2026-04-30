@@ -7,6 +7,8 @@ const MAX_TRIES = 20;
 const FIRST_DAILY_PUZZLE = { year: 2026, month: 4, day: 30 };
 // Freeze the daily pool so regenerating metadata or adding later Pokémon cannot move old puzzles.
 const DAILY_TARGET_POOL_SIZE = 1025;
+// Keep the launch-day puzzle stable: #1 was Karippas before the seeding bug was found.
+const DAILY_TARGET_ID_OFFSET = 209;
 const ZURICH_TIMEZONE = "Europe/Zurich";
 const ROUND_STORAGE_KEY = "pokezooa:active-round:v1";
 const STREAK_STORAGE_KEY = "pokezooa:daily-streak:v1";
@@ -87,7 +89,8 @@ function seededRandom(seed: number): number {
 
 function dailyTarget(puzzleNumber: number): PokemonEntry {
   const random = seededRandom(hashSeed(`pokezooa:${puzzleNumber}`));
-  const targetId = Math.floor(random * DAILY_TARGET_POOL_SIZE) + 1;
+  const rawTargetId = Math.floor(random * DAILY_TARGET_POOL_SIZE) + 1;
+  const targetId = ((rawTargetId + DAILY_TARGET_ID_OFFSET - 1) % DAILY_TARGET_POOL_SIZE) + 1;
   return pokemonById.get(targetId) ?? pokemonData[Math.floor(random * pokemonData.length)];
 }
 
@@ -130,8 +133,12 @@ function loadStoredRound(currentDailyNumber: number): RoundSnapshot {
     }
 
     const storedTarget = pokemonBySlug(String(stored.targetSlug));
-    const target = storedTarget ?? (isDailyRound ? dailyTarget(storedRoundNumber) : undefined);
+    const target = isDailyRound ? dailyTarget(storedRoundNumber) : storedTarget;
     if (!target) {
+      return defaultDailyRound(currentDailyNumber);
+    }
+
+    if (isDailyRound && storedTarget && storedTarget.slug !== target.slug) {
       return defaultDailyRound(currentDailyNumber);
     }
 
