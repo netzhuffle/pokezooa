@@ -1,15 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { datasetMeta, pokemonData } from "./data/pokemon.generated";
 import type { PokemonEntry } from "./data/types";
+import { dailyPuzzleNumber, dailyTarget } from "./daily";
 import { buildVisibleTree, groupCount, normalizeName, targetMatch, type VisibleNode } from "./game";
 
 const MAX_TRIES = 20;
-const FIRST_DAILY_PUZZLE = { year: 2026, month: 4, day: 30 };
-// Freeze the daily pool so regenerating metadata or adding later Pokémon cannot move old puzzles.
-const DAILY_TARGET_POOL_SIZE = 1025;
-// Keep the launch-day puzzle stable: #1 was Karippas before the seeding bug was found.
-const DAILY_TARGET_ID_OFFSET = 209;
-const ZURICH_TIMEZONE = "Europe/Zurich";
 const ROUND_STORAGE_KEY = "pokezooa:active-round:v1";
 const STREAK_STORAGE_KEY = "pokezooa:daily-streak:v1";
 const START_MESSAGE = "Gib ein Pokémon ein und decke den Baum auf.";
@@ -40,58 +35,10 @@ interface StoredStreak {
   version: 1;
 }
 
-const pokemonById = new Map(pokemonData.map((pokemon) => [pokemon.id, pokemon]));
-
 function randomTarget(): PokemonEntry {
   const random =
     globalThis.crypto?.getRandomValues(new Uint32Array(1))[0] ?? Math.random() * 2 ** 32;
   return pokemonData[Math.floor((random / 2 ** 32) * pokemonData.length)];
-}
-
-function zurichDateParts(date: Date): { year: number; month: number; day: number } {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    day: "2-digit",
-    month: "2-digit",
-    timeZone: ZURICH_TIMEZONE,
-    year: "numeric",
-  }).formatToParts(date);
-
-  return {
-    day: Number(parts.find((part) => part.type === "day")?.value),
-    month: Number(parts.find((part) => part.type === "month")?.value),
-    year: Number(parts.find((part) => part.type === "year")?.value),
-  };
-}
-
-function utcDayNumber({ year, month, day }: { year: number; month: number; day: number }): number {
-  return Math.floor(Date.UTC(year, month - 1, day) / 86_400_000);
-}
-
-function dailyPuzzleNumber(date = new Date()): number {
-  return utcDayNumber(zurichDateParts(date)) - utcDayNumber(FIRST_DAILY_PUZZLE) + 1;
-}
-
-function hashSeed(value: string): number {
-  let hash = 2_166_136_261;
-  for (const character of value) {
-    hash ^= character.charCodeAt(0);
-    hash = Math.imul(hash, 16_777_619);
-  }
-  return hash >>> 0;
-}
-
-function seededRandom(seed: number): number {
-  let value = seed + 0x6d2b79f5;
-  value = Math.imul(value ^ (value >>> 15), value | 1);
-  value ^= value + Math.imul(value ^ (value >>> 7), value | 61);
-  return ((value ^ (value >>> 14)) >>> 0) / 4_294_967_296;
-}
-
-function dailyTarget(puzzleNumber: number): PokemonEntry {
-  const random = seededRandom(hashSeed(`pokezooa:${puzzleNumber}`));
-  const rawTargetId = Math.floor(random * DAILY_TARGET_POOL_SIZE) + 1;
-  const targetId = ((rawTargetId + DAILY_TARGET_ID_OFFSET - 1) % DAILY_TARGET_POOL_SIZE) + 1;
-  return pokemonById.get(targetId) ?? pokemonData[Math.floor(random * pokemonData.length)];
 }
 
 function pokemonBySlug(slug: string): PokemonEntry | undefined {
