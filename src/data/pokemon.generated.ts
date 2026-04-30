@@ -2,7 +2,7 @@
 import type { DatasetMeta, PokemonEntry } from "./types";
 
 export const datasetMeta: DatasetMeta = {
-  generatedAt: "2026-04-29T14:56:42.618Z",
+  generatedAt: "2026-04-30T17:25:09.793Z",
   source:
     "Pokémon species metadata from PokéAPI with German localizations; PokéWiki links are generated for German source/reference pages.",
   count: 1025,
@@ -24,6 +24,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+    dexEntry:
+      "Nach der Geburt nimmt es für eine Weile Nährstoffe über den Samen auf seinem Rücken auf.",
     pokewikiUrl: "https://www.pokewiki.de/Bisasam",
   },
   {
@@ -41,6 +43,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png",
+    dexEntry:
+      "Die Sonne macht es stärker. Die Knospe auf seinem Rücken wächst unter dem Einfluss von Sonnenlicht.",
     pokewikiUrl: "https://www.pokewiki.de/Bisaknosp",
   },
   {
@@ -58,6 +62,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 100,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png",
+    dexEntry: "Die Blume verströmt einen zauberhaften Duft. Er beschwichtigt erhitzte Kämpfer.",
     pokewikiUrl: "https://www.pokewiki.de/Bisaflor",
   },
   {
@@ -75,6 +80,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+    dexEntry:
+      "Von Geburt an brennt die Flamme auf seiner Schwanzspitze. Sobald sie verglimmt, erlischt auch sein Lebenslicht.",
     pokewikiUrl: "https://www.pokewiki.de/Glumanda",
   },
   {
@@ -92,6 +99,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png",
+    dexEntry:
+      "Steigert es sich in einen Kampf hinein, spuckt es Flammen, die alles in seiner Umgebung niederbrennen.",
     pokewikiUrl: "https://www.pokewiki.de/Glutexo",
   },
   {
@@ -109,6 +118,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 90.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+    dexEntry:
+      "Dieses Pokémon kann mit seinen Flügeln eine Höhe von bis zu 1 400 m erreichen. Es spuckt sehr heißes Feuer.",
     pokewikiUrl: "https://www.pokewiki.de/Glurak",
   },
   {
@@ -126,6 +137,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+    dexEntry:
+      "Fühlt es sich bedroht, verkriecht es sich in seinen Panzer und spuckt Wasser aus seinem Maul.",
     pokewikiUrl: "https://www.pokewiki.de/Schiggy",
   },
   {
@@ -143,6 +156,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 22.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+    dexEntry:
+      "Es balanciert geschickt mit seinen buschigen Ohren und dem Schweif, während es im Wasser schwimmt.",
     pokewikiUrl: "https://www.pokewiki.de/Schillok",
   },
   {
@@ -160,6 +175,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 85.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+    dexEntry:
+      "Die Wassersalven, die es mit den Wasserdüsen in seinem Panzer abfeuert, durchdringen sogar dicke Stahlwände.",
     pokewikiUrl: "https://www.pokewiki.de/Turtok",
   },
   {
@@ -177,6 +194,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/10.png",
+    dexEntry:
+      "Es hat Saugnäpfe an den Beinchen, mit denen es mühelos Steigungen und Mauern erklimmen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Raupy",
   },
   {
@@ -194,6 +213,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png",
+    dexEntry:
+      "In seiner harten Schale ist ein weicher Körper. Einem brutalen Angriff hat es nichts entgegenzusetzen.",
     pokewikiUrl: "https://www.pokewiki.de/Safcon",
   },
   {
@@ -211,6 +232,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/12.png",
+    dexEntry:
+      "Es sammelt täglich Honig. Es reibt ihn in seine Beinhaare, um ihn in sein Nest zu transportieren.",
     pokewikiUrl: "https://www.pokewiki.de/Smettbo",
   },
   {
@@ -228,6 +251,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/13.png",
+    dexEntry:
+      "Auf seinem Kopf befindet sich ein spitzer Stachel. Es versteckt sich im hohen Gras sowie in Wäldern und frisst eifrig Blätter.",
     pokewikiUrl: "https://www.pokewiki.de/Hornliu",
   },
   {
@@ -245,6 +270,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/14.png",
+    dexEntry:
+      "Obwohl es sich kaum bewegen kann, ist es bei Gefahr in der Lage, einen Stachel auszufahren, mit dem es seine Gegner vergiftet.",
     pokewikiUrl: "https://www.pokewiki.de/Kokuna",
   },
   {
@@ -262,6 +289,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/15.png",
+    dexEntry:
+      "Es verfügt über insgesamt drei Giftstachel, zwei an den Armen und einen am Hinterleib, mit denen es seine Gegner wiederholt angreift.",
     pokewikiUrl: "https://www.pokewiki.de/Bibor",
   },
   {
@@ -279,6 +308,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/16.png",
+    dexEntry:
+      "Ein sanftmütiges Pokémon, welches lieber Sand zum Schutz aufwirbelt, als zurückzuschlagen.",
     pokewikiUrl: "https://www.pokewiki.de/Taubsi",
   },
   {
@@ -296,6 +327,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/17.png",
+    dexEntry:
+      "Dieses kraftvolle Pokémon wacht unermüdlich über sein riesiges Territorium und fliegt weite Strecken auf der Suche nach Beute.",
     pokewikiUrl: "https://www.pokewiki.de/Tauboga",
   },
   {
@@ -313,6 +346,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/18.png",
+    dexEntry:
+      "Auf der Jagd nach Beute fliegt es mit einer Geschwindigkeit von bis zu Mach 2. Seine mächtigen Klauen gelten als gefürchtete Waffen.",
     pokewikiUrl: "https://www.pokewiki.de/Tauboss",
   },
   {
@@ -330,6 +365,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/19.png",
+    dexEntry:
+      "Es knabbert mit seinen zwei Nagezähnen alles und jeden an. Stößt man auf eines, findet man sicherlich 40 weitere in der Gegend.",
     pokewikiUrl: "https://www.pokewiki.de/Rattfratz",
   },
   {
@@ -347,6 +384,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/20.png",
+    dexEntry:
+      "Die Hinterbeine dieses Pokémon verfügen über kleine Schwimmhäute. So kann es in Flüssen jagen.",
     pokewikiUrl: "https://www.pokewiki.de/Rattikarl",
   },
   {
@@ -364,6 +403,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/21.png",
+    dexEntry:
+      "In großen Höhen fällt ihm das Fliegen schwer. Allerdings kann es pfeilschnell umherflitzen, wenn es um den Schutz seines Habitats geht.",
     pokewikiUrl: "https://www.pokewiki.de/Habitak",
   },
   {
@@ -381,6 +422,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 38,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/22.png",
+    dexEntry:
+      "Dieses Pokémon gehört einer sehr alten Spezies an. Wittert es Gefahr, so fliegt es sofort in große Höhen davon.",
     pokewikiUrl: "https://www.pokewiki.de/Ibitak",
   },
   {
@@ -398,6 +441,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png",
+    dexEntry:
+      "Mit dem Alter wird der Körper dieses Pokémon immer länger. Nachts wickelt es sich um Äste, um zu ruhen.",
     pokewikiUrl: "https://www.pokewiki.de/Rettan",
   },
   {
@@ -415,6 +460,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 65,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png",
+    dexEntry:
+      "Von dem furchterregenden Muster auf seinem Bauch wurden durch Studien bislang sechs verschiedene Varianten entdeckt.",
     pokewikiUrl: "https://www.pokewiki.de/Arbok",
   },
   {
@@ -432,6 +479,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+    dexEntry:
+      "Pikachu begrüßen einander, indem sie ihre Schweife aneinanderreiben und eine Ladung Strom durch diese gleiten lassen.",
     pokewikiUrl: "https://www.pokewiki.de/Pikachu",
   },
   {
@@ -449,6 +498,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/26.png",
+    dexEntry:
+      "Wenn der in seinen Backentaschen gespeicherte Strom leer ist, stellt es seinen Schweif auf, um Elektrizität aus der Luft zu ziehen.",
     pokewikiUrl: "https://www.pokewiki.de/Raichu",
   },
   {
@@ -466,6 +517,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/27.png",
+    dexEntry:
+      "Es gräbt sich seinen Bau im Erdboden. Stößt es dabei auf harte Steine, zerstört es diese mit seinen scharfen Krallen und gräbt unbeirrt weiter.",
     pokewikiUrl: "https://www.pokewiki.de/Sandan",
   },
   {
@@ -483,6 +536,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/28.png",
+    dexEntry:
+      "Mit seinen scharfen Krallen klettert es auf Bäume und wirft unten wartenden Sandan Beeren zu, die sie sich dann teilen.",
     pokewikiUrl: "https://www.pokewiki.de/Sandamer",
   },
   {
@@ -500,6 +555,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/29.png",
+    dexEntry:
+      "Mit ihren harten Vorderzähnen zerteilen sie Beeren, bevor sie diese essen. Die Spitze ihres Horns ist etwas abgerundeter als bei Männchen.",
     pokewikiUrl: "https://www.pokewiki.de/Nidoran%E2%99%80",
   },
   {
@@ -517,6 +574,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/30.png",
+    dexEntry:
+      "Man geht davon aus, dass sich das Horn auf ihrem Kopf zurückgebildet hat, damit sie ihre Jungen nicht beim Füttern verletzen.",
     pokewikiUrl: "https://www.pokewiki.de/Nidorina",
   },
   {
@@ -534,6 +593,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/31.png",
+    dexEntry:
+      "Es beruhigt seine Jungen, indem es diese zwischen den Stacheln auf seinem Rücken reiten lässt. Die Stacheln sondern derweil kein Gift ab.",
     pokewikiUrl: "https://www.pokewiki.de/Nidoqueen",
   },
   {
@@ -551,6 +612,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/32.png",
+    dexEntry:
+      "Trotz seiner geringen Größe ist es sehr mutig. Um ein befreundetes Weibchen zu beschützen, riskiert es sein Leben und kämpft unerschrocken.",
     pokewikiUrl: "https://www.pokewiki.de/Nidoran%E2%99%82",
   },
   {
@@ -568,6 +631,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/33.png",
+    dexEntry:
+      "Es ist nervös und wird schnell aggressiv. Steigt sein Adrenalinspiegel, erhöht sich gleichzeitig auch die Konzentration seines Gifts.",
     pokewikiUrl: "https://www.pokewiki.de/Nidorino",
   },
   {
@@ -585,6 +650,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 62,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/34.png",
+    dexEntry:
+      "Nidoking ist stolz auf seine Kraft und kämpft sehr geschickt mit seinem dicken Schweif und seinem Horn, das selbst Diamanten zertrümmern kann.",
     pokewikiUrl: "https://www.pokewiki.de/Nidoking",
   },
   {
@@ -602,6 +669,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/35.png",
+    dexEntry:
+      "Aufgrund seines reizenden Wesens und seines Rufes erfreut sich dieses Pokémon großer Beliebtheit. Leider ist es auch sehr selten.",
     pokewikiUrl: "https://www.pokewiki.de/Piepi",
   },
   {
@@ -619,6 +688,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/36.png",
+    dexEntry:
+      "Ihr Gehör erfasst das Geräusch einer fallenden Nadel noch aus 1 km Entfernung. Sie bevorzugen daher ruhige Orte.",
     pokewikiUrl: "https://www.pokewiki.de/Pixi",
   },
   {
@@ -636,6 +707,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/37.png",
+    dexEntry:
+      "Sein Fell wird geschmeidiger, wenn seine sechs Schweife wachsen. Wenn man das Fell berührt, fühlt es sich leicht warm an.",
     pokewikiUrl: "https://www.pokewiki.de/Vulpix",
   },
   {
@@ -653,6 +726,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/38.png",
+    dexEntry:
+      "Dieses Pokémon ist intelligent, aber rachsüchtig. Wer zum Spaß einen seiner Schweife ergreift, kann sich einen tausendjährigen Fluch einhandeln.",
     pokewikiUrl: "https://www.pokewiki.de/Vulnona",
   },
   {
@@ -670,6 +745,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png",
+    dexEntry:
+      "Es kann die Tonlage seiner Stimme beliebig variieren, um eine mysteriöse Melodie zu singen, die jeden in Schlaf versetzt, der sie hört.",
     pokewikiUrl: "https://www.pokewiki.de/Pummeluff",
   },
   {
@@ -687,6 +764,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/40.png",
+    dexEntry:
+      "Knuddeluffs weiches Fell ist sein ganzer Stolz. Besonders die Locke auf seiner Stirn fühlt sich herrlich an.",
     pokewikiUrl: "https://www.pokewiki.de/Knuddeluff",
   },
   {
@@ -704,6 +783,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/41.png",
+    dexEntry:
+      "Zubat leben tief in Höhlen, wo das Sonnenlicht sie nicht erreicht. Bei Tagesanbruch rücken sie zusammen, um sich im Schlaf zu wärmen.",
     pokewikiUrl: "https://www.pokewiki.de/Zubat",
   },
   {
@@ -721,6 +802,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/42.png",
+    dexEntry:
+      "Golbat kann trotz seiner kleinen Beine geschickt laufen. Es schleicht sich an schlafende Beute an, stößt seine Zähne in sie und schlürft ihr Blut.",
     pokewikiUrl: "https://www.pokewiki.de/Golbat",
   },
   {
@@ -738,6 +821,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/43.png",
+    dexEntry:
+      "Tagsüber versteckt es sich in der kalten Erde, um die Sonne zu meiden. Es wächst im Mondschein.",
     pokewikiUrl: "https://www.pokewiki.de/Myrapla",
   },
   {
@@ -755,6 +840,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/44.png",
+    dexEntry:
+      "Was wie Speichel aussieht, ist eigentlich Honig. Er ist sehr klebrig und wenn man ihn berührt, bekommt man ihn nicht mehr ab.",
     pokewikiUrl: "https://www.pokewiki.de/Duflor",
   },
   {
@@ -772,6 +859,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/45.png",
+    dexEntry:
+      "Je größer die Blütenblätter, desto mehr giftige Pollen enthält die Blüte. Aber es ist auch umso erschöpfter, da sein Kopf so schwer wird.",
     pokewikiUrl: "https://www.pokewiki.de/Giflor",
   },
   {
@@ -789,6 +878,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/46.png",
+    dexEntry:
+      "Es gräbt sich in den Boden, um Baumwurzeln Nährstoffe zu entziehen. Den Großteil davon absorbieren jedoch die Pilze auf seinem Rücken.",
     pokewikiUrl: "https://www.pokewiki.de/Paras",
   },
   {
@@ -806,6 +897,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/47.png",
+    dexEntry:
+      "Der Pilz auf Paraseks Rücken nutzt das Pokémon als Wirt und entzieht ihm Energie. Es scheint, als habe er die Kontrolle über das Pokémon.",
     pokewikiUrl: "https://www.pokewiki.de/Parasek",
   },
   {
@@ -823,6 +916,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/48.png",
+    dexEntry:
+      "Seine großen Augen fungieren als Radar. Im Licht kann man erkennen, dass sie aus unzähligen, sehr kleinen Augen bestehen.",
     pokewikiUrl: "https://www.pokewiki.de/Bluzuk",
   },
   {
@@ -840,6 +935,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/49.png",
+    dexEntry:
+      "Berührt man die staubartigen Schuppen auf seinen Flügeln, heften diese sich hartnäckig am Körper an und sondern darüber hinaus Gift ab.",
     pokewikiUrl: "https://www.pokewiki.de/Omot",
   },
   {
@@ -857,6 +954,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/50.png",
+    dexEntry:
+      "Es gräbt sich in geringer Tiefe durch den Erdboden. Da es dabei durchwühlte Erde an der Oberfläche hinterlässt, ist es leicht zu finden.",
     pokewikiUrl: "https://www.pokewiki.de/Digda",
   },
   {
@@ -874,6 +973,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/51.png",
+    dexEntry:
+      "Diese kraftvollen Digda-Drillinge graben bis zu 100 km tief. Keiner weiß, wie sie unter der Erde aussehen.",
     pokewikiUrl: "https://www.pokewiki.de/Digdri",
   },
   {
@@ -891,6 +992,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png",
+    dexEntry:
+      "Es wäscht sich regelmäßig das Gesicht, um die Münze auf seiner Stirn sauber zu halten. Es hat kein gutes Verhältnis zu den Mauzi aus Galar.",
     pokewikiUrl: "https://www.pokewiki.de/Mauzi",
   },
   {
@@ -908,6 +1011,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/53.png",
+    dexEntry:
+      "Sein Auftreten ist anmutig und elegant. Es kommt mit Mauzingers grober Art nicht zurecht. Beide Arten strafen sich gegenseitig mit Verachtung.",
     pokewikiUrl: "https://www.pokewiki.de/Snobilikat",
   },
   {
@@ -925,6 +1030,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+    dexEntry:
+      "Wenn es sehr gestresst ist, verstärken sich seine Kopfschmerzen. Mit seinen Psycho-Kräften kann es alles in der Umgebung überwältigen.",
     pokewikiUrl: "https://www.pokewiki.de/Enton",
   },
   {
@@ -942,6 +1049,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 76.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/55.png",
+    dexEntry:
+      "Alten Legenden zufolge werden jene Menschen, die es wagen, seinen Fluss zu verschmutzen, von Entoron ins Wasser gezerrt und entführt.",
     pokewikiUrl: "https://www.pokewiki.de/Entoron",
   },
   {
@@ -959,6 +1068,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/56.png",
+    dexEntry:
+      "Es ist sehr agil und lebt auf Bäumen. Aufgrund seiner hitzköpfigen Natur wird es schnell wütend, was dazu führt, dass es alles und jeden angreift.",
     pokewikiUrl: "https://www.pokewiki.de/Menki",
   },
   {
@@ -976,6 +1087,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/57.png",
+    dexEntry:
+      "Es hört lediglich dann auf zu toben, wenn niemand in der Nähe ist. Diesen Anblick zu Gesicht zu bekommen, ist daher nicht einfach.",
     pokewikiUrl: "https://www.pokewiki.de/Rasaff",
   },
   {
@@ -993,6 +1106,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/58.png",
+    dexEntry:
+      "Es ist sehr loyal und bellt jeden Gegner furchtlos an, um seinen Trainer vor Schaden zu bewahren.",
     pokewikiUrl: "https://www.pokewiki.de/Fukano",
   },
   {
@@ -1010,6 +1125,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 155,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/59.png",
+    dexEntry:
+      "Dieses Pokémon verzaubert die Menschen seit Urzeiten mit seiner Schönheit. Obendrein ist es schnell und sehr wendig.",
     pokewikiUrl: "https://www.pokewiki.de/Arkani",
   },
   {
@@ -1027,6 +1144,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/60.png",
+    dexEntry:
+      "In schnell fließenden Flüssen hält es sich mithilfe seiner dicken Lippen, die als Saugnapf fungieren, an Felsen fest.",
     pokewikiUrl: "https://www.pokewiki.de/Quapsel",
   },
   {
@@ -1044,6 +1163,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/61.png",
+    dexEntry:
+      "Quaputzi schwitzt glitschigen Schleim, dank dem es leicht der Umklammerung eines Feindes entkommen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Quaputzi",
   },
   {
@@ -1061,6 +1182,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 54,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/62.png",
+    dexEntry:
+      "Es ist sowohl ein begnadeter Schwimmer als auch Kampfsportler. Mit seinen durchtrainierten Armen teilt es kräftige Schläge aus.",
     pokewikiUrl: "https://www.pokewiki.de/Quappo",
   },
   {
@@ -1078,6 +1201,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/63.png",
+    dexEntry:
+      "Es kann sich im Schlaf teleportieren. Je tiefer Abra schläft, desto weiter entfernt soll der Ort sein, an den es sich teleportiert.",
     pokewikiUrl: "https://www.pokewiki.de/Abra",
   },
   {
@@ -1095,6 +1220,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 56.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/64.png",
+    dexEntry:
+      "Kadabra verfügt über enorme psychokinetische Macht. Als Vorbereitung für seine Entwicklung speichert es im Stern auf der Stirn Psycho-Kräfte.",
     pokewikiUrl: "https://www.pokewiki.de/Kadabra",
   },
   {
@@ -1112,6 +1239,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 48,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/65.png",
+    dexEntry:
+      "Simsala verfügt über extrem starke Psycho-Kräfte. Mit ihnen soll es die Löffel erschaffen haben, die es in seinen Händen hält.",
     pokewikiUrl: "https://www.pokewiki.de/Simsala",
   },
   {
@@ -1129,6 +1258,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png",
+    dexEntry:
+      "Da es vor Kraft strotzt, hebt es zum Zeitvertreib Felsen. Dadurch gewinnt es an zusätzlicher Stärke.",
     pokewikiUrl: "https://www.pokewiki.de/Machollo",
   },
   {
@@ -1146,6 +1277,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 70.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/67.png",
+    dexEntry:
+      "Sein durchtrainierter Körper wird nie müde. Es hilft den Menschen, indem es schwere Sachen trägt.",
     pokewikiUrl: "https://www.pokewiki.de/Maschock",
   },
   {
@@ -1163,6 +1296,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 130,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/68.png",
+    dexEntry:
+      "Seine vier Arme reagieren schneller, als es denken kann. Daher ist es in der Lage, unzählige Schläge reflexartig auszuführen.",
     pokewikiUrl: "https://www.pokewiki.de/Machomei",
   },
   {
@@ -1180,6 +1315,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/69.png",
+    dexEntry:
+      "Knofensa bevorzugt einen warmen und feuchten Lebensraum. Es ernährt sich von kleinen Käfer- Pokémon, die es mit seinen Ranken fängt.",
     pokewikiUrl: "https://www.pokewiki.de/Knofensa",
   },
   {
@@ -1197,6 +1334,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/70.png",
+    dexEntry:
+      "Wenn es hungrig ist, schnappt es willkürlich nach allem, was sich bewegt. Nachdem es seine Beute verschluckt hat, schaltet es sie mit Säure aus.",
     pokewikiUrl: "https://www.pokewiki.de/Ultrigaria",
   },
   {
@@ -1214,6 +1353,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/71.png",
+    dexEntry:
+      "Es lockt Beute mit einem Duft an, der an Honig erinnert. Was in sein Maul gelangt, wird samt Knochen binnen eines Tages zersetzt.",
     pokewikiUrl: "https://www.pokewiki.de/Sarzenia",
   },
   {
@@ -1231,6 +1372,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 45.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/72.png",
+    dexEntry:
+      "Tentacha besteht fast vollständig aus Wasser, wodurch man es im Meer nur sehr schwer erkennen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Tentacha",
   },
   {
@@ -1248,6 +1391,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/73.png",
+    dexEntry:
+      "Tentoxa kann seine 80 Tentakel beliebig ausfahren und einziehen. Es breitet sie netzartig aus, um Beute zu fangen und dann zu vergiften.",
     pokewikiUrl: "https://www.pokewiki.de/Tentoxa",
   },
   {
@@ -1265,6 +1410,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png",
+    dexEntry:
+      "Es hält sich gern in der Nähe von Gebirgspfaden auf. Tritt man versehentlich auf eins, wird es sehr wütend. Deshalb ist höchste Vorsicht geboten.",
     pokewikiUrl: "https://www.pokewiki.de/Kleinstein",
   },
   {
@@ -1282,6 +1429,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 105,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/75.png",
+    dexEntry:
+      "Es rollt sich gerne Gebirgspfade hinunter. Dabei ist es ihm egal, wer oder was sich in seinem Weg befindet.",
     pokewikiUrl: "https://www.pokewiki.de/Georok",
   },
   {
@@ -1299,6 +1448,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 300,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/76.png",
+    dexEntry:
+      "Nachdem es sich gehäutet hat, wird sein Körper weich und hell. Durch den Kontakt mit der Luft erhärtet er aber sofort wieder.",
     pokewikiUrl: "https://www.pokewiki.de/Geowaz",
   },
   {
@@ -1316,6 +1467,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/77.png",
+    dexEntry:
+      "Hat man erst einmal das Vertrauen eines Ponitas gewonnen, kann man seltsamerweise sogar seine feurige Mähne anfassen, ohne sich zu verbrennen.",
     pokewikiUrl: "https://www.pokewiki.de/Ponita",
   },
   {
@@ -1333,6 +1486,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 95,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/78.png",
+    dexEntry:
+      "Das schnellste Exemplar wird zum Anführer bestimmt und gibt als solcher den Zielort und die Geschwindigkeit der Herde vor.",
     pokewikiUrl: "https://www.pokewiki.de/Gallopa",
   },
   {
@@ -1350,6 +1505,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 36,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/79.png",
+    dexEntry:
+      "Taucht es seine Rute ins Wasser, strömt sie ein süßes Aroma aus. Mit diesem Köder lockt es andere Pokémon an, die es dann an Land zieht.",
     pokewikiUrl: "https://www.pokewiki.de/Flegmon",
   },
   {
@@ -1367,6 +1524,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 78.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/80.png",
+    dexEntry:
+      "Der Schock, den Muschas’ Biss verursachte, ließ es auf zwei Beinen stehen. Löst das Muschas sich von ihm, wird es wieder zu einem Flegmon.",
     pokewikiUrl: "https://www.pokewiki.de/Lahmus",
   },
   {
@@ -1384,6 +1543,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/81.png",
+    dexEntry:
+      "Es ernährt sich von Strom und segelt durch die Luft, indem es mit den Magneten an seinem Körper elektromagnetische Wellen aussendet.",
     pokewikiUrl: "https://www.pokewiki.de/Magnetilo",
   },
   {
@@ -1401,6 +1562,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/82.png",
+    dexEntry:
+      "Es sondert stetig seine starken Magnetkräfte ab, sodass bei den meisten Computern Störungen auftreten, wenn es sich in deren Nähe aufhält.",
     pokewikiUrl: "https://www.pokewiki.de/Magneton",
   },
   {
@@ -1418,6 +1581,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/83.png",
+    dexEntry:
+      "Im Kampf verwendet es eine Lauchstange als Waffe. Es gibt verschiedene Meinungen dazu, wie diese korrekt zu schwingen sei.",
     pokewikiUrl: "https://www.pokewiki.de/Porenta",
   },
   {
@@ -1435,6 +1600,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/84.png",
+    dexEntry:
+      "Es kann nicht gut fliegen, weil seine Flügel zu klein sind. Dafür kann es mit seinen starken Beinen sehr schnell laufen.",
     pokewikiUrl: "https://www.pokewiki.de/Dodu",
   },
   {
@@ -1452,6 +1619,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 85.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/85.png",
+    dexEntry:
+      "Bei der Entwicklung zu Dodri hat sich einer von Dodus Köpfen in zwei geteilt. Es flitzt mit einer Geschwindigkeit von 60 km/h über Wiesen.",
     pokewikiUrl: "https://www.pokewiki.de/Dodri",
   },
   {
@@ -1469,6 +1638,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 90,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/86.png",
+    dexEntry:
+      "Es bevorzugt eiskalte Lebensräume und schwimmt mit Vorliebe in -10 ºC kaltem Wasser.",
     pokewikiUrl: "https://www.pokewiki.de/Jurob",
   },
   {
@@ -1486,6 +1657,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/87.png",
+    dexEntry:
+      "Sein ganzer Körper ist schneeweiß. Da ihm Kälte nichts ausmacht, kann es selbst in Eiswasser kraftvoll schwimmen.",
     pokewikiUrl: "https://www.pokewiki.de/Jugong",
   },
   {
@@ -1503,6 +1676,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/88.png",
+    dexEntry:
+      "Sleima ist aus erhärtetem Schlamm entstanden. Es riecht sehr penetrant und man sollte es nicht berühren. Wo es hintritt, wächst kein Gras mehr.",
     pokewikiUrl: "https://www.pokewiki.de/Sleima",
   },
   {
@@ -1520,6 +1695,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/89.png",
+    dexEntry:
+      "Sein fürchterlicher Gestank kann zur Ohnmacht führen. Da seine Nase so verkümmert ist, kann es selbst nichts mehr riechen.",
     pokewikiUrl: "https://www.pokewiki.de/Sleimok",
   },
   {
@@ -1537,6 +1714,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/90.png",
+    dexEntry:
+      "Eine harte Schale schützt dieses Pokémon. Nur wenn es diese öffnet, wird es verwundbar.",
     pokewikiUrl: "https://www.pokewiki.de/Muschas",
   },
   {
@@ -1554,6 +1733,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 132.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/91.png",
+    dexEntry:
+      "Ist seine Schale erst geschlossen, ist es selbst mit viel Kraft nicht mehr möglich, diese zu öffnen.",
     pokewikiUrl: "https://www.pokewiki.de/Austos",
   },
   {
@@ -1571,6 +1752,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/92.png",
+    dexEntry:
+      "Aufgrund seines an Gas erinnernden Körpers kommt es an jeden Ort. Es kann jedoch vom Wind davongeweht werden.",
     pokewikiUrl: "https://www.pokewiki.de/Nebulak",
   },
   {
@@ -1588,6 +1771,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/93.png",
+    dexEntry:
+      "Falls du im Dunkeln das Gefühl hast, beobachtet zu werden, und niemand ist zu sehen, ist es bestimmt Alpollo.",
     pokewikiUrl: "https://www.pokewiki.de/Alpollo",
   },
   {
@@ -1605,6 +1790,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+    dexEntry:
+      "Man sagt, es sei aus Dunkelheit entstanden, um denjenigen, die sich in den Bergen verirrt haben, das Leben zu rauben.",
     pokewikiUrl: "https://www.pokewiki.de/Gengar",
   },
   {
@@ -1622,6 +1809,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 210,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png",
+    dexEntry:
+      "Es bohrt sich mit 80 km/h durch das Erdreich, indem es seinen massiven, rauen Körper dreht und windet.",
     pokewikiUrl: "https://www.pokewiki.de/Onix",
   },
   {
@@ -1639,6 +1828,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/96.png",
+    dexEntry:
+      "Wenn man immer in der Nähe eines Traumato schläft, zeigt es einem nachts manchmal Träume, die es vor langer Zeit verspeist hat.",
     pokewikiUrl: "https://www.pokewiki.de/Traumato",
   },
   {
@@ -1656,6 +1847,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 75.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/97.png",
+    dexEntry:
+      "Läuft man einem Hypno über den Weg, sollte man wegsehen, da es andere mit dem Pendel in seiner Hand hypnotisieren kann.",
     pokewikiUrl: "https://www.pokewiki.de/Hypno",
   },
   {
@@ -1673,6 +1866,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/98.png",
+    dexEntry:
+      "Wittert es Gefahr, hüllt es sich in Blasen aus seinem Maul, um größer zu erscheinen.",
     pokewikiUrl: "https://www.pokewiki.de/Krabby",
   },
   {
@@ -1690,6 +1885,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/99.png",
+    dexEntry:
+      "Seine Riesenschere ist sehr stark, aber wenn es nicht kämpft, kommt sie ihm häufig in die Quere.",
     pokewikiUrl: "https://www.pokewiki.de/Kingler",
   },
   {
@@ -1707,6 +1904,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/100.png",
+    dexEntry:
+      "Man sagt, es tarne sich als Pokéball, um sich zu schützen. Allerdings zerstört es sich schon bei der kleinsten äußeren Einwirkung selbst.",
     pokewikiUrl: "https://www.pokewiki.de/Voltobal",
   },
   {
@@ -1724,6 +1923,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 66.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/101.png",
+    dexEntry:
+      "Es speichert elektrische Energie in seinem Körper. Schon die geringste Erschütterung lässt es explodieren.",
     pokewikiUrl: "https://www.pokewiki.de/Lektrobal",
   },
   {
@@ -1741,6 +1942,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/102.png",
+    dexEntry:
+      "Es muss immer aus sechs Mitgliedern bestehen, sonst herrscht Unruhe. Fehlt auch nur eines, steigt bei den anderen die Bereitschaft zur Flucht.",
     pokewikiUrl: "https://www.pokewiki.de/Owei",
   },
   {
@@ -1758,6 +1961,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/103.png",
+    dexEntry:
+      "Seine drei Köpfe setzen mächtige Psycho-Kräfte frei, wenn sie als Einheit agieren. Zieht sich der Himmel zu, bewegt es sich nur noch schwerfällig.",
     pokewikiUrl: "https://www.pokewiki.de/Kokowei",
   },
   {
@@ -1775,6 +1980,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/104.png",
+    dexEntry:
+      "Es trägt den Schädel seiner verstorbenen Mutter. Manchmal weint Tragosso, während es träumt, doch jede vergossene Träne macht es stärker.",
     pokewikiUrl: "https://www.pokewiki.de/Tragosso",
   },
   {
@@ -1792,6 +1999,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 45,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/105.png",
+    dexEntry:
+      "Durch die Entwicklung wurde der Schädel seiner Mutter, den es stets trug, zu einem Teil von ihm und es bekam einen aggressiven Charakter.",
     pokewikiUrl: "https://www.pokewiki.de/Knogga",
   },
   {
@@ -1809,6 +2018,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 49.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/106.png",
+    dexEntry:
+      "Es kann seine Beine nach Belieben ausfahren und einziehen und so auch entfernte Gegner treffen.",
     pokewikiUrl: "https://www.pokewiki.de/Kicklee",
   },
   {
@@ -1826,6 +2037,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 50.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/107.png",
+    dexEntry:
+      "Seine Fäuste zerschneiden die Luft. Es muss jedoch alle drei Minuten eine kurze Pause einlegen.",
     pokewikiUrl: "https://www.pokewiki.de/Nockchan",
   },
   {
@@ -1843,6 +2056,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 65.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/108.png",
+    dexEntry:
+      "Es ernährt sich vorwiegend von Käfer-Pokémon. Hat es diese mit der langen Zunge abgeschleckt und dadurch gelähmt, verschlingt es sie im Nu.",
     pokewikiUrl: "https://www.pokewiki.de/Schlurp",
   },
   {
@@ -1860,6 +2075,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/109.png",
+    dexEntry:
+      "Angeblich waren diese nach verpesteter Luft gierenden Pokémon früher weitaus häufiger in der Galar-Region anzutreffen als heute.",
     pokewikiUrl: "https://www.pokewiki.de/Smogon",
   },
   {
@@ -1877,6 +2094,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/110.png",
+    dexEntry:
+      "Es kann zwar nicht so viel Luft einsaugen wie die Smogmog aus Galar, dafür sind aber die Toxine, die es produziert, umso stärker.",
     pokewikiUrl: "https://www.pokewiki.de/Smogmog",
   },
   {
@@ -1894,6 +2113,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 115,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/111.png",
+    dexEntry:
+      "Es kann sich immer nur eine Sache merken. Sobald es losgestürmt ist, vergisst es augenblicklich den Auslöser dafür.",
     pokewikiUrl: "https://www.pokewiki.de/Rihorn",
   },
   {
@@ -1911,6 +2132,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/112.png",
+    dexEntry:
+      "Sein ganzer Körper ist von einer panzerähnlichen Haut geschützt. Es kann sogar in bis zu 2 000 ºC heißer Lava leben.",
     pokewikiUrl: "https://www.pokewiki.de/Rizeros",
   },
   {
@@ -1928,6 +2151,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 34.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/113.png",
+    dexEntry:
+      "Dieses ursprünglich eher träge Pokémon hat gelernt, schnell davonzulaufen, um seine Eier vor Räubern schützen zu können.",
     pokewikiUrl: "https://www.pokewiki.de/Chaneira",
   },
   {
@@ -1945,6 +2170,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/114.png",
+    dexEntry:
+      "Seine Ranken verströmen einen eigentümlichen Duft, weshalb sie in bestimmten Gegenden von Galar als aromatische Kräuter verwendet werden.",
     pokewikiUrl: "https://www.pokewiki.de/Tangela",
   },
   {
@@ -1962,6 +2189,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 80,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/115.png",
+    dexEntry:
+      "Es liegen Berichte vor, laut denen Kangama ohne eigenen Nachwuchs stattdessen Menschenkinder in Not aufgezogen haben.",
     pokewikiUrl: "https://www.pokewiki.de/Kangama",
   },
   {
@@ -1979,6 +2208,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/116.png",
+    dexEntry:
+      "Es schwimmt elegant wie ein Tänzer und erzeugt dabei Wasserstrudel. Mit Artgenossen wetteifert es darum, wer den größten Strudel formen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Seeper",
   },
   {
@@ -1996,6 +2227,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/117.png",
+    dexEntry:
+      "Selbst Beute, die größer als sein kleiner Mund ist, kann es dank dessen starker Saugkraft im Nu einsaugen und verspeisen.",
     pokewikiUrl: "https://www.pokewiki.de/Seemon",
   },
   {
@@ -2013,6 +2246,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/118.png",
+    dexEntry:
+      "Seine Rücken- und Brustflossen sind muskelähnlich entwickelt. Es erreicht beim Schwimmen eine Geschwindigkeit von bis zu fünf Knoten.",
     pokewikiUrl: "https://www.pokewiki.de/Goldini",
   },
   {
@@ -2030,6 +2265,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/119.png",
+    dexEntry:
+      "Es laicht in Löchern, die es mit seinem Horn in Felsen des Flussbettes gebohrt hat, damit seine Eier nicht vom Wasser fortgespült werden.",
     pokewikiUrl: "https://www.pokewiki.de/Golking",
   },
   {
@@ -2047,6 +2284,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 34.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/120.png",
+    dexEntry:
+      "Ihm macht es nichts aus, von Fisch-Pokémon angeknabbert zu werden, da sich sein Körper bei Verletzungen im Nu regeneriert.",
     pokewikiUrl: "https://www.pokewiki.de/Sterndu",
   },
   {
@@ -2064,6 +2303,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 80,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/121.png",
+    dexEntry:
+      "Starmie bewegt sich im Wasser fort, indem es seinen Körper mit hoher Geschwindigkeit rotieren lässt. Unterwegs absorbiert es winziges Plankton.",
     pokewikiUrl: "https://www.pokewiki.de/Starmie",
   },
   {
@@ -2081,6 +2322,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 54.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/122.png",
+    dexEntry:
+      "Es ist für die Pantomime geboren. Zur Abwehr unterschiedlichster Angriffe erzeugt es mit einem Kraftfeld aus seinen Fingerspitzen Schutzwände.",
     pokewikiUrl: "https://www.pokewiki.de/Pantimos",
   },
   {
@@ -2098,6 +2341,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 56,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/123.png",
+    dexEntry:
+      "Entdeckt man im Wald ein Gebiet, in dem besonders viele Bäume gefällt wurden, befindet man sich im Revier eines Sichlors.",
     pokewikiUrl: "https://www.pokewiki.de/Sichlor",
   },
   {
@@ -2115,6 +2360,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/124.png",
+    dexEntry:
+      "Viele Rossana in Galar verfügen über solch eine schöne und zarte Stimme, dass sie sogar eine Fangemeinde haben.",
     pokewikiUrl: "https://www.pokewiki.de/Rossana",
   },
   {
@@ -2132,6 +2379,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/125.png",
+    dexEntry:
+      "Bei Gewittern versammeln sich Elektek in der Nähe von hohen Bäumen, wo sie regungslos auf Blitzeinschläge warten.",
     pokewikiUrl: "https://www.pokewiki.de/Elektek",
   },
   {
@@ -2149,6 +2398,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 44.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/126.png",
+    dexEntry:
+      "Sein Körper ist ständig in Flammen gehüllt, wodurch es als eine Ursache von Bränden gefürchtet wird.",
     pokewikiUrl: "https://www.pokewiki.de/Magmar",
   },
   {
@@ -2166,6 +2417,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/127.png",
+    dexEntry:
+      "Pinsir nimmt Beute mit seinen Hörnern in die Zange, um sie anschließend entzweizureißen oder mit Wucht fortzuschleudern.",
     pokewikiUrl: "https://www.pokewiki.de/Pinsir",
   },
   {
@@ -2183,6 +2436,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 88.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/128.png",
+    dexEntry:
+      "Die Tauros in Galar haben ein ungestümes Temperament und gestatten es Menschen nicht, auf ihrem Rücken zu reiten.",
     pokewikiUrl: "https://www.pokewiki.de/Tauros",
   },
   {
@@ -2200,6 +2455,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+    dexEntry:
+      "Dieses Pokémon ist so schwach und erbärmlich, dass es sich in Gewässern mit starker Strömung einfach vom Wasser treiben lässt.",
     pokewikiUrl: "https://www.pokewiki.de/Karpador",
   },
   {
@@ -2217,6 +2474,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 235,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+    dexEntry:
+      "Wütet ein Garados, wird es alles niederbrennen. Dies geschieht selbst während eines Sturms.",
     pokewikiUrl: "https://www.pokewiki.de/Garados",
   },
   {
@@ -2234,6 +2493,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 220,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/131.png",
+    dexEntry:
+      "Es kommt gut mit Kälte zurecht und kann auch in eisigen Meeren problemlos schwimmen. Seine Haut fühlt sich glatt und kühl an.",
     pokewikiUrl: "https://www.pokewiki.de/Lapras",
   },
   {
@@ -2251,6 +2512,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/132.png",
+    dexEntry:
+      "Trifft es auf ein anderes Ditto, bewegt es sich schneller als gewöhnlich, um es exakt nachzuahmen.",
     pokewikiUrl: "https://www.pokewiki.de/Ditto",
   },
   {
@@ -2268,6 +2531,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+    dexEntry:
+      "Das Erbmaterial dieses besonderen Pokémon ist instabil, weshalb es das Potenzial für viele verschiedene Entwicklungen in sich trägt.",
     pokewikiUrl: "https://www.pokewiki.de/Evoli",
   },
   {
@@ -2285,6 +2550,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/134.png",
+    dexEntry:
+      "Seine Zellstruktur ähnelt der molekularen Zusammensetzung von Wasser, weshalb es sich in Gewässern unsichtbar machen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Aquana",
   },
   {
@@ -2302,6 +2569,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/135.png",
+    dexEntry:
+      "Dieses Pokémon entzieht der Atmosphäre Ionen und kann dann Blitze von 10 000 V Stärke aus seinem Maul abfeuern.",
     pokewikiUrl: "https://www.pokewiki.de/Blitza",
   },
   {
@@ -2319,6 +2588,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/136.png",
+    dexEntry:
+      "Ein Teil der von ihm eingeatmeten Luft wird in einem Flammensack in seinem Körper gespeichert und dort auf 1 700 ºC erhitzt.",
     pokewikiUrl: "https://www.pokewiki.de/Flamara",
   },
   {
@@ -2336,6 +2607,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 36.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+    dexEntry:
+      "In den letzten Jahren nahm es im Cyberspace bei der Suche nach verdächtigen Daten eine aktive Rolle ein.",
     pokewikiUrl: "https://www.pokewiki.de/Porygon",
   },
   {
@@ -2353,6 +2626,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/138.png",
+    dexEntry:
+      "Ein einst ausgestorbenes Urzeit-Pokémon. Wenn es mit seinen zehn Tentakeln paddelnd durch das Wasser gleitet, meint man, es würde schweben.",
     pokewikiUrl: "https://www.pokewiki.de/Amonitas",
   },
   {
@@ -2370,6 +2645,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/139.png",
+    dexEntry:
+      "Mit seinen scharfen Zähnen ist es imstande, selbst Felsen zu zermalmen. Angreifen kann es jedoch nur Beute in Reichweite seiner Tentakel.",
     pokewikiUrl: "https://www.pokewiki.de/Amoroso",
   },
   {
@@ -2387,6 +2664,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/140.png",
+    dexEntry:
+      "Es heißt zwar, dass Kabuto ausgestorben sei, doch in einer bestimmten Gegend trifft man es noch relativ häufig an.",
     pokewikiUrl: "https://www.pokewiki.de/Kabuto",
   },
   {
@@ -2404,6 +2683,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/141.png",
+    dexEntry:
+      "Es ist unklar, warum dieses brutale urzeitliche Pokémon, das in warmen Meeren lebte, letztendlich ausstarb.",
     pokewikiUrl: "https://www.pokewiki.de/Kabutops",
   },
   {
@@ -2421,6 +2702,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 59,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/142.png",
+    dexEntry:
+      "Mit seinen Zähnen, die Sägeblättern gleichen, kann es selbst die Haut von Stahl-Pokémon zerfetzen.",
     pokewikiUrl: "https://www.pokewiki.de/Aerodactyl",
   },
   {
@@ -2438,6 +2721,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 460,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+    dexEntry:
+      "Der Magen dieses Pokémon ist so resistent, dass es sogar Verschimmeltes oder Verdorbenes essen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Relaxo",
   },
   {
@@ -2455,6 +2740,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png",
+    dexEntry:
+      "Arktos ist imstande, Eis zu manipulieren. Man sagt, es lebe in schneebedeckten Bergen, wo ewiger Winter herrscht.",
     pokewikiUrl: "https://www.pokewiki.de/Arktos",
   },
   {
@@ -2472,6 +2759,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 52.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/145.png",
+    dexEntry:
+      "Es heißt, wenn dieses Legendäre Vogel-Pokémon seine Flügel aneinanderreibt, brechen unmittelbar danach Gewitter los.",
     pokewikiUrl: "https://www.pokewiki.de/Zapdos",
   },
   {
@@ -2489,6 +2778,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/146.png",
+    dexEntry:
+      "Überlieferungen nach soll Lavados mit seinen wunderschön lodernden Flügeln Bergpfade erleuchtet und dadurch Verirrten geholfen haben.",
     pokewikiUrl: "https://www.pokewiki.de/Lavados",
   },
   {
@@ -2506,6 +2797,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/147.png",
+    dexEntry:
+      "Es wurde lange an Dratinis Existenz gezweifelt. Der kleine Fortsatz an seiner Stirn ist ein heranwachsendes Horn.",
     pokewikiUrl: "https://www.pokewiki.de/Dratini",
   },
   {
@@ -2523,6 +2816,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/148.png",
+    dexEntry:
+      "Mit der Kraft, die es in den Bällen an seinem Schweif sammelt, beeinflusst es das Wetter. Seine in eine Aura gehüllte Gestalt steckt voller Mystik.",
     pokewikiUrl: "https://www.pokewiki.de/Dragonir",
   },
   {
@@ -2540,6 +2835,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 210,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+    dexEntry:
+      "Dragoran wird die „Inkarnation des Meeres“ genannt. Sein Ebenbild ziert den Bug vieler Schiffe als Galionsfigur.",
     pokewikiUrl: "https://www.pokewiki.de/Dragoran",
   },
   {
@@ -2557,6 +2854,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 122,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png",
+    dexEntry:
+      "Mewtu und Mew weisen sehr ähnliche Gene auf, doch hinsichtlich ihres Charakters und ihrer Größe unterscheiden sich die beiden erheblich.",
     pokewikiUrl: "https://www.pokewiki.de/Mewtu",
   },
   {
@@ -2574,6 +2873,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+    dexEntry:
+      "Wenn man Mews Haut mithilfe eines Mikroskops betrachtet, so erkennt man ein Fell aus vielen feinen und kurzen Härchen.",
     pokewikiUrl: "https://www.pokewiki.de/Mew",
   },
   {
@@ -2591,6 +2892,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/152.png",
+    dexEntry:
+      "Im Kampf wedelt Endivie mit seinem Blatt, um den Feind fernzuhalten. Von dem Blatt geht auch ein süßlicher Duft aus, der das gegnerische Pokémon im Kampf beruhigt und eine gemütliche, freundliche Atmosphäre schafft.",
     pokewikiUrl: "https://www.pokewiki.de/Endivie",
   },
   {
@@ -2608,6 +2911,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/153.png",
+    dexEntry:
+      "Lorblatts Nacken ist mit zusammengerollten Blättern behangen. In jedem Blatt befindet sich ein kleiner Trieb eines Baumes. Der Duft dieses Triebes bringt Menschen auf Trab.",
     pokewikiUrl: "https://www.pokewiki.de/Lorblatt",
   },
   {
@@ -2625,6 +2930,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 100.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/154.png",
+    dexEntry:
+      "Der Duft von Meganies Blume besänftigt die Gemüter. Im Kampf gibt dieses Pokémon mehr von seinem beruhigenden Duftstoff ab, um den Kampfgeist des Gegners zu besänftigen.",
     pokewikiUrl: "https://www.pokewiki.de/Meganie",
   },
   {
@@ -2642,6 +2949,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/155.png",
+    dexEntry:
+      "Feurigel lässt Flammen aus seinem Rücken lodern, wenn es sich schützen muss. Die Flammen sind sehr stark, wenn dieses Pokémon wütend ist. Ist es aber müde, flackern die Flammen nur unregelmäßig und schwach.",
     pokewikiUrl: "https://www.pokewiki.de/Feurigel",
   },
   {
@@ -2659,6 +2968,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/156.png",
+    dexEntry:
+      "Igelavar hält seine Gegner mit Flammen und Böen heißer Luft auf Distanz. Dieses Pokémon nutzt seine außergewöhnliche Gewandtheit dazu, Angriffen auszuweichen und seinen Gegner gleichzeitig zu versengen.",
     pokewikiUrl: "https://www.pokewiki.de/Igelavar",
   },
   {
@@ -2676,6 +2987,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 79.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/157.png",
+    dexEntry:
+      "Tornupto versteckt sich hinter einem flimmernden Hitzeschild, den es mithilfe seiner heißen Flammen erzeugt. Dieses Pokémon erzeugt Explosionen, die alles in Schutt und Asche legen.",
     pokewikiUrl: "https://www.pokewiki.de/Tornupto",
   },
   {
@@ -2693,6 +3006,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/158.png",
+    dexEntry:
+      "Karnimani ist zwar sehr klein, aber seine Kiefer sind sehr stark. Wenn die Pokémon denken, dass es nur spielerisch an ihnen knabbert, sollten sie vorsichtig sein, denn sein Biss kann zu schweren Verletzungen führen.",
     pokewikiUrl: "https://www.pokewiki.de/Karnimani",
   },
   {
@@ -2710,6 +3025,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/159.png",
+    dexEntry:
+      "Wenn Tyracroc einen Feind mit seinen Kiefern eingeklemmt hat, lässt es ihn nicht mehr los. Da seine Zahnspitzen wie Angelhaken gebogen sind, kann man sie nicht mehr entfernen, wenn sie sich verfangen haben.",
     pokewikiUrl: "https://www.pokewiki.de/Tyracroc",
   },
   {
@@ -2727,6 +3044,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 88.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/160.png",
+    dexEntry:
+      "Impergator schüchtert seine Feinde dadurch ein, dass es sein riesiges Maul aufreißt. Im Kampf erschüttert es den Boden mit seinen kräftigen Hinterbeinen, wenn es mit unglaublicher Geschwindigkeit auf seinen Gegner losrennt.",
     pokewikiUrl: "https://www.pokewiki.de/Impergator",
   },
   {
@@ -2744,6 +3063,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/161.png",
+    dexEntry:
+      "Wenn Wiesor schläft, hält immer jemand Wache. Beim ersten Anflug von Gefahr weckt die Wache die anderen auf. Wenn dieses Pokémon von seinen Artgenossen getrennt wird, kann es vor Angst nicht mehr schlafen.",
     pokewikiUrl: "https://www.pokewiki.de/Wiesor",
   },
   {
@@ -2761,6 +3082,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/162.png",
+    dexEntry:
+      "Wiesenior ist sehr schlank. Wenn es angegriffen wird, kann es sich durch enge Zwischenräume schlängeln und entkommen. Trotz seiner kurzen Gliedmaßen ist dieses Pokémon sehr wendig und flink.",
     pokewikiUrl: "https://www.pokewiki.de/Wiesenior",
   },
   {
@@ -2778,6 +3101,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/163.png",
+    dexEntry:
+      "Es stößt immer zur gleichen Uhrzeit seinen Ruf aus. Einige Trainer nehmen es deswegen statt einer Armbanduhr mit.",
     pokewikiUrl: "https://www.pokewiki.de/Hoothoot",
   },
   {
@@ -2795,6 +3120,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/164.png",
+    dexEntry:
+      "Muss es nachdenken, dreht es seinen Kopf um 180 Grad, um so seinen Intellekt zu schärfen.",
     pokewikiUrl: "https://www.pokewiki.de/Noctuh",
   },
   {
@@ -2812,6 +3139,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/165.png",
+    dexEntry:
+      "Es ist ein sehr scheues Pokémon. Gemeinsam mit seinen Artgenossen nutzt es Reflektor, um sein Nest zu beschützen.",
     pokewikiUrl: "https://www.pokewiki.de/Ledyba",
   },
   {
@@ -2829,6 +3158,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/166.png",
+    dexEntry:
+      "Nachts fliegt Ledian durch die Gegend und verstreut glitzernden Puder. Es soll Glück bringen, wenn man etwas davon abbekommt.",
     pokewikiUrl: "https://www.pokewiki.de/Ledian",
   },
   {
@@ -2846,6 +3177,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/167.png",
+    dexEntry:
+      "Das Gift an seinen Mundwerkzeugen ist nicht sonderlich stark, jedoch ausreichend, um Beute zu schwächen, die ihm ins Netz gegangen ist.",
     pokewikiUrl: "https://www.pokewiki.de/Webarak",
   },
   {
@@ -2863,6 +3196,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/168.png",
+    dexEntry:
+      "Seine Beute ergreift es mit einem Seidenfaden. Bei Anbruch der Nacht verlässt es sein Netz und macht sich auf die Jagd.",
     pokewikiUrl: "https://www.pokewiki.de/Ariados",
   },
   {
@@ -2880,6 +3215,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 75,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/169.png",
+    dexEntry:
+      "Seine vier Flügel können unabhängig voneinander schlagen. So vermag es auch in engen Höhlen ohne Geschwindigkeitsverlust umherzufliegen.",
     pokewikiUrl: "https://www.pokewiki.de/Iksbat",
   },
   {
@@ -2897,6 +3234,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/170.png",
+    dexEntry:
+      "Am dunklen Meeresgrund sind die ständig flackernden Lichter seiner Antennen sein einziges Kommunikationsmittel.",
     pokewikiUrl: "https://www.pokewiki.de/Lampi",
   },
   {
@@ -2914,6 +3253,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 22.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/171.png",
+    dexEntry:
+      "Es blendet seine Beute mit einem grellen Licht. Sieht es eine Chance zuzuschlagen, greift es sie mit Elektrizität an.",
     pokewikiUrl: "https://www.pokewiki.de/Lanturn",
   },
   {
@@ -2931,6 +3272,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/172.png",
+    dexEntry:
+      "Tritt auch nur eine geringe Menge Elektrizität aus seinen kleinen Backentaschen aus, bekommt es einen Schlag.",
     pokewikiUrl: "https://www.pokewiki.de/Pichu",
   },
   {
@@ -2948,6 +3291,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/173.png",
+    dexEntry:
+      "Aufgrund seiner ungewöhnlichen Sternform sagt man, es sei auf einem Meteor hierhergereist.",
     pokewikiUrl: "https://www.pokewiki.de/Pii",
   },
   {
@@ -2965,6 +3310,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/174.png",
+    dexEntry:
+      "Dank seines weichen Körpers bewegt es sich stets hüpfend fort. Wenn Fluffeluffs Temperatur steigt, ändert sich seine Farbe zu einem intensiven Pink.",
     pokewikiUrl: "https://www.pokewiki.de/Fluffeluff",
   },
   {
@@ -2982,6 +3329,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/175.png",
+    dexEntry: "Es gilt als Glücksbringer. Man sagt, seine Schale sei voll von purer Freude.",
     pokewikiUrl: "https://www.pokewiki.de/Togepi",
   },
   {
@@ -2999,6 +3347,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/176.png",
+    dexEntry:
+      "Es kann, ohne mit den Flügeln zu schlagen, in der Luft schweben. Ein Mangel an gutherzigen Menschen in seiner Nähe schlägt ihm aufs Gemüt.",
     pokewikiUrl: "https://www.pokewiki.de/Togetic",
   },
   {
@@ -3016,6 +3366,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/177.png",
+    dexEntry:
+      "Da seine Flügel nicht voll ausgebildet sind, bewegt es sich hüpfend fort. Seinen Blick hat es stets starr auf ein Ziel gerichtet.",
     pokewikiUrl: "https://www.pokewiki.de/Natu",
   },
   {
@@ -3033,6 +3385,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/178.png",
+    dexEntry:
+      "Dieses kuriose Pokémon kann die Vergangenheit und die Zukunft sehen. Es beobachtet täglich den Lauf der Sonne.",
     pokewikiUrl: "https://www.pokewiki.de/Xatu",
   },
   {
@@ -3050,6 +3404,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/179.png",
+    dexEntry:
+      "Seine Wolle lädt sich durch Reibung elektrisch auf. Streichelt man dieses süße Pokémon mit bloßer Hand, bekommt man einen Elektroschock.",
     pokewikiUrl: "https://www.pokewiki.de/Voltilamm",
   },
   {
@@ -3067,6 +3423,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/180.png",
+    dexEntry:
+      "Sein flauschiges Fell speichert Elektrizität. Zu große Mengen bewirkten aber stellenweise einen Haarausfall, wo nun glatte Haut freiliegt.",
     pokewikiUrl: "https://www.pokewiki.de/Waaty",
   },
   {
@@ -3084,6 +3442,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 61.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/181.png",
+    dexEntry:
+      "Seine Schweifspitze strahlt ein starkes, helles Licht aus. Auf See gilt dieses Leuchten von alters her als bedeutender Wegweiser.",
     pokewikiUrl: "https://www.pokewiki.de/Ampharos",
   },
   {
@@ -3101,6 +3461,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/182.png",
+    dexEntry:
+      "Von Zeit zu Zeit kommen Blubella zusammen, um zu tanzen. Man sagt, ihr Tanz sei ein Ritual, um die Sonne herbeizurufen.",
     pokewikiUrl: "https://www.pokewiki.de/Blubella",
   },
   {
@@ -3118,6 +3480,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/183.png",
+    dexEntry:
+      "Sein wasserabweisendes Fell trocknet sofort und hält Marill warm, selbst wenn es aus kaltem Meerwasser auftaucht.",
     pokewikiUrl: "https://www.pokewiki.de/Marill",
   },
   {
@@ -3135,6 +3499,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/184.png",
+    dexEntry:
+      "Azumarill kann mit Luft gefüllte Blasen erzeugen, in die es Azurill einhüllt, wenn diese im Fluss spielen.",
     pokewikiUrl: "https://www.pokewiki.de/Azumarill",
   },
   {
@@ -3152,6 +3518,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 38,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/185.png",
+    dexEntry:
+      "Es tarnt sich als Baum, um nicht angegriffen zu werden. Nur bei Regen sucht es das Weite, da es Wasser nicht leiden kann.",
     pokewikiUrl: "https://www.pokewiki.de/Mogelbaum",
   },
   {
@@ -3169,6 +3537,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/186.png",
+    dexEntry:
+      "Die Rufe der Männchen sind besonders laut. Quaxo mit einer tiefen, bedrohlichen Stimme sind bei den Weibchen sehr beliebt.",
     pokewikiUrl: "https://www.pokewiki.de/Quaxo",
   },
   {
@@ -3186,6 +3556,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/187.png",
+    dexEntry:
+      "Es lässt sich vom Wind treiben. Manchmal verirrt es sich, wenn es von einem Windstoß davon- geweht wird.",
     pokewikiUrl: "https://www.pokewiki.de/Hoppspross",
   },
   {
@@ -3203,6 +3575,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/188.png",
+    dexEntry:
+      "Wie weit sich Hubelupfs Blume öffnet, hängt von der Temperatur ab. Daher wurde es früher auch als Thermometer eingesetzt.",
     pokewikiUrl: "https://www.pokewiki.de/Hubelupf",
   },
   {
@@ -3220,6 +3594,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/189.png",
+    dexEntry:
+      "Mit seinen Fallschirmchen lässt es sich vom Wind tragen. Bei günstigen Luftströmungen kommt es schneller als Vogel-Pokémon voran.",
     pokewikiUrl: "https://www.pokewiki.de/Papungha",
   },
   {
@@ -3237,6 +3613,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/190.png",
+    dexEntry:
+      "Es sitzt in Baumwipfeln und hält Ausschau nach Beute. Sieht es ein Frubberl, sein Leibgericht, stürzt es begeistert auf es herab.",
     pokewikiUrl: "https://www.pokewiki.de/Griffel",
   },
   {
@@ -3254,6 +3632,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/191.png",
+    dexEntry:
+      "Sonnkern versucht, sich so wenig wie möglich zu bewegen, um alle gespeicherten Nährstoffe für seine Entwicklung aufzusparen. Außer Morgentau nimmt es nichts weiter zu sich.",
     pokewikiUrl: "https://www.pokewiki.de/Sonnkern",
   },
   {
@@ -3271,6 +3651,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/192.png",
+    dexEntry:
+      "Sonnflora verwandelt Solarenergie in Nährstoffe. Tagsüber, wenn es warm ist, ist es sehr aktiv. Wenn aber die Sonne untergegangen ist, hört es auf, sich zu bewegen.",
     pokewikiUrl: "https://www.pokewiki.de/Sonnflora",
   },
   {
@@ -3288,6 +3670,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 38,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/193.png",
+    dexEntry:
+      "Yanma hat einen Blickwinkel von 360 Grad, ohne die Augen bewegen zu müssen. Es ist ein großartiger Flieger und geübt darin, plötzlich anzuhalten oder Wendemanöver hinzulegen. So kann es sich blitzschnell auf Beute stürzen.",
     pokewikiUrl: "https://www.pokewiki.de/Yanma",
   },
   {
@@ -3305,6 +3689,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/194.png",
+    dexEntry:
+      "An Land bedeckt es seine Haut mit einer giftigen Schicht, die es vor dem Austrocknen bewahrt.",
     pokewikiUrl: "https://www.pokewiki.de/Felino",
   },
   {
@@ -3322,6 +3708,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 75,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/195.png",
+    dexEntry:
+      "Es hat einen äußerst glitschigen Körper. Beim Schwimmen stößt es sich regelmäßig den Kopf am Flussgrund, was ihm aber egal zu sein scheint.",
     pokewikiUrl: "https://www.pokewiki.de/Morlord",
   },
   {
@@ -3339,6 +3727,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 26.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/196.png",
+    dexEntry:
+      "Über die Kugel an seiner Stirn feuert es Psycho-Kräfte ab. Geht ihm die Kraft aus, verliert die Farbe der Kugel an Glanz.",
     pokewikiUrl: "https://www.pokewiki.de/Psiana",
   },
   {
@@ -3356,6 +3746,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 27,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/197.png",
+    dexEntry:
+      "Bei Vollmond oder bei Aufregung leuchten die ringförmigen Muster auf seinem Körper gelb auf.",
     pokewikiUrl: "https://www.pokewiki.de/Nachtara",
   },
   {
@@ -3373,6 +3765,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/198.png",
+    dexEntry:
+      "Für seinen Chef geht es auf die Jagd nach glitzernden Objekten. Von vielen Menschen wird es als Überbringer des Unheils verabscheut.",
     pokewikiUrl: "https://www.pokewiki.de/Kramurx",
   },
   {
@@ -3390,6 +3784,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 79.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/199.png",
+    dexEntry:
+      "Bittet man es darum, löst es jedes noch so schwere Problem für einen. Jedoch ist niemand in der Lage, Laschokings Sprache zu verstehen.",
     pokewikiUrl: "https://www.pokewiki.de/Laschoking",
   },
   {
@@ -3407,6 +3803,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/200.png",
+    dexEntry:
+      "Es genießt es, das Schluchzen eines Menschen nachzuahmen und andere damit zu erschrecken. Wen das kaltlässt, den kann es nicht leiden.",
     pokewikiUrl: "https://www.pokewiki.de/Traunfugil",
   },
   {
@@ -3424,6 +3822,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/201.png",
+    dexEntry:
+      "Icognito hat die Form antiker Schriftzeichen. Bis heute ist unklar, was zuerst da war – die antiken Schriftzeichen oder die vielen unterschiedlichen Icognito. Trotz umfangreicher Forschung bleiben Fragen offen.",
     pokewikiUrl: "https://www.pokewiki.de/Icognito",
   },
   {
@@ -3441,6 +3841,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/202.png",
+    dexEntry:
+      "Es lebt in der Dunkelheit, um seinen schwarzen Schweif zu verstecken. Es greift nie zuerst an.",
     pokewikiUrl: "https://www.pokewiki.de/Woingenau",
   },
   {
@@ -3458,6 +3860,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 41.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/203.png",
+    dexEntry:
+      "Der Kopf an Girafarigs Hinterteil verfügt nur über ein kleines Gehirn, mit dem es nicht denken kann. Dieses Gehirn benötigt jedoch keinen Schlaf und ist somit in der Lage, die Umgebung rund um die Uhr im Auge zu behalten.",
     pokewikiUrl: "https://www.pokewiki.de/Girafarig",
   },
   {
@@ -3475,6 +3879,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/204.png",
+    dexEntry:
+      "Es macht seinen Körper breiter und größer, indem es sich mit Speichel Baumrinde anklebt. Ältere Tannza sind deshalb unfassbar groß.",
     pokewikiUrl: "https://www.pokewiki.de/Tannza",
   },
   {
@@ -3492,6 +3898,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 125.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/205.png",
+    dexEntry:
+      "Sein Inneres ist nur kurz sichtbar, wenn es flugs seine Beute verschlingt. Bisher hat es noch kein Mensch geschafft, einen Blick hineinzuwerfen.",
     pokewikiUrl: "https://www.pokewiki.de/Forstellka",
   },
   {
@@ -3509,6 +3917,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/206.png",
+    dexEntry:
+      "Es lebt in einem labyrinthartigen Nestkomplex. Anhand des Geruchs der Erde weiß Dummisel genau, wo es sich befindet und verirrt sich nie.",
     pokewikiUrl: "https://www.pokewiki.de/Dummisel",
   },
   {
@@ -3526,6 +3936,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 64.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/207.png",
+    dexEntry:
+      "Skorgla segelt lautlos durch die Lüfte. Es verankert sich mithilfe der Krallen an seinen Hinterbeinen und der riesigen Scheren an seinen Vorderbeinen am Gesicht eines Feindes und vergiftet ihn mit seinem Giftstachel.",
     pokewikiUrl: "https://www.pokewiki.de/Skorgla",
   },
   {
@@ -3543,6 +3955,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 400,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/208.png",
+    dexEntry:
+      "Man glaubt, dass sich sein Körper aufgrund des Schluckens von eisenhaltiger Erde verwandelt habe.",
     pokewikiUrl: "https://www.pokewiki.de/Stahlos",
   },
   {
@@ -3560,6 +3974,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/209.png",
+    dexEntry:
+      "Man sieht es ihm zwar nicht an, aber es ist recht feige. Lässt man es mit anderen kleinen Hunde-Pokémon spielen, wird es oft gehänselt.",
     pokewikiUrl: "https://www.pokewiki.de/Snubbull",
   },
   {
@@ -3577,6 +3993,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 48.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/210.png",
+    dexEntry:
+      "Es ist bei jungen Leuten sehr beliebt. Aufgrund seines feigen und sensiblen Charakters ist es als Wache allerdings völlig ungeeignet.",
     pokewikiUrl: "https://www.pokewiki.de/Granbull",
   },
   {
@@ -3594,6 +4012,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/211.png",
+    dexEntry:
+      "Die kleinen Stacheln an seinem Körper sind aus Schuppen entstanden. Damit injiziert es Gift, das zu Ohnmacht führt.",
     pokewikiUrl: "https://www.pokewiki.de/Baldorfish",
   },
   {
@@ -3611,6 +4031,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 118,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
+    dexEntry:
+      "Trotz seines dünnen Körpers verfügt Scherox über eine gewaltige Angriffsstärke. Selbst seine Muskeln bestehen aus Metall.",
     pokewikiUrl: "https://www.pokewiki.de/Scherox",
   },
   {
@@ -3628,6 +4050,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/213.png",
+    dexEntry:
+      "In seinem vasenförmigen Panzer gelagerte Beeren verwandeln sich mit der Zeit zu einem dickflüssigen Saft.",
     pokewikiUrl: "https://www.pokewiki.de/Pottrott",
   },
   {
@@ -3645,6 +4069,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 54,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/214.png",
+    dexEntry:
+      "Dieses Pokémon ist stolz auf seine Stärke. Es kann mit Leichtigkeit das Hundertfache seines eigenen Körpergewichts stemmen.",
     pokewikiUrl: "https://www.pokewiki.de/Skaraborn",
   },
   {
@@ -3662,6 +4088,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/215.png",
+    dexEntry:
+      "Dieses durchtriebene und gewissenlose Pokémon beobachtet Nester, bis die Eltern ausgeflogen sind, und stiehlt dann deren Eier.",
     pokewikiUrl: "https://www.pokewiki.de/Sniebel",
   },
   {
@@ -3679,6 +4107,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/216.png",
+    dexEntry:
+      "Teddiursa leckt gern seine mit Honig bedeckten Pfoten ab. Dieses Pokémon bereitet seinen eigenen Honig zu, indem es die von Bibor gesammelten Früchte und Pollen vermengt.",
     pokewikiUrl: "https://www.pokewiki.de/Teddiursa",
   },
   {
@@ -3696,6 +4126,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 125.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/217.png",
+    dexEntry:
+      "In den von Ursaring bewohnten Wäldern gibt es viele Flüsse und hohe Bäume, in denen es Nahrung findet. Dieses Pokémon läuft täglich durch den Wald, um nach Essbarem zu suchen.",
     pokewikiUrl: "https://www.pokewiki.de/Ursaring",
   },
   {
@@ -3713,6 +4145,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/218.png",
+    dexEntry:
+      "Schneckmag hat kein Blut in seinem Körper. Stattdessen fließt glühend heißes Magma in diesem Pokémon, das seine Organe mit lebenswichtigen Nährstoffen und Sauerstoff versorgt.",
     pokewikiUrl: "https://www.pokewiki.de/Schneckmag",
   },
   {
@@ -3730,6 +4164,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/219.png",
+    dexEntry:
+      "Magcargos Körpertemperatur liegt bei etwa 10 000 °C. Dieses Pokémon bringt Wasser sofort zum Verdampfen. Wenn dieses Pokémon im Regen steht, werden die Tropfen augenblicklich zu Dampf und es entsteht dichter Nebel.",
     pokewikiUrl: "https://www.pokewiki.de/Magcargo",
   },
   {
@@ -3747,6 +4183,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/220.png",
+    dexEntry:
+      "Wenn es etwas Vielversprechendes erschnuppert, sprintet es Hals über Kopf darauf los, ohne nachzudenken.",
     pokewikiUrl: "https://www.pokewiki.de/Quiekel",
   },
   {
@@ -3764,6 +4202,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/221.png",
+    dexEntry:
+      "Obwohl es sehr kurze Beine hat, rutscht es auf eisigen Flächen nicht aus, da seine gespaltenen Hufe ihm genügend Halt bieten.",
     pokewikiUrl: "https://www.pokewiki.de/Keifel",
   },
   {
@@ -3781,6 +4221,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/222.png",
+    dexEntry:
+      "Es lebt in warmen Meeren. Vor langer Zeit konnte man große Scharen dieses Pokémon auch an den Küsten Galars antreffen.",
     pokewikiUrl: "https://www.pokewiki.de/Corasonn",
   },
   {
@@ -3798,6 +4240,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/223.png",
+    dexEntry:
+      "Mit seiner Rückenflosse saugt es sich an der Unterseite eines Mantax’ fest und lebt von dessen Speiseresten.",
     pokewikiUrl: "https://www.pokewiki.de/Remoraid",
   },
   {
@@ -3815,6 +4259,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/224.png",
+    dexEntry:
+      "Es umschlingt Beute mit seinen Tentakeln und verpasst ihr dann eine beherzte Kopfnuss mit seinem steinharten Schädel.",
     pokewikiUrl: "https://www.pokewiki.de/Octillery",
   },
   {
@@ -3832,6 +4278,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/225.png",
+    dexEntry:
+      "Es hat die Angewohnheit, seine eigene Nahrung mit Menschen und Pokémon zu teilen, und ist deshalb stets unterwegs auf Futtersuche.",
     pokewikiUrl: "https://www.pokewiki.de/Botogel",
   },
   {
@@ -3849,6 +4297,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 220,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/226.png",
+    dexEntry:
+      "Es schwimmt erhaben durch die Meere und duldet dabei etwaige Remoraid, die sich in der Hoffnung auf Futterreste an es heften.",
     pokewikiUrl: "https://www.pokewiki.de/Mantax",
   },
   {
@@ -3866,6 +4316,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 50.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/227.png",
+    dexEntry:
+      "Es wird gern als Vorlage für Wappenmotive genutzt, da aus den Federn, die ihm ausfallen, Schwerter hergestellt werden.",
     pokewikiUrl: "https://www.pokewiki.de/Panzaeron",
   },
   {
@@ -3883,6 +4335,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/228.png",
+    dexEntry:
+      "Mit wiederholtem unheimlichen Heulen vor Tagesanbruch machen sie auf die Existenz ihres Rudels aufmerksam.",
     pokewikiUrl: "https://www.pokewiki.de/Hunduster",
   },
   {
@@ -3900,6 +4354,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/229.png",
+    dexEntry:
+      "Sein unheimliches Heulen ist unverkennbar. Früher wurde es von den Menschen als Bote des Todes gefürchtet.",
     pokewikiUrl: "https://www.pokewiki.de/Hundemon",
   },
   {
@@ -3917,6 +4373,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 152,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/230.png",
+    dexEntry:
+      "Seine abgefallenen Schuppen tragen einen tiefen Glanz in sich und sind so hochwertig, dass selbst Königshäuser mit ihnen beschenkt werden.",
     pokewikiUrl: "https://www.pokewiki.de/Seedraking",
   },
   {
@@ -3934,6 +4392,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/231.png",
+    dexEntry:
+      "Phanpy kann sich mit seiner Nase selbst duschen. Wenn andere dabei sind, begießen sie sich gegenseitig mit Wasser. Danach trocknet es seinen durchnässten Körper am Ufer.",
     pokewikiUrl: "https://www.pokewiki.de/Phanpy",
   },
   {
@@ -3951,6 +4411,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/232.png",
+    dexEntry:
+      "Donphan kann mit seinem harten Körper sogar ein Haus zerstören. Mit seiner imposanten Kraft hilft dieses Pokémon dabei, Erdrutsche aus dem Weg zu räumen, die Bergpfade versperren.",
     pokewikiUrl: "https://www.pokewiki.de/Donphan",
   },
   {
@@ -3968,6 +4430,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/233.png",
+    dexEntry:
+      "Als es mit künstlicher Intelligenz ausgestattet wurde, begann es, eine rätselhafte Sprache zu sprechen, die nur andere Porygon2 verstehen.",
     pokewikiUrl: "https://www.pokewiki.de/Porygon2",
   },
   {
@@ -3985,6 +4449,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 71.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/234.png",
+    dexEntry:
+      "Damhirplex hat ein prächtiges Geweih, für das hohe Preise gezahlt werden. Daher wurde dieses Pokémon gejagt und wäre beinahe ausgestorben.",
     pokewikiUrl: "https://www.pokewiki.de/Damhirplex",
   },
   {
@@ -4002,6 +4468,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 58,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/235.png",
+    dexEntry:
+      "Mit der Flüssigkeit, die aus seiner Schweifspitze austritt, hinterlässt es Markierungen. Die besten werden unter Fans zu hohen Preisen gehandelt.",
     pokewikiUrl: "https://www.pokewiki.de/Farbeagle",
   },
   {
@@ -4019,6 +4487,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/236.png",
+    dexEntry:
+      "Es ist zwar nicht groß, geht aber entschlossen zum Angriff über, sobald es einen angemessenen Gegner sichtet. Vorsicht ist also geboten.",
     pokewikiUrl: "https://www.pokewiki.de/Rabauz",
   },
   {
@@ -4036,6 +4506,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 48,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/237.png",
+    dexEntry:
+      "Im Kampf bringt dieses Pokémon seine Gegner mit einem Handstand aus dem Takt und lehrt sie dann mit schwungvollen Tritten das Fürchten.",
     pokewikiUrl: "https://www.pokewiki.de/Kapoera",
   },
   {
@@ -4053,6 +4525,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/238.png",
+    dexEntry:
+      "Ein äußerst neugieriges Pokémon, das alles mit seinen Lippen berührt, um herauszufinden, ob es etwas mag oder nicht.",
     pokewikiUrl: "https://www.pokewiki.de/Kussilla",
   },
   {
@@ -4070,6 +4544,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/239.png",
+    dexEntry:
+      "Es kann Elektrizität noch nicht so gut speichern. Um sich diese einzuverleiben, schleicht es sich auf der Suche nach Steckdosen in fremde Häuser.",
     pokewikiUrl: "https://www.pokewiki.de/Elekid",
   },
   {
@@ -4087,6 +4563,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/240.png",
+    dexEntry:
+      "Es lebt in der Nähe von Vulkanen. Nach einem anstrengenden Tag badet es in Magma und schöpft so neue Energie.",
     pokewikiUrl: "https://www.pokewiki.de/Magby",
   },
   {
@@ -4104,6 +4582,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 75.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/241.png",
+    dexEntry:
+      "Miltanks Gesundheit leidet darunter, wenn es nicht jeden Tag gemolken wird. Der Geschmack seiner Milch ändert sich je nach Jahreszeit.",
     pokewikiUrl: "https://www.pokewiki.de/Miltank",
   },
   {
@@ -4121,6 +4601,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 46.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/242.png",
+    dexEntry:
+      "Es legt mysteriöse Eier, die voller Glück stecken. Wer davon isst, soll anderen gegenüber sorgsam und höflich werden.",
     pokewikiUrl: "https://www.pokewiki.de/Heiteira",
   },
   {
@@ -4138,6 +4620,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 178,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/243.png",
+    dexEntry:
+      "Raikou ist so schnell wie der Blitz. Das Gebrüll dieses Pokémon sendet Schockwellen aus, die wie Donnerschläge durch die Luft beben und den Boden erschüttern.",
     pokewikiUrl: "https://www.pokewiki.de/Raikou",
   },
   {
@@ -4155,6 +4639,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 198,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/244.png",
+    dexEntry:
+      "Entei verfügt über die Leidenschaft von Magma. Dieses Pokémon wurde bei einem Vulkanausbruch geboren und bringt Feuersbrünste hervor, die alles auslöschen, was mit ihnen in Kontakt kommt.",
     pokewikiUrl: "https://www.pokewiki.de/Entei",
   },
   {
@@ -4172,6 +4658,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 187,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/245.png",
+    dexEntry:
+      "Suicune wohnt die Reinheit einer Quelle inne. Es läuft graziös herum und hat die Macht, schmutziges Wasser zu reinigen.",
     pokewikiUrl: "https://www.pokewiki.de/Suicune",
   },
   {
@@ -4189,6 +4677,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 72,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/246.png",
+    dexEntry:
+      "Es ernährt sich von Erde. Nachdem es einen Berg verspeist hat, schläft es ein, um zu wachsen.",
     pokewikiUrl: "https://www.pokewiki.de/Larvitar",
   },
   {
@@ -4206,6 +4696,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 152,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/247.png",
+    dexEntry:
+      "Obwohl es sich noch im Puppenstadium befindet, bewegt es sich rege. Es hat schon Arme und Beine unter seinem harten Panzer.",
     pokewikiUrl: "https://www.pokewiki.de/Pupitar",
   },
   {
@@ -4223,6 +4715,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 202,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png",
+    dexEntry:
+      "Seine Schritte erzeugen Erdbeben, die selbst große Berge plätten und die Form ganzer Landstriche verändern.",
     pokewikiUrl: "https://www.pokewiki.de/Despotar",
   },
   {
@@ -4240,6 +4734,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 216,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png",
+    dexEntry:
+      "Lugias Flügel haben eine zerstörerische Kraft. Bereits ein leichtes Flattern kann Häuser hinfortwehen. Daher hat sich dieses Pokémon dafür entschieden, tief unten im Meer zu leben, wo es niemand sieht.",
     pokewikiUrl: "https://www.pokewiki.de/Lugia",
   },
   {
@@ -4257,6 +4753,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 199,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/250.png",
+    dexEntry:
+      "Ho-Ohs Federn leuchten in sieben Farben, je nachdem aus welchem Winkel das Licht auf sie fällt. Die Federn sollen ihrem Besitzer Glück bringen. Dieses Pokémon lebt am Fuße eines Regenbogens.",
     pokewikiUrl: "https://www.pokewiki.de/Ho-Oh",
   },
   {
@@ -4274,6 +4772,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/251.png",
+    dexEntry:
+      "Dieses Pokémon kommt aus der Zukunft und ist durch die Zeit gereist. Es heilt Wunden und spendet Pflanzen Kraft.",
     pokewikiUrl: "https://www.pokewiki.de/Celebi",
   },
   {
@@ -4291,6 +4791,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/252.png",
+    dexEntry:
+      "Geckarbor ist ruhig und beherrscht, es gerät niemals in Panik. Wenn es ein stärkerer Feind zornig anstarrt, erwidert es den bösen Blick, weicht aber keinen Millimeter zurück.",
     pokewikiUrl: "https://www.pokewiki.de/Geckarbor",
   },
   {
@@ -4308,6 +4810,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/253.png",
+    dexEntry:
+      "Dieses Pokémon fliegt geschickt von Ast zu Ast. Keinem Pokémon wird es jemals gelingen, ein Reptain zu erwischen. Da kann es noch so schnell sein.",
     pokewikiUrl: "https://www.pokewiki.de/Reptain",
   },
   {
@@ -4325,6 +4829,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 52.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/254.png",
+    dexEntry:
+      "Auf Gewaldros Rücken wachsen Samen. Darin sind Nährstoffe, die Bäume beleben können. Dieses Pokémon achtet mit viel Fürsorge darauf, dass die Bäume seines Waldes prächtig gedeihen.",
     pokewikiUrl: "https://www.pokewiki.de/Gewaldro",
   },
   {
@@ -4342,6 +4848,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/255.png",
+    dexEntry:
+      "In Flemmlis Körper brennt eine Flamme. Wenn man es umarmt, beginnt es zu glühen. Dieses Pokémon trägt ein flauschiges Fell aus Daunen.",
     pokewikiUrl: "https://www.pokewiki.de/Flemmli",
   },
   {
@@ -4359,6 +4867,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/256.png",
+    dexEntry:
+      "Jungglut stößt im Kampf glühend heiße Flammen aus seinem Schnabel aus und setzt extrem vernichtende Tritte ein. Das Geschrei dieses Pokémon ist sehr laut und verwirrend.",
     pokewikiUrl: "https://www.pokewiki.de/Jungglut",
   },
   {
@@ -4376,6 +4886,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 52,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/257.png",
+    dexEntry:
+      "Lohgock besitzt unglaublich starke Beine, mit denen es ein 30 Stockwerke hohes Gebäude mit einem Sprung überwinden kann. Die flammenden Schläge dieses Pokémon lassen verkohlte Gegner zurück.",
     pokewikiUrl: "https://www.pokewiki.de/Lohgock",
   },
   {
@@ -4393,6 +4905,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png",
+    dexEntry:
+      "Im Wasser atmet Hydropi durch die Kiemen an seinen Wangen. Wenn es im Kampf in eine brenzlige Situation gerät, setzt es seine verblüffende Kraft ein, mit der es Felsbrocken zerquetschen kann, die größer sind als es selbst.",
     pokewikiUrl: "https://www.pokewiki.de/Hydropi",
   },
   {
@@ -4410,6 +4924,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/259.png",
+    dexEntry:
+      "Moorabbel kommt im Schlamm besser voran als im Wasser. Das Hinterteil dieses Pokémon ist gut entwickelt, sodass es auf seinen Hinterbeinen laufen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Moorabbel",
   },
   {
@@ -4427,6 +4943,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 81.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/260.png",
+    dexEntry:
+      "Sumpex kann Stürme voraussagen, indem es feine Veränderungen der Geräusche von Wellen und Wind mit seinen Flossen wahrnimmt. Wenn eine Sturmfront aufzieht, häuft es Felsbrocken an, um sich zu schützen.",
     pokewikiUrl: "https://www.pokewiki.de/Sumpex",
   },
   {
@@ -4444,6 +4962,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/261.png",
+    dexEntry:
+      "Fiffyen ist ein Allesfresser. Auffällig an diesem Pokémon ist das Verhältnis seiner Körpergröße zur Länge seiner Zähne. Es versucht Feinde einzuschüchtern, indem es die Haare an seinem Schweif abstehen lässt.",
     pokewikiUrl: "https://www.pokewiki.de/Fiffyen",
   },
   {
@@ -4461,6 +4981,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 37,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/262.png",
+    dexEntry:
+      "Magnayen zieht in Gruppen durch die Wildnis. Durch seine Erfahrungen in der Wildnis hört es nur auf Trainer, die außergewöhnliche Fähigkeiten haben.",
     pokewikiUrl: "https://www.pokewiki.de/Magnayen",
   },
   {
@@ -4478,6 +5000,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/263.png",
+    dexEntry:
+      "Diese Form nahmen die Zigzachs Galars an, um sich an andere Regionen anzupassen. Sie haben ein Talent dafür, Dinge aufzuspüren.",
     pokewikiUrl: "https://www.pokewiki.de/Zigzachs",
   },
   {
@@ -4495,6 +5019,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/264.png",
+    dexEntry:
+      "Es erlegt seine Beute mit schnellen Bewegungen und scharfen Klauen. Kurven zu nehmen bereitet ihm aber große Schwierigkeiten.",
     pokewikiUrl: "https://www.pokewiki.de/Geradaks",
   },
   {
@@ -4512,6 +5038,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/265.png",
+    dexEntry:
+      "Waumpel wird von Schwalboss als Beute angesehen. Dieses Pokémon wehrt sich gegen angreifende Räuber, indem es die Stacheln an seinem Hinterteil auf sie richtet. Es schwächt seine Gegner mit dem Gift, das aus den Stacheln austritt.",
     pokewikiUrl: "https://www.pokewiki.de/Waumpel",
   },
   {
@@ -4529,6 +5057,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/266.png",
+    dexEntry:
+      "Bisher nahm man an, dass Schaloko vor seiner Entwicklung hungert und überhaupt nichts zu sich nimmt. Nun aber wird behauptet, dass es seinen Durst mit Regenwasser löscht, das sich auf seiner seidigen Hülle sammelt.",
     pokewikiUrl: "https://www.pokewiki.de/Schaloko",
   },
   {
@@ -4546,6 +5076,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/267.png",
+    dexEntry:
+      "Papinella hat einen langen Rüssel, der hervorragend zum Sammeln von Blütenpollen geeignet ist. Dieses Pokémon flattert im Frühlingswind herum und sammelt Blütenstaub.",
     pokewikiUrl: "https://www.pokewiki.de/Papinella",
   },
   {
@@ -4563,6 +5095,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/268.png",
+    dexEntry:
+      "Wenn es angegriffen wird, bewegt sich Panekon in keiner Weise, egal, wie schwer es dabei verletzt wird. Wenn es sich bewegen würde, wäre sein Körper zu schwach für seine Entwicklung. Die Schmerzen allerdings vergisst es nie.",
     pokewikiUrl: "https://www.pokewiki.de/Panekon",
   },
   {
@@ -4580,6 +5114,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/269.png",
+    dexEntry:
+      "Wenn Pudox mit den Flügeln schlägt, verteilt es einen feinen Puder. Es handelt sich um ein starkes Gift, das sogar einen Profiboxer umhauen würde. Bei der Futtersuche benutzt dieses Pokémon seine Antennen als Radar.",
     pokewikiUrl: "https://www.pokewiki.de/Pudox",
   },
   {
@@ -4597,6 +5133,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/270.png",
+    dexEntry:
+      "Da sein Blatt zu groß und schwer für das Leben an Land geworden ist, lebt es nun im Wasser schwimmend.",
     pokewikiUrl: "https://www.pokewiki.de/Loturzel",
   },
   {
@@ -4614,6 +5152,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/271.png",
+    dexEntry:
+      "Es lebt am Ufer, wo die Sonne scheint. Tagsüber schläft es in einem Bett aus Wasserpflanzen, nachts wird es dann aktiv.",
     pokewikiUrl: "https://www.pokewiki.de/Lombrero",
   },
   {
@@ -4631,6 +5171,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/272.png",
+    dexEntry:
+      "Es bewegt seinen Körper zu fröhlichen Rhythmen. Auf diese Weise erhöht es seine Kraft.",
     pokewikiUrl: "https://www.pokewiki.de/Kappalores",
   },
   {
@@ -4648,6 +5190,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/273.png",
+    dexEntry:
+      "Mit dem Stiel auf seinem Kopf hängt es sich an Äste. Bei starkem Wind kann es durchaus mal herunterfallen.",
     pokewikiUrl: "https://www.pokewiki.de/Samurzel",
   },
   {
@@ -4665,6 +5209,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/274.png",
+    dexEntry:
+      "Sie leben in Löchern, die sie in große Bäume gebohrt haben. Der Ton ihrer Grasflöten erfüllt Zuhörer mit Unruhe.",
     pokewikiUrl: "https://www.pokewiki.de/Blanas",
   },
   {
@@ -4682,6 +5228,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 59.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/275.png",
+    dexEntry:
+      "Es lebt in den einsamen Tiefen der Wälder. Man sagt, wenn es seine großen Fächer schwingt, jagen eisige Windböen über das Land.",
     pokewikiUrl: "https://www.pokewiki.de/Tengulist",
   },
   {
@@ -4699,6 +5247,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/276.png",
+    dexEntry:
+      "Schwalbini ist noch klein, es hat gerade erst sein Nest verlassen. Daher fühlt es sich manchmal einsam und weint nachts. Dieses Pokémon ernährt sich von Waumpel.",
     pokewikiUrl: "https://www.pokewiki.de/Schwalbini",
   },
   {
@@ -4716,6 +5266,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/277.png",
+    dexEntry:
+      "Schwalboss ist sehr gewissenhaft bei der Pflege seiner glänzenden Flügel. Wenn zwei Schwalboss zusammen sind, putzen sie sich ihre Flügel gegenseitig.",
     pokewikiUrl: "https://www.pokewiki.de/Schwalboss",
   },
   {
@@ -4733,6 +5285,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/278.png",
+    dexEntry:
+      "Es nistet an Steilküsten und nutzt die Luftströme, um im Gleitflug in den Himmel emporzusteigen.",
     pokewikiUrl: "https://www.pokewiki.de/Wingull",
   },
   {
@@ -4750,6 +5304,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/279.png",
+    dexEntry:
+      "Es schnappt sich seine Beute, indem es beim Fliegen mit seinem großen Schnabel das Wasser streift.",
     pokewikiUrl: "https://www.pokewiki.de/Pelipper",
   },
   {
@@ -4767,6 +5323,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/280.png",
+    dexEntry:
+      "Wenn es mit seinen roten Hörnern freundliche Gefühle von Menschen oder Pokémon erfasst, erwärmt sich sein ganzer Körper ein bisschen.",
     pokewikiUrl: "https://www.pokewiki.de/Trasla",
   },
   {
@@ -4784,6 +5342,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/281.png",
+    dexEntry:
+      "Seine Psycho-Kräfte erlauben es ihm, den Raum um sich selbst zu verformen und so in die Zukunft zu sehen.",
     pokewikiUrl: "https://www.pokewiki.de/Kirlia",
   },
   {
@@ -4801,6 +5361,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 48.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png",
+    dexEntry:
+      "Wenn es seinen Trainer schützen will, nimmt es all seine Psycho-Kräfte zusammen, um so ein kleines schwarzes Loch zu erzeugen.",
     pokewikiUrl: "https://www.pokewiki.de/Guardevoir",
   },
   {
@@ -4818,6 +5380,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/283.png",
+    dexEntry:
+      "Es lebt in pflanzenreichen Teichen und Sümpfen und streitet sich oft mit Araqua, da sie ähnliche Habitate haben und ähnliches Futter fressen.",
     pokewikiUrl: "https://www.pokewiki.de/Gehweiher",
   },
   {
@@ -4835,6 +5399,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/284.png",
+    dexEntry:
+      "Seine Antennen erinnern an dünne Flügel und saugen leicht Flüssigkeit auf. Regentage verbringt es regungslos in Baumhöhlen.",
     pokewikiUrl: "https://www.pokewiki.de/Maskeregen",
   },
   {
@@ -4852,6 +5418,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/285.png",
+    dexEntry:
+      "Wenn Knilz Gefahr wittert, schüttelt es seinen Körper und verteilt Sporen von seinem Kopf. Diese Sporen sind so giftig, dass Bäume und Gräser davon eingehen.",
     pokewikiUrl: "https://www.pokewiki.de/Knilz",
   },
   {
@@ -4869,6 +5437,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/286.png",
+    dexEntry:
+      "Die Samen am Schweif von Kapilz bestehen aus gehärteten Giftsporen. Man sollte sie lieber nicht essen. Ein einziger Bissen davon kann eine heftige Magenverstimmung hervorrufen.",
     pokewikiUrl: "https://www.pokewiki.de/Kapilz",
   },
   {
@@ -4886,6 +5456,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/287.png",
+    dexEntry:
+      "Bummelz’ Herz schlägt nur ein Mal pro Minute. Dieses Pokémon ist damit zufrieden, bewegungslos herumzulungern. Nur ganz selten sieht man dieses Pokémon in Bewegung.",
     pokewikiUrl: "https://www.pokewiki.de/Bummelz",
   },
   {
@@ -4903,6 +5475,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 46.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/288.png",
+    dexEntry:
+      "Muntier findet einfach keine Ruhe. Wenn es versucht zu schlafen, beginnt das Blut in seinen Adern zu pulsieren. Dann muss es wie wild durch den Dschungel rennen, um überhaupt Ruhe zu finden.",
     pokewikiUrl: "https://www.pokewiki.de/Muntier",
   },
   {
@@ -4920,6 +5494,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 130.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/289.png",
+    dexEntry:
+      "Wo dieses Letarking lebt, hinterlässt es Kreise von 1 m Radius auf den Wiesen. Es frisst nämlich all das Gras, das in seiner Reichweite wächst. Dabei liegt es bäuchlings auf dem Boden.",
     pokewikiUrl: "https://www.pokewiki.de/Letarking",
   },
   {
@@ -4937,6 +5513,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/290.png",
+    dexEntry:
+      "Manche Nincada leben mehr als zehn Jahre unter der Erde und saugen Nährstoffe aus den Wurzeln von Bäumen.",
     pokewikiUrl: "https://www.pokewiki.de/Nincada",
   },
   {
@@ -4954,6 +5532,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/291.png",
+    dexEntry:
+      "Dieses Pokémon ist so schnell, dass es jedem Angriff ausweichen kann. Es ernährt sich am liebsten von süßem Baumsaft.",
     pokewikiUrl: "https://www.pokewiki.de/Ninjask",
   },
   {
@@ -4971,6 +5551,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/292.png",
+    dexEntry:
+      "Ninjatom ist ein äußerst sonderbares Pokémon. Es fliegt umher, ohne seine Flügel zu bewegen, sein Körper ist hohl und es atmet nicht.",
     pokewikiUrl: "https://www.pokewiki.de/Ninjatom",
   },
   {
@@ -4988,6 +5570,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/293.png",
+    dexEntry:
+      "Stößt Flurmel einen Schrei aus, so erschrickt es vor seiner eigenen Stimme und brüllt noch lauter, bis es erschöpft ist und sich schlafen legen muss.",
     pokewikiUrl: "https://www.pokewiki.de/Flurmel",
   },
   {
@@ -5005,6 +5589,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/294.png",
+    dexEntry:
+      "Sein Brüllen ist nicht nur ein Angriff aufs Gehör, sondern erzeugt auch Schockwellen, durch die Gegner weggefegt und verletzt werden.",
     pokewikiUrl: "https://www.pokewiki.de/Krakeelo",
   },
   {
@@ -5022,6 +5608,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 84,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/295.png",
+    dexEntry:
+      "Es nutzt nicht nur seine laute Stimme, sondern stößt auch über seine Körperöffnungen allerlei Töne aus, um mit Artgenossen zu kommunizieren.",
     pokewikiUrl: "https://www.pokewiki.de/Krawumms",
   },
   {
@@ -5039,6 +5627,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 86.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/296.png",
+    dexEntry:
+      "Es heißt, es gebe einen Eintopf, den Trainer auf traditionelle Weise zubereiten, um Makuhita damit noch stärker zu machen.",
     pokewikiUrl: "https://www.pokewiki.de/Makuhita",
   },
   {
@@ -5056,6 +5646,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 253.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/297.png",
+    dexEntry:
+      "Hariyama sind nicht nur stark, wenn sie groß und schwer sind. Auch kleine und leichte Exemplare können Attacken effektiv einsetzen.",
     pokewikiUrl: "https://www.pokewiki.de/Hariyama",
   },
   {
@@ -5073,6 +5665,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/298.png",
+    dexEntry:
+      "Dieses Pokémon ist zwar sanftmütig, doch wenn es wütend wird, schwingt es die große Kugel an seinem Schweif und schlägt damit zu.",
     pokewikiUrl: "https://www.pokewiki.de/Azurill",
   },
   {
@@ -5090,6 +5684,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 97,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/299.png",
+    dexEntry:
+      "Es jagt bewegungslos, indem es Beute mit seinem starken Magnetfeld zu sich heranzieht. Manchmal sind jedoch auch Fressfeinde dabei.",
     pokewikiUrl: "https://www.pokewiki.de/Nasgnet",
   },
   {
@@ -5107,6 +5703,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/300.png",
+    dexEntry:
+      "Eneco jagt spielerisch seinen eigenen Schweif. In der Wildnis lebt dieses Pokémon in den Löchern von Bäumen. Es ist als Haustier sehr beliebt, da es bezaubernd aussieht.",
     pokewikiUrl: "https://www.pokewiki.de/Eneco",
   },
   {
@@ -5124,6 +5722,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/301.png",
+    dexEntry:
+      "Enekoro schläft dort, wo es ihm gefällt und hat kein dauerhaftes Nest. Nähern sich ihm andere Pokémon, wenn es schläft, kämpft es nicht mit ihnen, sondern zieht weiter.",
     pokewikiUrl: "https://www.pokewiki.de/Enekoro",
   },
   {
@@ -5141,6 +5741,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/302.png",
+    dexEntry: "Es ernährt sich von Edelsteinen. Im Dunkeln funkeln seine beiden Augen wie Juwelen.",
     pokewikiUrl: "https://www.pokewiki.de/Zobiris",
   },
   {
@@ -5158,6 +5759,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/303.png",
+    dexEntry:
+      "Sein riesiger Kiefer hat sich aus stählernen Hörnern entwickelt. Mit ihm beißt es seine Gegner.",
     pokewikiUrl: "https://www.pokewiki.de/Flunkifer",
   },
   {
@@ -5175,6 +5778,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/304.png",
+    dexEntry:
+      "Stollunior wirft seinen Stahlpanzer ab, wenn es sich entwickelt. Früher sammelten Menschen diesen auf und nutzten ihn für Alltagszwecke.",
     pokewikiUrl: "https://www.pokewiki.de/Stollunior",
   },
   {
@@ -5192,6 +5797,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/305.png",
+    dexEntry:
+      "Bei Revierkämpfen prallen sie mit ihren Körpern gegeneinander. Betrachtet man die Stahlpanzer genauer, entdeckt man Kratzer und Dellen.",
     pokewikiUrl: "https://www.pokewiki.de/Stollrak",
   },
   {
@@ -5209,6 +5816,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 360,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/306.png",
+    dexEntry:
+      "Einst gab es einen König, der einen Helm in Form von Stolloss’ Kopf trug, in der Hoffnung, sich dadurch dessen Stärke aneignen zu können.",
     pokewikiUrl: "https://www.pokewiki.de/Stolloss",
   },
   {
@@ -5226,6 +5835,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/307.png",
+    dexEntry:
+      "Meditie erhöht seine Energie durch Meditation. Es lebt von nur einer Beere am Tag. Diese absolut reduzierte Ernährung ist Bestandteil seines Trainings.",
     pokewikiUrl: "https://www.pokewiki.de/Meditie",
   },
   {
@@ -5243,6 +5854,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/308.png",
+    dexEntry:
+      "Mittels Meditation hat Meditalis seinen sechsten Sinn entwickelt. So kann es seine psychokinetischen Kräfte nutzen. Dieses Pokémon meditiert einen ganzen Monat, ohne etwas zu essen.",
     pokewikiUrl: "https://www.pokewiki.de/Meditalis",
   },
   {
@@ -5260,6 +5873,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/309.png",
+    dexEntry:
+      "Es speichert statische Elektrizität in seinem Fell. In Jahreszeiten mit trockener Luft sprüht sein ganzer Körper Funken.",
     pokewikiUrl: "https://www.pokewiki.de/Frizelbliz",
   },
   {
@@ -5277,6 +5892,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/310.png",
+    dexEntry:
+      "Es zeigt sich selten den Menschen. Man sagt, dass es sein Nest an Orten baut, wo ein Blitz eingeschlagen hat.",
     pokewikiUrl: "https://www.pokewiki.de/Voltenso",
   },
   {
@@ -5294,6 +5911,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/311.png",
+    dexEntry:
+      "Wenn Plusle seinen Partner anfeuert, sprüht es Funken aus seinem Körper. Wenn sein Partner verliert, brüllt dieses Pokémon laut.",
     pokewikiUrl: "https://www.pokewiki.de/Plusle",
   },
   {
@@ -5311,6 +5930,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/312.png",
+    dexEntry:
+      "Minun liebt es, seinen Partner im Kampf anzufeuern. Dabei sprüht es Funken aus seinem Körper. Wenn sein Partner in Schwierigkeiten gerät, sprüht es immer mehr Funken.",
     pokewikiUrl: "https://www.pokewiki.de/Minun",
   },
   {
@@ -5328,6 +5949,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/313.png",
+    dexEntry:
+      "Volbeats Schweif leuchtet wie eine Glühbirne. Zusammen mit anderen Volbeat malt es mit seinem Schweif geometrische Figuren an den Nachthimmel. Dieses Pokémon liebt den von Illumise verströmten Duft.",
     pokewikiUrl: "https://www.pokewiki.de/Volbeat",
   },
   {
@@ -5345,6 +5968,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/314.png",
+    dexEntry:
+      "Illumise leitet einen Schwarm Volbeat an, wenn sie Zeichen an den Nachthimmel malen. Je komplexer diese werden, desto mehr Respekt bekommt es von seinen Artgenossen.",
     pokewikiUrl: "https://www.pokewiki.de/Illumise",
   },
   {
@@ -5362,6 +5987,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/315.png",
+    dexEntry:
+      "Seine Hände scheiden beim Angriff jeweils ein anderes Gift aus. Je stärker Roselia duftet, desto gesünder ist es.",
     pokewikiUrl: "https://www.pokewiki.de/Roselia",
   },
   {
@@ -5379,6 +6006,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/316.png",
+    dexEntry:
+      "Schluppucks Körper besteht zum größten Teil aus seinem Magen. Sein Herz und sein Gehirn sind im Vergleich dazu sehr klein. Der Magen dieses Pokémon enthält Enzyme, die alles zersetzen können.",
     pokewikiUrl: "https://www.pokewiki.de/Schluppuck",
   },
   {
@@ -5396,6 +6025,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 80,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/317.png",
+    dexEntry:
+      "Schlukwech hat keine Zähne. Alles was es isst, schluckt es im Ganzen herunter. Sein Maul ist so riesig, dass mit Leichtigkeit ein Autoreifen hineinpassen würde.",
     pokewikiUrl: "https://www.pokewiki.de/Schlukwech",
   },
   {
@@ -5413,6 +6044,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/318.png",
+    dexEntry:
+      "Es verfügt über äußerst spitze Zähne und kräftige Kiefer. Seefahrer meiden die Lebensräume von Kanivanha um jeden Preis.",
     pokewikiUrl: "https://www.pokewiki.de/Kanivanha",
   },
   {
@@ -5430,6 +6063,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 88.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/319.png",
+    dexEntry:
+      "Tohaido trägt den Spitznamen „Tyrann des Meeres“. Schiffe, die in sein Revier eindringen, greift es ausnahmslos an.",
     pokewikiUrl: "https://www.pokewiki.de/Tohaido",
   },
   {
@@ -5447,6 +6082,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 130,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/320.png",
+    dexEntry:
+      "Verschluckt es eine große Menge Meerwasser, wird sein Körper elastisch wie ein Ball. Es frisst täglich eine Tonne Nahrung.",
     pokewikiUrl: "https://www.pokewiki.de/Wailmer",
   },
   {
@@ -5464,6 +6101,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 398,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/321.png",
+    dexEntry:
+      "Es ist allein schon aufgrund seiner schieren Größe sehr beliebt. Wailord-Watching gilt vielerorts als beliebte Touristenattraktion.",
     pokewikiUrl: "https://www.pokewiki.de/Wailord",
   },
   {
@@ -5481,6 +6120,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/322.png",
+    dexEntry:
+      "Camaub speichert fast 1 200 °C heißes Magma in seinem Körper. Wenn es nass wird, kühlt das Magma ab und wird hart. Dadurch wird der Körper dieses Pokémon schwer und seine Bewegungen träge.",
     pokewikiUrl: "https://www.pokewiki.de/Camaub",
   },
   {
@@ -5498,6 +6139,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 220,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/323.png",
+    dexEntry:
+      "Die Höcker auf Camerupts Rücken sind durch eine Transformation seiner Knochen entstanden. Hin und wieder stoßen sie Magma aus. Dieses Pokémon bricht häufig aus, wenn es wütend ist.",
     pokewikiUrl: "https://www.pokewiki.de/Camerupt",
   },
   {
@@ -5515,6 +6158,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 80.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/324.png",
+    dexEntry:
+      "Große Gruppen von Qurtel siedeln sich in stillgelegten Bergwerken an und graben dort emsig nach Kohle.",
     pokewikiUrl: "https://www.pokewiki.de/Qurtel",
   },
   {
@@ -5532,6 +6177,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/325.png",
+    dexEntry:
+      "Spoink trägt eine Perle auf seinem Kopf, die seine psychokinetische Energie verstärkt. Deshalb ist es dauernd auf der Suche nach einer größeren Perle.",
     pokewikiUrl: "https://www.pokewiki.de/Spoink",
   },
   {
@@ -5549,6 +6196,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 71.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/326.png",
+    dexEntry:
+      "Groink benutzt die schwarzen Perlen an seinem Körper, um seine fantastischen Kräfte nutzen zu können. Dabei tanzt es sonderbar. Die schwarzen Perlen dieses Pokémon sind wahre Kunstwerke und ebenso wertvoll.",
     pokewikiUrl: "https://www.pokewiki.de/Groink",
   },
   {
@@ -5566,6 +6215,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/327.png",
+    dexEntry:
+      "Jedes Pandir hat ein anderes Fleckenmuster. Mit seinem taumelnden Gang weicht es gegnerischen Angriffen souverän aus.",
     pokewikiUrl: "https://www.pokewiki.de/Pandir",
   },
   {
@@ -5583,6 +6234,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/328.png",
+    dexEntry:
+      "Es errichtet einen trichterförmigen Bau, aus dem es kein Entrinnen gibt, und wartet, bis Beute hineinfällt.",
     pokewikiUrl: "https://www.pokewiki.de/Knacklion",
   },
   {
@@ -5600,6 +6253,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/329.png",
+    dexEntry:
+      "Um das Wachstum seiner Flügel zu fördern, schlürft es täglich große Mengen an Beute, die es zuvor in Magensäure aufgelöst hat.",
     pokewikiUrl: "https://www.pokewiki.de/Vibrava",
   },
   {
@@ -5617,6 +6272,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 82,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/330.png",
+    dexEntry:
+      "Sein Flügelschlag klingt wie wunderschöner Frauengesang. Daher nennt man es auch „Geist der Wüste“.",
     pokewikiUrl: "https://www.pokewiki.de/Libelldra",
   },
   {
@@ -5634,6 +6291,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 51.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/331.png",
+    dexEntry:
+      "Je trockener und trostloser seine Umgebung ist, desto schöner und duftender wird Tuskas Blume. Dieses Pokémon schwingt im Kampf wild mit seinen dornigen Armen.",
     pokewikiUrl: "https://www.pokewiki.de/Tuska",
   },
   {
@@ -5651,6 +6310,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 77.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/332.png",
+    dexEntry:
+      "Wenn ein Reisender mitten in der Nacht durch eine Wüste wandert, folgt Noktuska ihm und spielt ihm Streiche. Dann wartet dieses Pokémon darauf, dass der Reisende müde wird und sich nicht mehr bewegen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Noktuska",
   },
   {
@@ -5668,6 +6329,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/333.png",
+    dexEntry:
+      "Es sieht Schäfchenwolken sehr ähnlich, weshalb Gegner es nur schwer entdecken. Seine Flügel wurden wohl über Generationen hinweg weiß.",
     pokewikiUrl: "https://www.pokewiki.de/Wablu",
   },
   {
@@ -5685,6 +6348,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/334.png",
+    dexEntry:
+      "Altaria ist von sanfter Natur, doch wird es verärgert, stößt es zur Einschüchterung schrilles Geschrei aus und greift dann gnadenlos an.",
     pokewikiUrl: "https://www.pokewiki.de/Altaria",
   },
   {
@@ -5702,6 +6367,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/335.png",
+    dexEntry:
+      "Sengo bewegt sich normalerweise auf allen Vieren. Wenn es aber wütend wird, stellt es sich auf seine Hinterbeine und fährt die Klauen an seinen Vorderbeinen aus. Dieses Pokémon ist seit Generationen ein erbitterter Rivale von Vipitis.",
     pokewikiUrl: "https://www.pokewiki.de/Sengo",
   },
   {
@@ -5719,6 +6386,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 52.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/336.png",
+    dexEntry:
+      "Vipitis kann mit seinem Schweif Feinden einen Hieb versetzen und sie mit einem abgesonderten Gift bespritzen. Dieses Pokémon wird in der langwährenden Blutfehde mit Sengo nicht nachgeben.",
     pokewikiUrl: "https://www.pokewiki.de/Vipitis",
   },
   {
@@ -5736,6 +6405,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 168,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/337.png",
+    dexEntry:
+      "Es wurde erstmals vor 40 Jahren bei einem Meteoritenkrater entdeckt. Gegner versetzt es allein mit seinem Blick in Schlaf.",
     pokewikiUrl: "https://www.pokewiki.de/Lunastein",
   },
   {
@@ -5753,6 +6424,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 154,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/338.png",
+    dexEntry:
+      "Da es seine Energie aus Sonnenlicht gewinnt, ist es tagsüber am stärksten. Wenn es sich dreht, leuchtet es.",
     pokewikiUrl: "https://www.pokewiki.de/Sonnfel",
   },
   {
@@ -5770,6 +6443,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/339.png",
+    dexEntry:
+      "Es untersucht schlammige Flussbetten mit seinen beiden langen Schnurrhaaren. Sein Körper wird von einem Schleimfilm geschützt.",
     pokewikiUrl: "https://www.pokewiki.de/Schmerbe",
   },
   {
@@ -5787,6 +6462,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/340.png",
+    dexEntry:
+      "Sein Revier hat es im Sumpfland. Nähert sich ein Feind, zappelt es wie wild und erzeugt so Erdbeben.",
     pokewikiUrl: "https://www.pokewiki.de/Welsar",
   },
   {
@@ -5804,6 +6481,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/341.png",
+    dexEntry:
+      "Es stammt eigentlich aus dem Ausland und verwilderte. Es passt sich auch an die dreckigsten Flüsse an.",
     pokewikiUrl: "https://www.pokewiki.de/Krebscorps",
   },
   {
@@ -5821,6 +6500,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/342.png",
+    dexEntry:
+      "Es ist sehr rauflustig. Nähert sich ein Gegner seinem Unterschlupf, geht es gnadenlos auf ihn los.",
     pokewikiUrl: "https://www.pokewiki.de/Krebutack",
   },
   {
@@ -5838,6 +6519,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/343.png",
+    dexEntry:
+      "Es wurde in antiken Ruinen entdeckt. Wenn es sich bewegt, dreht es sich. Auch im Schlaf steht es auf einem Bein.",
     pokewikiUrl: "https://www.pokewiki.de/Puppance",
   },
   {
@@ -5855,6 +6538,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 108,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/344.png",
+    dexEntry:
+      "Es scheint, sein Ursprung geht auf altertümliche Lehmpuppen zurück. Durch Telekinese kann es schweben und sich bewegen.",
     pokewikiUrl: "https://www.pokewiki.de/Lepumentas",
   },
   {
@@ -5872,6 +6557,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/345.png",
+    dexEntry:
+      "Liliep heftet sich an Felsen am Meeresgrund. Nähert sich Beute, fängt es diese mit seinen wie Blütenblätter geformten Tentakeln.",
     pokewikiUrl: "https://www.pokewiki.de/Liliep",
   },
   {
@@ -5889,6 +6576,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/346.png",
+    dexEntry:
+      "Sobald es mit seinen Tentakeln Beute erfasst hat, löst es diese mit seiner Verdauungsflüssigkeit auf und absorbiert ihre Nährstoffe.",
     pokewikiUrl: "https://www.pokewiki.de/Wielie",
   },
   {
@@ -5906,6 +6595,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/347.png",
+    dexEntry:
+      "Anorith schwimmt sehr schnell, indem es seine acht Flügel wie die Ruder eines Bootes bewegt. Es ist einer der Vorfahren von Käfer-Pokémon.",
     pokewikiUrl: "https://www.pokewiki.de/Anorith",
   },
   {
@@ -5923,6 +6614,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 68.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/348.png",
+    dexEntry:
+      "Es lebt an Land, kann aber auch gut schwimmen. Zum Jagen taucht es ins Meer und erledigt Beute mit seinen scharfen Klauen.",
     pokewikiUrl: "https://www.pokewiki.de/Armaldo",
   },
   {
@@ -5940,6 +6633,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/349.png",
+    dexEntry:
+      "Ein schäbiges, ja sogar hässliches Pokémon. Dafür ist es abgehärtet und überlebt auch mit wenig Wasser.",
     pokewikiUrl: "https://www.pokewiki.de/Barschwa",
   },
   {
@@ -5957,6 +6652,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 162,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/350.png",
+    dexEntry:
+      "Es heißt, der Anblick seiner wunderschönen Gestalt könne selbst das verrohteste Herz erweichen.",
     pokewikiUrl: "https://www.pokewiki.de/Milotic",
   },
   {
@@ -5974,6 +6671,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/351.png",
+    dexEntry:
+      "Seine Gestalt ändert sich abhängig vom Wetter. Je ungestümer dieses ist, desto gröber wird auch sein Charakter.",
     pokewikiUrl: "https://www.pokewiki.de/Formeo",
   },
   {
@@ -5991,6 +6690,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 22,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/352.png",
+    dexEntry:
+      "Seine Färbung ändert sich nicht nur zur Tarnung, sondern auch je nach Laune und Verfassung. Je kräftiger seine Farben sind, desto vitaler ist es.",
     pokewikiUrl: "https://www.pokewiki.de/Kecleon",
   },
   {
@@ -6008,6 +6709,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/353.png",
+    dexEntry:
+      "Einem alten Sprichwort zufolge soll man sich von Häusern fernhalten, an denen sich bei Einbruch der Dunkelheit Shuppet aneinanderreihen.",
     pokewikiUrl: "https://www.pokewiki.de/Shuppet",
   },
   {
@@ -6025,6 +6728,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/354.png",
+    dexEntry:
+      "Geboren aus Hass, weil es weggeworfen wurde, soll es sich wieder in eine Plüschpuppe zurückverwandeln, wenn es sich geliebt fühlt.",
     pokewikiUrl: "https://www.pokewiki.de/Banette",
   },
   {
@@ -6042,6 +6747,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/355.png",
+    dexEntry:
+      "Es macht sich unsichtbar, um sich an seine Beute anzuschleichen. Außerdem kann es durch dicke Wände gehen.",
     pokewikiUrl: "https://www.pokewiki.de/Zwirrlicht",
   },
   {
@@ -6059,6 +6766,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/356.png",
+    dexEntry:
+      "Es sucht umherirrende Seelen und saugt sie in seinen leeren Körper. Was dann mit ihnen passiert, ist ein Rätsel.",
     pokewikiUrl: "https://www.pokewiki.de/Zwirrklop",
   },
   {
@@ -6076,6 +6785,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 100,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/357.png",
+    dexEntry:
+      "Die leckeren Früchte an seinem Hals sind sehr beliebt. In warmen Gebieten gibt es viele Farmen, auf denen Tropius gezüchtet werden.",
     pokewikiUrl: "https://www.pokewiki.de/Tropius",
   },
   {
@@ -6093,6 +6804,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/358.png",
+    dexEntry:
+      "Bei starkem Wind hängt sich Palimpalim an einen Ast oder an die Dachrinne eines Gebäudes, wobei es eine Saugkappe auf seinem Kopf benutzt. Das Pokémon pflückt mit seinem langen Schweif Beeren und verspeist sie.",
     pokewikiUrl: "https://www.pokewiki.de/Palimpalim",
   },
   {
@@ -6110,6 +6823,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 47,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/359.png",
+    dexEntry:
+      "Absol kann Gefahr verspüren, weshalb Menschen irrtümlicherweise dachten, dieses Pokémon bringe ihnen Unheil.",
     pokewikiUrl: "https://www.pokewiki.de/Absol",
   },
   {
@@ -6127,6 +6842,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/360.png",
+    dexEntry:
+      "Sie ziehen normalerweise im Rudel umher. Zum Schlafen drängen sie sich ganz eng in einer Höhle zusammen.",
     pokewikiUrl: "https://www.pokewiki.de/Isso",
   },
   {
@@ -6144,6 +6861,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/361.png",
+    dexEntry:
+      "Schneppke kann nur in besonders kalten Gebieten leben. Selbst bei -100 ºC hopst es munter umher.",
     pokewikiUrl: "https://www.pokewiki.de/Schneppke",
   },
   {
@@ -6161,6 +6880,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 256.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/362.png",
+    dexEntry:
+      "Es kann Feuchtigkeit in der Luft augenblicklich zum Gefrieren bringen und nutzt dies, um seine Beute zu Eis erstarren zu lassen.",
     pokewikiUrl: "https://www.pokewiki.de/Firnontor",
   },
   {
@@ -6178,6 +6899,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/363.png",
+    dexEntry:
+      "Seemops lässt sich von den Wellen treiben, um das Meer zu erkunden. Entdeckt es Beute, setzt es die Walraisa seiner Herde davon in Kenntnis.",
     pokewikiUrl: "https://www.pokewiki.de/Seemops",
   },
   {
@@ -6195,6 +6918,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 87.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/364.png",
+    dexEntry:
+      "Seejong balanciert gerne Pokébälle, Seemops und alles, was sonst noch rund ist, auf seiner Nasenspitze.",
     pokewikiUrl: "https://www.pokewiki.de/Seejong",
   },
   {
@@ -6212,6 +6937,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 150.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/365.png",
+    dexEntry:
+      "Die Stoßzähne wachsen sein Leben lang. Selbst, wenn sie im Kampf abbrechen, erreichen sie nach nur einem Jahr wieder ihre alte imposante Größe.",
     pokewikiUrl: "https://www.pokewiki.de/Walraisa",
   },
   {
@@ -6229,6 +6956,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 52.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/366.png",
+    dexEntry:
+      "Seine Perle ist sehr kostbar. Es heißt, sie sei mindestens zehnmal so viel wert wie jene von Muschas.",
     pokewikiUrl: "https://www.pokewiki.de/Perlu",
   },
   {
@@ -6246,6 +6975,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 27,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/367.png",
+    dexEntry:
+      "Es lebt in der Tiefsee. Einer Überlieferung zufolge geschieht etwas Unheilvolles, wenn ein Aalabyss am Strand auftaucht.",
     pokewikiUrl: "https://www.pokewiki.de/Aalabyss",
   },
   {
@@ -6263,6 +6994,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 22.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/368.png",
+    dexEntry:
+      "Es saugt die Körpersäfte seiner Beute aus. Was übrig bleibt, sinkt zu Boden und wird von anderen Pokémon verspeist.",
     pokewikiUrl: "https://www.pokewiki.de/Saganabyss",
   },
   {
@@ -6280,6 +7013,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/369.png",
+    dexEntry:
+      "Es wurde auf einer Tiefsee-Expedition entdeckt. Man nennt es ein „lebendes Fossil“, da es sich seit 100 Millionen Jahren nicht verändert hat.",
     pokewikiUrl: "https://www.pokewiki.de/Relicanth",
   },
   {
@@ -6297,6 +7032,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/370.png",
+    dexEntry:
+      "Es lebt in den Korallenriffen warmer Meere und schläft besonders gern zwischen den Armen von Corasonn.",
     pokewikiUrl: "https://www.pokewiki.de/Liebiskus",
   },
   {
@@ -6314,6 +7051,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 42.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/371.png",
+    dexEntry:
+      "Es lebt in Einsamkeit, ohne Gruppen zu bilden. Sein steinharter Schädel kann mit einem Schlag einen massiven Felsen entzweihauen.",
     pokewikiUrl: "https://www.pokewiki.de/Kindwurm",
   },
   {
@@ -6331,6 +7070,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 110.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/372.png",
+    dexEntry:
+      "Es ignoriert sein Hungergefühl und isst nichts. Draschels Entwicklung setzt anscheinend ein, wenn all seine Energiereserven aufgebraucht sind.",
     pokewikiUrl: "https://www.pokewiki.de/Draschel",
   },
   {
@@ -6348,6 +7089,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 102.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png",
+    dexEntry:
+      "Brutalanda freut sich ungemein darüber, endlich fliegen zu können, doch wenn es wütend wird, gerät es außer Kontrolle.",
     pokewikiUrl: "https://www.pokewiki.de/Brutalanda",
   },
   {
@@ -6365,6 +7108,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 95.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/374.png",
+    dexEntry:
+      "Die Zellen seines Körpers bestehen aus Magneten. Anstelle von Blut fließt magnetische Energie durch Tanhel.",
     pokewikiUrl: "https://www.pokewiki.de/Tanhel",
   },
   {
@@ -6382,6 +7127,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 202.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/375.png",
+    dexEntry:
+      "Mithilfe von Magnetismus kann Metang fliegen. Auf der Jagd nach Beute manövriert es so mit hoher Geschwindigkeit durch schroffes Gebirge.",
     pokewikiUrl: "https://www.pokewiki.de/Metang",
   },
   {
@@ -6399,6 +7146,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 550,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/376.png",
+    dexEntry:
+      "Dieses Pokémon entstand aus der Fusion zweier Metang. Es bezwingt Gegner mithilfe seiner Intelligenz, die der eines Supercomputers gleicht.",
     pokewikiUrl: "https://www.pokewiki.de/Metagross",
   },
   {
@@ -6416,6 +7165,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 230,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/377.png",
+    dexEntry:
+      "Selbst mit modernster Technologie konnten bei der Analyse seines Steinkörpers weder Herz noch Gehirn gefunden werden.",
     pokewikiUrl: "https://www.pokewiki.de/Regirock",
   },
   {
@@ -6433,6 +7184,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 175,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/378.png",
+    dexEntry:
+      "Sein gesamter Körper besteht aus Eis. Man sagt, es wurde während der Eiszeit unter einer dicken Eisschicht geboren.",
     pokewikiUrl: "https://www.pokewiki.de/Regice",
   },
   {
@@ -6450,6 +7203,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 205,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/379.png",
+    dexEntry:
+      "Gerüchten zufolge wurde dieses Pokémon tief im Mantel des Planeten geboren und kam vor etwa 10 000 Jahren an die Oberfläche.",
     pokewikiUrl: "https://www.pokewiki.de/Registeel",
   },
   {
@@ -6467,6 +7222,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/380.png",
+    dexEntry:
+      "Latias ist sehr intelligent und kann die menschliche Sprache verstehen. Es ist mit gläsernen Daunen bedeckt. Dieses Pokémon umhüllt seinen Körper mit den Daunen und kann Licht brechen, um seine Gestalt zu verändern.",
     pokewikiUrl: "https://www.pokewiki.de/Latias",
   },
   {
@@ -6484,6 +7241,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/381.png",
+    dexEntry:
+      "Latios schüttet nur seinem Trainer gegenüber sein Herz aus. Dieses Pokémon fliegt schneller als ein Flugzeug, indem es seine Vorderbeine einklappt, um den Luftwiderstand zu verringern.",
     pokewikiUrl: "https://www.pokewiki.de/Latios",
   },
   {
@@ -6501,6 +7260,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 352,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/382.png",
+    dexEntry:
+      "Es heißt, Kyogre sei die Personifizierung des Meeres. Legenden zufolge hat es in seinem Bestreben, sich die Naturenergie anzueignen, viele Male gegen Groudon gekämpft.",
     pokewikiUrl: "https://www.pokewiki.de/Kyogre",
   },
   {
@@ -6518,6 +7279,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 950,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/383.png",
+    dexEntry:
+      "Mithilfe von Naturenergie kann es eine Protomorphose durchführen und so seine ursprüngliche Form zurückerlangen. Dadurch kann es Magma hervorbringen und die Landmasse vergrößern.",
     pokewikiUrl: "https://www.pokewiki.de/Groudon",
   },
   {
@@ -6535,6 +7298,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 206.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/384.png",
+    dexEntry:
+      "Es fliegt durch die Ozonschicht und ernährt sich von Meteoren. Mithilfe der Energie, die durch diese Meteore in seinen Körper gelangt, kann es eine Mega-Entwicklung durchführen.",
     pokewikiUrl: "https://www.pokewiki.de/Rayquaza",
   },
   {
@@ -6552,6 +7317,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/385.png",
+    dexEntry:
+      "Es heißt, wenn es aus seinem tausendjährigen Schlaf erwacht, erfüllt es die Wünsche, die auf die Zettel an seinem Kopf geschrieben wurden.",
     pokewikiUrl: "https://www.pokewiki.de/Jirachi",
   },
   {
@@ -6569,6 +7336,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/386.png",
+    dexEntry:
+      "Deoxys ging aus einem Virus aus dem Weltraum hervor. Es ist sehr intelligent und nutzt psychokinetische Energie. Dieses Pokémon verschießt Laserstrahlen aus einem kristallartigen Organ auf seinem Brustkorb.",
     pokewikiUrl: "https://www.pokewiki.de/Deoxys",
   },
   {
@@ -6586,6 +7355,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/387.png",
+    dexEntry:
+      "Sein Körper lebt von der Photosynthese, die Sauerstoff freisetzt. Ist es durstig, welkt sein Blatt.",
     pokewikiUrl: "https://www.pokewiki.de/Chelast",
   },
   {
@@ -6603,6 +7374,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 97,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/388.png",
+    dexEntry:
+      "Es weiß, wo es reinstes Quellwasser finden kann. Trägt andere Pokémon auf seinem Rücken dorthin.",
     pokewikiUrl: "https://www.pokewiki.de/Chelcarain",
   },
   {
@@ -6620,6 +7393,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 310,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/389.png",
+    dexEntry: "Kleine Pokémon fangen manchmal an, auf dem bewegungslosen Rücken Nester zu bauen.",
     pokewikiUrl: "https://www.pokewiki.de/Chelterrar",
   },
   {
@@ -6637,6 +7411,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/390.png",
+    dexEntry:
+      "An seinem Rücken verbrennt es die Gase aus seinem Bauch. Geht es ihm schlecht, leuchtet es weniger hell.",
     pokewikiUrl: "https://www.pokewiki.de/Panflam",
   },
   {
@@ -6654,6 +7430,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 22,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/391.png",
+    dexEntry:
+      "Es stürzt sich von Decken und Wänden auf Beute. Sein feuriger Schweif ist nur eine seiner Waffen.",
     pokewikiUrl: "https://www.pokewiki.de/Panpyro",
   },
   {
@@ -6671,6 +7449,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/392.png",
+    dexEntry:
+      "Es hält den Gegner mit flinken Bewegungen zum Narren. Im Kampf setzt es alle Gliedmaßen ein.",
     pokewikiUrl: "https://www.pokewiki.de/Panferno",
   },
   {
@@ -6688,6 +7468,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/393.png",
+    dexEntry:
+      "Es ist sehr stolz und nimmt daher kein Futter von anderen an. Seine dicken Daunen schützen vor Kälte.",
     pokewikiUrl: "https://www.pokewiki.de/Plinfa",
   },
   {
@@ -6705,6 +7487,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/394.png",
+    dexEntry:
+      "Pliprin sind Einzelgänger. Ein Schlag ihrer kräftigen Flügel haut selbst große Bäume entzwei.",
     pokewikiUrl: "https://www.pokewiki.de/Pliprin",
   },
   {
@@ -6722,6 +7506,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 84.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/395.png",
+    dexEntry:
+      "Die drei Hörner, die aus dem Schnabel wachsen, stehen für Kraft. Ein Anführer hat die größten Hörner.",
     pokewikiUrl: "https://www.pokewiki.de/Impoleon",
   },
   {
@@ -6739,6 +7525,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/396.png",
+    dexEntry:
+      "Auf der Suche nach Käfer-Pokémon fliegen Schwärme von ihnen durchs Land. Ihr Ruf erzeugt großen Lärm.",
     pokewikiUrl: "https://www.pokewiki.de/Staralili",
   },
   {
@@ -6756,6 +7544,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/397.png",
+    dexEntry:
+      "Es lebt in Wäldern und auf Wiesen. Treffen Schwärme aufeinander, streiten sie sich um das Revier.",
     pokewikiUrl: "https://www.pokewiki.de/Staravia",
   },
   {
@@ -6773,6 +7563,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/398.png",
+    dexEntry:
+      "Wird Staravia zu Staraptor, verlässt es die Gruppe und lebt allein. Seine Spannweite ist gigantisch.",
     pokewikiUrl: "https://www.pokewiki.de/Staraptor",
   },
   {
@@ -6790,6 +7582,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/399.png",
+    dexEntry:
+      "Es knabbert ständig an Holz und Steinen, um seine Vorderzähne zu kürzen. Es nistet am Wasser.",
     pokewikiUrl: "https://www.pokewiki.de/Bidiza",
   },
   {
@@ -6807,6 +7601,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/400.png",
+    dexEntry:
+      "Es baut sein Nest, indem es in Flüssen Dämme aus Schlamm und Ästen baut. Ein fleißiger Arbeiter.",
     pokewikiUrl: "https://www.pokewiki.de/Bidifas",
   },
   {
@@ -6824,6 +7620,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/401.png",
+    dexEntry:
+      "Wenn seine zwei Antennen sich berühren, erklingt ein Ruf wie das Spiel eines Xylophons.",
     pokewikiUrl: "https://www.pokewiki.de/Zirpurze",
   },
   {
@@ -6841,6 +7639,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/402.png",
+    dexEntry:
+      "Über seine Melodien teilt es seine Gefühle mit. Wissenschaftler untersuchen das Muster der Melodien.",
     pokewikiUrl: "https://www.pokewiki.de/Zirpeise",
   },
   {
@@ -6858,6 +7658,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/403.png",
+    dexEntry:
+      "Es bringt sein Fell mit Elektrizität zum Glühen. Um seinen Artgenossen Signale zu übermitteln, wedelt es mit seiner leuchtenden Schweifspitze.",
     pokewikiUrl: "https://www.pokewiki.de/Sheinux",
   },
   {
@@ -6875,6 +7677,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/404.png",
+    dexEntry:
+      "Sieht es Gegner, macht es sich kampfbereit, indem es die Krallen an den Pfoten ausfährt, welche eine Million Volt austeilen können.",
     pokewikiUrl: "https://www.pokewiki.de/Luxio",
   },
   {
@@ -6892,6 +7696,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 42,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/405.png",
+    dexEntry:
+      "Der Einsatz seines Röntgenblicks verbraucht sehr viel Elektrizität. Luxtra gewinnt diese zurück, indem es lange schläft.",
     pokewikiUrl: "https://www.pokewiki.de/Luxtra",
   },
   {
@@ -6909,6 +7715,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/406.png",
+    dexEntry:
+      "Es hat ein feines Gespür für die kleinsten Temperaturveränderungen. Wenn sich seine Knospe öffnet, bricht bald der Frühling an.",
     pokewikiUrl: "https://www.pokewiki.de/Knospi",
   },
   {
@@ -6926,6 +7734,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/407.png",
+    dexEntry:
+      "Das Gift aus seiner rechten Hand wirkt sofort, das aus seiner linken langsam. Beide Gifte können tödlich sein.",
     pokewikiUrl: "https://www.pokewiki.de/Roserade",
   },
   {
@@ -6943,6 +7753,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/408.png",
+    dexEntry:
+      "Seine Besonderheit ist der harte Schädel. Mit seinem Kopfstoß fällte es Bäume, um deren Früchte fressen zu können.",
     pokewikiUrl: "https://www.pokewiki.de/Koknodon",
   },
   {
@@ -6960,6 +7772,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 102.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/409.png",
+    dexEntry:
+      "Dieses auf Kopfstöße spezialisierte urzeitliche Pokémon soll einer Theorie zufolge wegen seines kleinen Hirns aus Dummheit ausgestorben sein.",
     pokewikiUrl: "https://www.pokewiki.de/Rameidon",
   },
   {
@@ -6977,6 +7791,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 57,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/410.png",
+    dexEntry:
+      "Man findet zwar in uralten Erdschichten Fossilien dieses Pokémon, aber meist handelt es sich dabei nur um Teile des Gesichts.",
     pokewikiUrl: "https://www.pokewiki.de/Schilterus",
   },
   {
@@ -6994,6 +7810,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 149.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/411.png",
+    dexEntry:
+      "Dieses Pokémon lebte vor etwa 100 Millionen Jahren. Sein unglaublich robustes Gesicht ist härter als Stahl.",
     pokewikiUrl: "https://www.pokewiki.de/Bollterus",
   },
   {
@@ -7011,6 +7829,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/412.png",
+    dexEntry:
+      "Wird sein Umhang im Kampf zerstört, macht es sich schnell aus dem, was es findet, einen neuen.",
     pokewikiUrl: "https://www.pokewiki.de/Burmy",
   },
   {
@@ -7028,6 +7848,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/413.png",
+    dexEntry:
+      "Als sich Burmy entwickelte, wurde sein Umhang Teil des Körpers. Es legt den Umhang niemals ab.",
     pokewikiUrl: "https://www.pokewiki.de/Burmadame",
   },
   {
@@ -7045,6 +7867,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/414.png",
+    dexEntry:
+      "Nachts fliegt es emsig umher und stiehlt, während Wadribie schläft, Honig aus dessen Nest.",
     pokewikiUrl: "https://www.pokewiki.de/Moterpel",
   },
   {
@@ -7062,6 +7886,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/415.png",
+    dexEntry:
+      "Sie sammeln von der Morgendämmerung bis zum Sonnenuntergang unentwegt Blütenhonig für Honweisel und die Kolonie.",
     pokewikiUrl: "https://www.pokewiki.de/Wadribie",
   },
   {
@@ -7079,6 +7905,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 38.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/416.png",
+    dexEntry:
+      "Je mehr Pheromone ein Honweisel freisetzt, desto mehr Wadribie kann es kontrollieren.",
     pokewikiUrl: "https://www.pokewiki.de/Honweisel",
   },
   {
@@ -7096,6 +7924,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/417.png",
+    dexEntry:
+      "Um gespeicherte Elektrizität zu teilen, reiben zwei von ihnen ihre Backentaschen aneinander.",
     pokewikiUrl: "https://www.pokewiki.de/Pachirisu",
   },
   {
@@ -7113,6 +7943,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/418.png",
+    dexEntry:
+      "Es füllt den Schwimmreifen um seinen Hals mit Luft, um den Kopf über dem Wasser zu halten und die Umgebung zu überblicken.",
     pokewikiUrl: "https://www.pokewiki.de/Bamelin",
   },
   {
@@ -7130,6 +7962,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/419.png",
+    dexEntry: "Da es seit jeher Beute im Wasser jagt, entwickelte es einen Rettungsring.",
     pokewikiUrl: "https://www.pokewiki.de/Bojelin",
   },
   {
@@ -7147,6 +7980,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/420.png",
+    dexEntry:
+      "Je stärker die Rotfärbung seines Körpers ist, desto mehr Nährstoffe stecken in ihm und umso süßer und besser schmeckt sein Bällchen.",
     pokewikiUrl: "https://www.pokewiki.de/Kikugi",
   },
   {
@@ -7164,6 +7999,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/421.png",
+    dexEntry:
+      "Die Blütenblätter, die es umschließen, sind hart. Deswegen macht es ihm absolut nichts aus, wenn Vogel-Pokémon es mit ihren Schnäbeln angreifen.",
     pokewikiUrl: "https://www.pokewiki.de/Kinoso",
   },
   {
@@ -7181,6 +8018,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/422.png",
+    dexEntry:
+      "Wenn man es fest drückt, sondert es eine seltsame lilafarbene Flüssigkeit ab. Diese ist zwar nicht schädlich, aber sehr schleimig.",
     pokewikiUrl: "https://www.pokewiki.de/Schalellos",
   },
   {
@@ -7198,6 +8037,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/423.png",
+    dexEntry:
+      "Es ist weich, kann aber einiges einstecken, da sein biegsamer Körper die Wucht von Schlägen absorbiert.",
     pokewikiUrl: "https://www.pokewiki.de/Gastrodon",
   },
   {
@@ -7215,6 +8056,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/424.png",
+    dexEntry:
+      "Es benutzt seine zwei Schweife für alles, was es tut. Wenn es jemanden mit ihnen umarmt, ist das ein Beweis seiner Zuneigung.",
     pokewikiUrl: "https://www.pokewiki.de/Ambidiffel",
   },
   {
@@ -7232,6 +8075,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/425.png",
+    dexEntry:
+      "Sie sind aus einer Ansammlung an Seelen entstanden. In feuchten Jahreszeiten erscheinen sie in rauen Mengen.",
     pokewikiUrl: "https://www.pokewiki.de/Driftlon",
   },
   {
@@ -7249,6 +8094,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/426.png",
+    dexEntry: "Es greift sich Menschen und Pokémon und trägt sie fort. Niemand weiß, wohin.",
     pokewikiUrl: "https://www.pokewiki.de/Drifzepeli",
   },
   {
@@ -7266,6 +8112,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/427.png",
+    dexEntry:
+      "Es greift an, indem es seine Ohren aufrollt und mit viel Schwung wieder entrollt. Durch Training kann Haspiror die Kraft dieser Attacke steigern.",
     pokewikiUrl: "https://www.pokewiki.de/Haspiror",
   },
   {
@@ -7283,6 +8131,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/428.png",
+    dexEntry:
+      "Ist die heiße Jahreszeit vorbei, wechselt sein Fell zu einer Wollfaser, die viel Luft umschließt. So schützt sich Schlapor gegen die Kälte.",
     pokewikiUrl: "https://www.pokewiki.de/Schlapor",
   },
   {
@@ -7300,6 +8150,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/429.png",
+    dexEntry:
+      "Es verursacht schreckliche Qualen, indem es Flüche flüstert, die schlimme Kopfschmerzen und fürchterliche Halluzinationen auslösen.",
     pokewikiUrl: "https://www.pokewiki.de/Traunmagil",
   },
   {
@@ -7317,6 +8169,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 27.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/430.png",
+    dexEntry:
+      "Das Kämpfen überlässt es größtenteils seinen Untergebenen. Es macht sich nur die Flügel schmutzig, um dem Gegner den Rest zu geben.",
     pokewikiUrl: "https://www.pokewiki.de/Kramshef",
   },
   {
@@ -7334,6 +8188,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/431.png",
+    dexEntry:
+      "Je nach Laune lässt es seinen Schweif anmutig wirbeln, ganz wie das Band eines Sportgymnasten.",
     pokewikiUrl: "https://www.pokewiki.de/Charmian",
   },
   {
@@ -7351,6 +8207,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 43.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/432.png",
+    dexEntry:
+      "Damit es bedrohlicher und größer aussieht, umschlingt es seine Taille fest mit seinem Schwanz.",
     pokewikiUrl: "https://www.pokewiki.de/Shnurgarst",
   },
   {
@@ -7368,6 +8226,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/433.png",
+    dexEntry:
+      "In seinem Maul befindet sich eine Kugel, die beim Hopsen ein klingelndes Geräusch erzeugt.",
     pokewikiUrl: "https://www.pokewiki.de/Klingplim",
   },
   {
@@ -7385,6 +8245,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/434.png",
+    dexEntry:
+      "Dreht es einem den Hinterleib zu und hebt seinen Schweif, versprüht es kurz darauf eine Flüssigkeit, die so sehr stinkt, dass sie einem die Sinne raubt.",
     pokewikiUrl: "https://www.pokewiki.de/Skunkapuh",
   },
   {
@@ -7402,6 +8264,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 38,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/435.png",
+    dexEntry:
+      "Die Flüssigkeit, die es aus seinem Schweif sprüht, hat einen sehr starken Geruch. Es errichtet seinen Bau, indem es Löcher in den Boden gräbt.",
     pokewikiUrl: "https://www.pokewiki.de/Skuntank",
   },
   {
@@ -7419,6 +8283,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/436.png",
+    dexEntry:
+      "Es heißt, wenn man es poliert, spiegelt sich die Wahrheit in ihm wider. Bronzel mag es jedoch überhaupt nicht, poliert zu werden.",
     pokewikiUrl: "https://www.pokewiki.de/Bronzel",
   },
   {
@@ -7436,6 +8302,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 187,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/437.png",
+    dexEntry:
+      "Wegen seinem Muster denken viele Forscher, dass dieses Pokémon ursprünglich nicht aus Galar stammt.",
     pokewikiUrl: "https://www.pokewiki.de/Bronzong",
   },
   {
@@ -7453,6 +8321,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/438.png",
+    dexEntry:
+      "Es lebt in trockenen Felsgebieten. Je trockener seine grünen Kugeln sind, desto matter ist ihr Glanz.",
     pokewikiUrl: "https://www.pokewiki.de/Mobai",
   },
   {
@@ -7470,6 +8340,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/439.png",
+    dexEntry:
+      "Es folgt dem talentierten Tänzer Pantifrost wie ein Schüler und imitiert seine Schritte.",
     pokewikiUrl: "https://www.pokewiki.de/Pantimimi",
   },
   {
@@ -7487,6 +8359,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/440.png",
+    dexEntry:
+      "Seinen kostbaren, runden Stein leiht Wonneira nur denjenigen, die es mag. Bekommt es diesen nicht zurück, tobt es und weint bitterlich.",
     pokewikiUrl: "https://www.pokewiki.de/Wonneira",
   },
   {
@@ -7504,6 +8378,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/441.png",
+    dexEntry:
+      "Es kann die menschliche Sprache nachahmen. Versammeln sie sich, bringen sich alle dasselbe bei.",
     pokewikiUrl: "https://www.pokewiki.de/Plaudagei",
   },
   {
@@ -7521,6 +8397,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 108,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/442.png",
+    dexEntry:
+      "Aufgrund seiner ständigen Untaten wurde es von einem Reisenden mithilfe mysteriöser Künste an einen Spiritkern gebunden.",
     pokewikiUrl: "https://www.pokewiki.de/Kryppuk",
   },
   {
@@ -7538,6 +8416,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/443.png",
+    dexEntry:
+      "Es greift alles an, was sich bewegt, und zerrt es in sein Versteck. Kaumalat verfügt zwar über ein großes Maul, aber sein Magen ist relativ klein.",
     pokewikiUrl: "https://www.pokewiki.de/Kaumalat",
   },
   {
@@ -7555,6 +8435,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 56,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/444.png",
+    dexEntry:
+      "In der Höhle, die Knarksel als Nest dient, vergräbt es Edelsteine. Wer sie betritt, wird sofort von seinen Krallen und Zähnen zerfetzt.",
     pokewikiUrl: "https://www.pokewiki.de/Knarksel",
   },
   {
@@ -7572,6 +8454,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 95,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png",
+    dexEntry:
+      "Auch am Boden bewegt es sich schnell. Es kann im verschneiten Gebirge Beute erlegen und in sein Nest bringen, bevor sein Körper auskühlt.",
     pokewikiUrl: "https://www.pokewiki.de/Knakrack",
   },
   {
@@ -7589,6 +8473,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 105,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/446.png",
+    dexEntry:
+      "Es hortet Nahrung unter seinem Fell. Vertraut es jemandem, gibt es ihm manchmal einen kleinen Happen ab, aber nicht mehr.",
     pokewikiUrl: "https://www.pokewiki.de/Mampfaxo",
   },
   {
@@ -7606,6 +8492,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/447.png",
+    dexEntry:
+      "Es erspürt nicht nur die Gefühle anderer, sondern auch den Zustand der Natur durch Wellen, die Aura genannt werden.",
     pokewikiUrl: "https://www.pokewiki.de/Riolu",
   },
   {
@@ -7623,6 +8511,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 54,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+    dexEntry:
+      "Es kann die Gedanken von Menschen lesen. Deshalb lässt es sich nur auf Trainer ein, die ihr Herz auf dem rechten Fleck haben.",
     pokewikiUrl: "https://www.pokewiki.de/Lucario",
   },
   {
@@ -7640,6 +8530,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 49.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/449.png",
+    dexEntry:
+      "Es ist hauptsächlich tagsüber aktiv. Die Nächte in der Wüste sind kalt, deswegen vergräbt es sich zum Schlafen tief im Sand.",
     pokewikiUrl: "https://www.pokewiki.de/Hippopotas",
   },
   {
@@ -7657,6 +8549,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 300,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/450.png",
+    dexEntry:
+      "Wenn man es wütend macht, wird es rabiat. Es stößt aufgenommenen Sand aus und verursacht damit einen Sandsturm.",
     pokewikiUrl: "https://www.pokewiki.de/Hippoterus",
   },
   {
@@ -7674,6 +8568,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/451.png",
+    dexEntry:
+      "Es schlägt mit den giftigen Krallen an seinem Schweif zu. Wer von ihnen gestochen wird, bekommt ein lähmendes Gift injiziert.",
     pokewikiUrl: "https://www.pokewiki.de/Pionskora",
   },
   {
@@ -7691,6 +8587,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 61.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/452.png",
+    dexEntry:
+      "Es wird auch „Wüstendämon“ genannt, weil es so grausam ist. Nur mit Hippoterus legt es sich nie an, sondern verhält sich ruhig.",
     pokewikiUrl: "https://www.pokewiki.de/Piondragi",
   },
   {
@@ -7708,6 +8606,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/453.png",
+    dexEntry:
+      "Verdünnt man sein Gift, wird es zu Medizin. Seit es zum Maskottchen eines Pharmakonzerns wurde, hat es viele neue Fans gewonnen.",
     pokewikiUrl: "https://www.pokewiki.de/Glibunkel",
   },
   {
@@ -7725,6 +8625,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 44.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/454.png",
+    dexEntry:
+      "Wenn es seine Beute erlegt, quakt es seinen Triumph in die Welt hinaus. Es ist artverwandt mit Branawarz.",
     pokewikiUrl: "https://www.pokewiki.de/Toxiquak",
   },
   {
@@ -7742,6 +8644,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 27,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/455.png",
+    dexEntry:
+      "Klammert sich an Bäume in Sümpfen. Lockt Beute mit seinem süßlichen Speichel an und schluckt sie dann.",
     pokewikiUrl: "https://www.pokewiki.de/Venuflibis",
   },
   {
@@ -7759,6 +8663,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/456.png",
+    dexEntry:
+      "Seine leuchtenden Flossen locken Beute an. Bei Tag bleibt es nahe an der Wasseroberfläche, während es abends in den Tiefen verschwindet.",
     pokewikiUrl: "https://www.pokewiki.de/Finneon",
   },
   {
@@ -7776,6 +8682,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/457.png",
+    dexEntry:
+      "Es bewegt sich krabbelnd über den Boden der Tiefsee. Seine prachtvollen Flossen leuchten wie der Sternenhimmel.",
     pokewikiUrl: "https://www.pokewiki.de/Lumineon",
   },
   {
@@ -7793,6 +8701,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 65,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/458.png",
+    dexEntry:
+      "Es mischt sich unter Remoraid-Schwärme und schwimmt mit ihnen. Werden diese angegriffen, kämpft es gemeinsam an ihrer Seite.",
     pokewikiUrl: "https://www.pokewiki.de/Mantirps",
   },
   {
@@ -7810,6 +8720,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 50.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/459.png",
+    dexEntry:
+      "Die an Speiseeis erinnernden Beeren, die an seinem Bauch wachsen, sind bei den Flampion Galars ein sehr beliebter Snack.",
     pokewikiUrl: "https://www.pokewiki.de/Shnebedeck",
   },
   {
@@ -7827,6 +8739,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 135.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/460.png",
+    dexEntry:
+      "Dieses Pokémon löst Blizzards aus. Wenn es seinen großen Körper schüttelt, wird in seiner Umgebung alles sofort schneeweiß.",
     pokewikiUrl: "https://www.pokewiki.de/Rexblisar",
   },
   {
@@ -7844,6 +8758,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 34,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/461.png",
+    dexEntry:
+      "Sie kommunizieren miteinander, indem sie Zeichen mit ihren Krallen hinterlassen. Es soll über 500 davon geben.",
     pokewikiUrl: "https://www.pokewiki.de/Snibunna",
   },
   {
@@ -7861,6 +8777,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 180,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/462.png",
+    dexEntry:
+      "Man vermutet, es habe sich entwickelt, nachdem es einem besonderen Magnetfeld ausgesetzt war, das seine Molekularstruktur veränderte.",
     pokewikiUrl: "https://www.pokewiki.de/Magnezone",
   },
   {
@@ -7878,6 +8796,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 140,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/463.png",
+    dexEntry:
+      "Mit seiner Zunge kann es alles tun und ist damit so geschickt wie Menschen mit ihren Händen. Diese verwendet Schlurplek nur sehr unbeholfen.",
     pokewikiUrl: "https://www.pokewiki.de/Schlurplek",
   },
   {
@@ -7895,6 +8815,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 282.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/464.png",
+    dexEntry:
+      "Mit seinem Schützer wehrt es Angriffe ab und durchsticht dann den verdutzten Gegner mit seinem Bohrer, auf den es sehr stolz ist.",
     pokewikiUrl: "https://www.pokewiki.de/Rihornior",
   },
   {
@@ -7912,6 +8834,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 128.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/465.png",
+    dexEntry:
+      "Je wärmer sein Lebensraum ist, desto schneller wachsen seine Ranken. Werden sie zu lang, kürzt Tangoloss sie, indem es sie abreißt.",
     pokewikiUrl: "https://www.pokewiki.de/Tangoloss",
   },
   {
@@ -7929,6 +8853,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 138.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/466.png",
+    dexEntry:
+      "Elevoltek gehört zu jenen Elektro-Pokémon, die den meisten Strom erzeugen können. Mit seinen Schweifspitzen entlädt es Starkstrom.",
     pokewikiUrl: "https://www.pokewiki.de/Elevoltek",
   },
   {
@@ -7946,6 +8872,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 68,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/467.png",
+    dexEntry:
+      "Durch das Leben in Vulkankratern ähnelt Magbrants Körper seinem Umfeld. Es besitzt ein Organ, das einer Magmakammer gleicht.",
     pokewikiUrl: "https://www.pokewiki.de/Magbrant",
   },
   {
@@ -7963,6 +8891,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 38,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/468.png",
+    dexEntry:
+      "Man sagt, es verteile Wohltaten. Aus diesem Grund wird sein Abbild seit Urzeiten für Glücksbringer verwendet.",
     pokewikiUrl: "https://www.pokewiki.de/Togekiss",
   },
   {
@@ -7980,6 +8910,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 51.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/469.png",
+    dexEntry:
+      "Es kann mühelos einen Erwachsenen umhertragen. Die Federn an seinem Hinterteil stabilisieren seinen Flug.",
     pokewikiUrl: "https://www.pokewiki.de/Yanmega",
   },
   {
@@ -7997,6 +8929,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/470.png",
+    dexEntry:
+      "Sein Schweif ist scharf wie eine Klinge. Es ist stolz darauf, dass es damit selbst einen großen Baum sauber zweiteilen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Folipurba",
   },
   {
@@ -8014,6 +8948,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/471.png",
+    dexEntry:
+      "Die kalte Luft, die Glaziola abgibt, erzeugt Pulverschnee. In Skigebieten erfreut es sich daher großer Beliebtheit.",
     pokewikiUrl: "https://www.pokewiki.de/Glaziola",
   },
   {
@@ -8031,6 +8967,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 42.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/472.png",
+    dexEntry:
+      "Es fliegt völlig lautlos. Erst fängt es seine Beute mit seinem langen Schweif, dann saugt es sie aus.",
     pokewikiUrl: "https://www.pokewiki.de/Skorgro",
   },
   {
@@ -8048,6 +8986,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 291,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/473.png",
+    dexEntry:
+      "Es ist so stark, wie es aussieht. Je kälter es ist, desto dicker, länger und beeindruckender werden seine Stoßzähne aus Eis.",
     pokewikiUrl: "https://www.pokewiki.de/Mamutel",
   },
   {
@@ -8065,6 +9005,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 34,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/474.png",
+    dexEntry:
+      "Es heißt, es habe sich durch eine neue Software entwickelt, doch Wissenschaftler sind sich nicht einig, ob Porygon-Z wirklich eine Entwicklung ist.",
     pokewikiUrl: "https://www.pokewiki.de/Porygon-Z",
   },
   {
@@ -8082,6 +9024,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 52,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/475.png",
+    dexEntry: "Es spürt sofort, wenn jemand in Not ist, und eilt ihm unverzüglich zu Hilfe.",
     pokewikiUrl: "https://www.pokewiki.de/Galagladi",
   },
   {
@@ -8099,6 +9042,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 340,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/476.png",
+    dexEntry:
+      "Sein Körper selbst befehligt meist nur die drei kleinen Einheiten, die an seiner Stelle kämpfen und für die Nahrungssuche zuständig sind.",
     pokewikiUrl: "https://www.pokewiki.de/Voluminas",
   },
   {
@@ -8116,6 +9061,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 106.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/477.png",
+    dexEntry:
+      "Es verschluckt Beute im Ganzen mit dem Maul an seinem Bauch, verspeist aber nur ihre Seele. Den Körper spuckt es wieder aus.",
     pokewikiUrl: "https://www.pokewiki.de/Zwirrfinst",
   },
   {
@@ -8133,6 +9080,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 26.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/478.png",
+    dexEntry:
+      "Es friert seine Beute mit -50 ºC kalter Luft ein, nimmt sie dann in seinen Unterschlupf mit und reiht sie dort fein säuberlich auf.",
     pokewikiUrl: "https://www.pokewiki.de/Frosdedje",
   },
   {
@@ -8150,6 +9099,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/479.png",
+    dexEntry:
+      "Mit seinem aus Plasma bestehenden Körper kann es in verschiedene Geräte schlüpfen. Es liebt es, andere zu erschrecken.",
     pokewikiUrl: "https://www.pokewiki.de/Rotom",
   },
   {
@@ -8167,6 +9118,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/480.png",
+    dexEntry:
+      "Man sagt, dass durch sein Auftauchen Menschen die Intelligenz erhielten, ihr Leben zu verbessern.",
     pokewikiUrl: "https://www.pokewiki.de/Selfe",
   },
   {
@@ -8184,6 +9137,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/481.png",
+    dexEntry:
+      "Es schläft auf dem Grund eines Sees. Man sagt, sein Geist verlasse den Körper und fliege über den See.",
     pokewikiUrl: "https://www.pokewiki.de/Vesprit",
   },
   {
@@ -8201,6 +9156,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/482.png",
+    dexEntry: "Man glaubt, dass Selfe, Vesprit und Tobutz alle aus demselben Ei kamen.",
     pokewikiUrl: "https://www.pokewiki.de/Tobutz",
   },
   {
@@ -8218,6 +9174,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 683,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/483.png",
+    dexEntry:
+      "Es besitzt die Macht, die Zeit zu kontrollieren. In den Mythen von Sinnoh erscheint es als Gottheit.",
     pokewikiUrl: "https://www.pokewiki.de/Dialga",
   },
   {
@@ -8235,6 +9193,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 336,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/484.png",
+    dexEntry:
+      "Es hat die Macht, den Raum zu krümmen. In den Mythen von Sinnoh erscheint es als Gottheit.",
     pokewikiUrl: "https://www.pokewiki.de/Palkia",
   },
   {
@@ -8252,6 +9212,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 430,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/485.png",
+    dexEntry:
+      "Das Blut, das durch seinen Körper fließt, brodelt heiß wie Magma. Es lebt in vulkanischen Höhlen.",
     pokewikiUrl: "https://www.pokewiki.de/Heatran",
   },
   {
@@ -8269,6 +9231,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 420,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/486.png",
+    dexEntry:
+      "Man sagt, es habe aus verschiedenen Materialien Pokémon erschaffen und dann die Kontinente an ihren jetzigen Standort bewegt.",
     pokewikiUrl: "https://www.pokewiki.de/Regigigas",
   },
   {
@@ -8286,6 +9250,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 750,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/487.png",
+    dexEntry:
+      "Es wurde aufgrund seines Verhaltens verbannt. Aus der Zerrwelt schaut es auf die alte Welt.",
     pokewikiUrl: "https://www.pokewiki.de/Giratina",
   },
   {
@@ -8303,6 +9269,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 85.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/488.png",
+    dexEntry:
+      "Hält man eine seiner Federn, träumt man süß. Manche glauben, es sei die Verkörperung der Mondsichel.",
     pokewikiUrl: "https://www.pokewiki.de/Cresselia",
   },
   {
@@ -8320,6 +9288,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/489.png",
+    dexEntry:
+      "Lässt sich in warmen Meeren treiben, kehrt aber immer an den Platz seiner Geburt zurück.",
     pokewikiUrl: "https://www.pokewiki.de/Phione",
   },
   {
@@ -8337,6 +9307,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/490.png",
+    dexEntry:
+      "Es besitzt die wundersame Fähigkeit, das Herz eines jeden anderen Pokémon anzurühren.",
     pokewikiUrl: "https://www.pokewiki.de/Manaphy",
   },
   {
@@ -8354,6 +9326,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 50.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/491.png",
+    dexEntry:
+      "Es kann andere in Schlaf versetzen und ihnen Träume geben. Es ist nur bei Neumond aktiv.",
     pokewikiUrl: "https://www.pokewiki.de/Darkrai",
   },
   {
@@ -8371,6 +9345,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/492.png",
+    dexEntry:
+      "Es heißt, wenn die Gracidea blühen, drückt es seine Dankbarkeit aus, indem es hoch in die Lüfte fliegt.",
     pokewikiUrl: "https://www.pokewiki.de/Shaymin",
   },
   {
@@ -8388,6 +9364,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 320,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/493.png",
+    dexEntry:
+      "Die Mythologie erzählt, dass dieses Pokémon geboren wurde, bevor das Universum überhaupt existierte.",
     pokewikiUrl: "https://www.pokewiki.de/Arceus",
   },
   {
@@ -8405,6 +9383,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/494.png",
+    dexEntry:
+      "Jeder, dem Victini seine grenzenlose Energie zuteilwerden lässt, strotzt nur so vor Kraft.",
     pokewikiUrl: "https://www.pokewiki.de/Victini",
   },
   {
@@ -8422,6 +9402,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/495.png",
+    dexEntry:
+      "Fängt mit dem Schweif Sonnenlicht auf, um Photosynthese zu betreiben. Fehlt ihm die Kraft, hängt sein Schweif schlaff herab.",
     pokewikiUrl: "https://www.pokewiki.de/Serpifeu",
   },
   {
@@ -8439,6 +9421,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/496.png",
+    dexEntry:
+      "Es achtet stets auf Reinlichkeit, da es mit schmutzigen Blättern keine Photosynthese betreiben kann.",
     pokewikiUrl: "https://www.pokewiki.de/Efoserp",
   },
   {
@@ -8456,6 +9440,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 63,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/497.png",
+    dexEntry:
+      "Bringt Gegner mit einem einzigen kühlen Blick zum Erstarren. In seinem Inneren verstärkt es die Energie der Sonne.",
     pokewikiUrl: "https://www.pokewiki.de/Serpiroyal",
   },
   {
@@ -8473,6 +9459,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/498.png",
+    dexEntry:
+      "Floink liebt es, selbst geröstete Nüsse zu verspeisen. Ab und zu verkohlt es sie jedoch ungewollt vor lauter Vorfreude.",
     pokewikiUrl: "https://www.pokewiki.de/Floink",
   },
   {
@@ -8490,6 +9478,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/499.png",
+    dexEntry:
+      "Lodert das Feuer in ihm auf, bewegt es sich geschmeidiger und schneller. Bei Gefahr lässt es ordentlich Dampf ab.",
     pokewikiUrl: "https://www.pokewiki.de/Ferkokel",
   },
   {
@@ -8507,6 +9497,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 150,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/500.png",
+    dexEntry:
+      "Es trägt einen Backenbart aus Feuer und beherrscht Kampftechniken, die ebenso wuchtig wie schnell sind.",
     pokewikiUrl: "https://www.pokewiki.de/Flambirex",
   },
   {
@@ -8524,6 +9516,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/501.png",
+    dexEntry:
+      "Kämpft mit der Muschel auf seinem Bauch. Pariert es einen Angriff, schlägt es sofort mit einer Schnitt-Attacke zurück.",
     pokewikiUrl: "https://www.pokewiki.de/Ottaro",
   },
   {
@@ -8541,6 +9535,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/502.png",
+    dexEntry:
+      "Jedes Zwottronin eignet sich über strenges Training einen völlig eigenen Muschelkampfstil an.",
     pokewikiUrl: "https://www.pokewiki.de/Zwottronin",
   },
   {
@@ -8558,6 +9554,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 94.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/503.png",
+    dexEntry:
+      "Besiegt Gegner durch einen einzigen Hieb mit der Klinge an seinem Panzer. Ein böser Blick und seine Feinde verstummen.",
     pokewikiUrl: "https://www.pokewiki.de/Admurai",
   },
   {
@@ -8575,6 +9573,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/504.png",
+    dexEntry:
+      "Eines dieser vorsichtigen Pokémon steht immer vor ihrem Bau Wache. Nähert sich jedoch ein Feind von hinten, ist es aus.",
     pokewikiUrl: "https://www.pokewiki.de/Nagelotz",
   },
   {
@@ -8592,6 +9592,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 27,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/505.png",
+    dexEntry:
+      "Bespuckt Gegner mit Kernen von Beeren aus seinen Backentaschen. Erspäht es einen Feind, richtet es den Schweif auf.",
     pokewikiUrl: "https://www.pokewiki.de/Kukmarda",
   },
   {
@@ -8609,6 +9611,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/506.png",
+    dexEntry:
+      "Yorkleff ist deutlich intelligenter als die meisten Kinder und vergisst nie, wenn man ihm Zuneigung entgegenbringt oder es schlecht behandelt.",
     pokewikiUrl: "https://www.pokewiki.de/Yorkleff",
   },
   {
@@ -8626,6 +9630,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/507.png",
+    dexEntry:
+      "Das dunkle Fell, das seinen Körper bedeckt, ist sehr dicht und federnd. Selbst Angriffe mit scharfen Fangzähnen prallen davon ab.",
     pokewikiUrl: "https://www.pokewiki.de/Terribark",
   },
   {
@@ -8643,6 +9649,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 61,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/508.png",
+    dexEntry:
+      "Seinen üppigen Schnauzbart trägt es mit Stolz. Angeblich entscheidet dessen Länge über die Rangordnung innerhalb dieser Pokémon-Art.",
     pokewikiUrl: "https://www.pokewiki.de/Bissbark",
   },
   {
@@ -8660,6 +9668,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/509.png",
+    dexEntry:
+      "Es wiegt andere durch liebenswertes Verhalten in Sicherheit, kratzt sie dann plötzlich und amüsiert sich prächtig darüber.",
     pokewikiUrl: "https://www.pokewiki.de/Felilou",
   },
   {
@@ -8677,6 +9687,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 37.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/510.png",
+    dexEntry:
+      "Dieses Pokémon schleicht sich völlig geräuschlos von hinten an seine Beute heran. Es bestreitet Revierkämpfe mit Gaunux.",
     pokewikiUrl: "https://www.pokewiki.de/Kleoparda",
   },
   {
@@ -8694,6 +9706,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/511.png",
+    dexEntry:
+      "Ein nettes Kerlchen, das so talentiert darin ist, Beeren aufzuspüren, dass es sie mit all seinen Kameraden teilt.",
     pokewikiUrl: "https://www.pokewiki.de/Vegimak",
   },
   {
@@ -8711,6 +9725,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/512.png",
+    dexEntry:
+      "Ein hitziger Geselle, der im Kampf seinen dornigen Schweif umherschwingt. Auf seinem Kopf wachsen bittere Kräuter.",
     pokewikiUrl: "https://www.pokewiki.de/Vegichita",
   },
   {
@@ -8728,6 +9744,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/513.png",
+    dexEntry:
+      "Das Feuer in seinem Kopfbüschel erreicht Temperaturen von bis zu 300 °C. Es ist in Vulkanhöhlen zu Hause.",
     pokewikiUrl: "https://www.pokewiki.de/Grillmak",
   },
   {
@@ -8745,6 +9763,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/514.png",
+    dexEntry:
+      "Freut es sich, erhitzt sich sein Körper und aus seinem Kopf und Schweif sprühen Funken. Es liebt Süßigkeiten.",
     pokewikiUrl: "https://www.pokewiki.de/Grillchita",
   },
   {
@@ -8762,6 +9782,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/515.png",
+    dexEntry:
+      "Das Wasser, das es im Büschel auf seinem Kopf sammelt, ist äußerst nahrhaft und verhilft Pflanzen zu großem Wachstum.",
     pokewikiUrl: "https://www.pokewiki.de/Sodamak",
   },
   {
@@ -8779,6 +9801,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/516.png",
+    dexEntry:
+      "Hält sich bevorzugt in reinen Gewässern auf. Geht ihm das Wasser in seinem Kopf aus, tankt es mit seinem Schweif nach.",
     pokewikiUrl: "https://www.pokewiki.de/Sodachita",
   },
   {
@@ -8796,6 +9820,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/517.png",
+    dexEntry:
+      "Während es Träume frisst, stößt es Dunst aus. Bei fröhlichen Träumen ist dieser rosafarben, bei Alpträumen schwärzlich.",
     pokewikiUrl: "https://www.pokewiki.de/Somniam",
   },
   {
@@ -8813,6 +9839,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/518.png",
+    dexEntry:
+      "Es schlummert und träumt immerzu. Wenn es geweckt wird, bekommt es schlechte Laune. Deshalb sollte man es lieber in Ruhe lassen.",
     pokewikiUrl: "https://www.pokewiki.de/Somnivora",
   },
   {
@@ -8830,6 +9858,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/519.png",
+    dexEntry:
+      "Sie sind vergesslich und nicht besonders clever, aber da sie sehr zutraulich und fleißig sind, haben viele Trainer sie ins Herz geschlossen.",
     pokewikiUrl: "https://www.pokewiki.de/Dusselgurr",
   },
   {
@@ -8847,6 +9877,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/520.png",
+    dexEntry:
+      "Es ist clever und hat ein gutes Gedächtnis. Anscheinend wird es von vielen Lieferanten als Partner ausgewählt.",
     pokewikiUrl: "https://www.pokewiki.de/Navitaub",
   },
   {
@@ -8864,6 +9896,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/521.png",
+    dexEntry:
+      "Es ist schlau, aber auch sehr stolz. Seine Trainer genießen daher generell großen Respekt.",
     pokewikiUrl: "https://www.pokewiki.de/Fasasnob",
   },
   {
@@ -8881,6 +9915,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/522.png",
+    dexEntry:
+      "Um mit Artgenossen zu kommunizieren, nutzt es das Aufblitzen seiner Mähne beim Entladen von Strom als Morsecode.",
     pokewikiUrl: "https://www.pokewiki.de/Elezeba",
   },
   {
@@ -8898,6 +9934,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 79.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/523.png",
+    dexEntry:
+      "Es ist explosiv wie ein Blitz. Galoppiert es mit voller Geschwindigkeit drauflos, kann man Donnerhall vernehmen.",
     pokewikiUrl: "https://www.pokewiki.de/Zebritz",
   },
   {
@@ -8915,6 +9953,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/524.png",
+    dexEntry:
+      "Es bewegt sich stets auf Geräuschquellen zu. Dank seines Energiekerns fühlt es sich immer leicht warm an, wenn man es berührt.",
     pokewikiUrl: "https://www.pokewiki.de/Kiesling",
   },
   {
@@ -8932,6 +9972,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 102,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/525.png",
+    dexEntry:
+      "Es nimmt die Umgebung über akustische Reize wahr. Ärgerliche Störenfriede kann es verfolgen, ohne sich ihnen zuwenden zu müssen.",
     pokewikiUrl: "https://www.pokewiki.de/Sedimantur",
   },
   {
@@ -8949,6 +9991,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 260,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/526.png",
+    dexEntry:
+      "Seine Energiekugeln können einen Lastwagen durch die Luft schleudern. Diese kann es aber nur bei schönem Wetter abfeuern.",
     pokewikiUrl: "https://www.pokewiki.de/Brockoloss",
   },
   {
@@ -8966,6 +10010,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/527.png",
+    dexEntry:
+      "Es fliegt umher und sendet Ultraschallwellen aus, um Käfer-Pokémon aufzuspüren, welche ihm als Nahrung dienen.",
     pokewikiUrl: "https://www.pokewiki.de/Fleknoil",
   },
   {
@@ -8983,6 +10029,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/528.png",
+    dexEntry:
+      "Es wird in manchen Regionen für seine Nasenform verehrt, die angeblich Glück bringen soll.",
     pokewikiUrl: "https://www.pokewiki.de/Fletiamo",
   },
   {
@@ -9000,6 +10048,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/529.png",
+    dexEntry:
+      "Ein Pokémon, das sich bei Landwirten mäßiger Beliebtheit erfreut, da es beim Graben durchs Erdreich gelegentlich ihre Ernten ruiniert.",
     pokewikiUrl: "https://www.pokewiki.de/Rotomurf",
   },
   {
@@ -9017,6 +10067,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/530.png",
+    dexEntry:
+      "Es wird auch der „Bohrkönig“ genannt. Bei seinen Bohrmanövern im Erdreich erreicht es eine Spitzengeschwindigkeit von 150 km/h.",
     pokewikiUrl: "https://www.pokewiki.de/Stalobor",
   },
   {
@@ -9034,6 +10086,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/531.png",
+    dexEntry:
+      "Berührt dieses herzensgute Pokémon jemanden mit seinen Fühlern, kann es dessen körperliche Verfassung und Gemütszustand ertasten.",
     pokewikiUrl: "https://www.pokewiki.de/Ohrdoch",
   },
   {
@@ -9051,6 +10105,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/532.png",
+    dexEntry:
+      "Man sagt, seine Entwicklung stehe dann kurz bevor, wenn es einen Holzbalken heben kann, der dreimal so groß und schwer ist wie es selbst.",
     pokewikiUrl: "https://www.pokewiki.de/Praktibalk",
   },
   {
@@ -9068,6 +10124,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/533.png",
+    dexEntry:
+      "Es ist gut im Tragen von Stahlträgern und im Abreißen von Häusern. Das Bauen dagegen liegt ihm nicht besonders.",
     pokewikiUrl: "https://www.pokewiki.de/Strepoli",
   },
   {
@@ -9085,6 +10143,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 87,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/534.png",
+    dexEntry:
+      "Dreht es richtig auf, wirft es seine Betonpfeiler zur Seite und stürzt sich mit gezückter Faust auf den Gegner.",
     pokewikiUrl: "https://www.pokewiki.de/Meistagrif",
   },
   {
@@ -9102,6 +10162,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/535.png",
+    dexEntry:
+      "Es kommuniziert mit seinen Artgenossen über Schallwellen. Seine Warnrufe sind für Menschen und andere Pokémon nicht hörbar.",
     pokewikiUrl: "https://www.pokewiki.de/Schallquap",
   },
   {
@@ -9119,6 +10181,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/536.png",
+    dexEntry:
+      "Gelegentlich singt es sehr schön. Je größer die Fortsätze an seinem Körper ausgebildet sind, desto ausgeprägter fällt sein Stimmumfang aus.",
     pokewikiUrl: "https://www.pokewiki.de/Mebrana",
   },
   {
@@ -9136,6 +10200,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 62,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/537.png",
+    dexEntry:
+      "Es erfreut sich großer Beliebtheit bei Senioren, seit bekannt wurde, dass sich seine vibrierenden Beulen zur Massagetherapie einsetzen lassen.",
     pokewikiUrl: "https://www.pokewiki.de/Branawarz",
   },
   {
@@ -9153,6 +10219,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/538.png",
+    dexEntry:
+      "Es trainiert stets in Fünferrudeln. Wer beim Training nicht mithalten kann, entledigt sich seines Gürtels und verlässt das Rudel.",
     pokewikiUrl: "https://www.pokewiki.de/Jiutesto",
   },
   {
@@ -9170,6 +10238,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 51,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/539.png",
+    dexEntry:
+      "Der Karateschlag eines perfekt durchtrainierten Karadonis’ hat genug Wucht, um selbst das Meer zu spalten.",
     pokewikiUrl: "https://www.pokewiki.de/Karadonis",
   },
   {
@@ -9187,6 +10257,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/540.png",
+    dexEntry:
+      "Unter Modeschöpfern gilt es als beliebtes Maskottchen, da es sich aus Blättern Kleidchen schneidert.",
     pokewikiUrl: "https://www.pokewiki.de/Strawickl",
   },
   {
@@ -9204,6 +10276,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/541.png",
+    dexEntry:
+      "Es schützt sich vor Kälte, indem es sich in Blätter einwickelt. Es durchstreift Wälder und frisst herabgefallenes Laub.",
     pokewikiUrl: "https://www.pokewiki.de/Folikon",
   },
   {
@@ -9221,6 +10295,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/542.png",
+    dexEntry:
+      "Nutzt die Hitze kompostierenden Laubes zum Ausbrüten von Eiern. Es fertigt aus Blättern Kleidchen für Strawickl an.",
     pokewikiUrl: "https://www.pokewiki.de/Matrifol",
   },
   {
@@ -9238,6 +10314,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/543.png",
+    dexEntry:
+      "In den Fangzähnen speichert es höchst potentes Gift. Wenn Toxiped potenzielle Beute erspäht, stürzt es sich vollkommen unüberlegt auf diese.",
     pokewikiUrl: "https://www.pokewiki.de/Toxiped",
   },
   {
@@ -9255,6 +10333,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 58.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/544.png",
+    dexEntry:
+      "Es schützt sich mit seinem harten Panzer und den Giftspitzen, um ungestört genügend Energie für seine Entwicklung zu sammeln.",
     pokewikiUrl: "https://www.pokewiki.de/Rollum",
   },
   {
@@ -9272,6 +10352,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 200.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/545.png",
+    dexEntry:
+      "Es liefert sich erbitterte Revierkämpfe mit Infernopod. Wer den Kampf verliert, wird zur Beute des Siegers.",
     pokewikiUrl: "https://www.pokewiki.de/Cerapendra",
   },
   {
@@ -9289,6 +10371,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/546.png",
+    dexEntry:
+      "Luxusmarken verwenden oft feine Stoffe, die aus Mischwolle von Waumboll und Cottomi bestehen, für ihre Produkte.",
     pokewikiUrl: "https://www.pokewiki.de/Waumboll",
   },
   {
@@ -9306,6 +10390,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/547.png",
+    dexEntry:
+      "Sonnenlicht lässt seine Wolle anwachsen. Wird das Volumen zu groß, zupft es die Wolle ab und verstreut sie überall in der Gegend.",
     pokewikiUrl: "https://www.pokewiki.de/Elfun",
   },
   {
@@ -9323,6 +10409,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/548.png",
+    dexEntry:
+      "Je kräftiger die Farbe seiner Blätter, desto gesünder ist es. Lilminip lässt sich zuweilen in gut gepflegten Blumenbeeten oder Feldern nieder.",
     pokewikiUrl: "https://www.pokewiki.de/Lilminip",
   },
   {
@@ -9340,6 +10428,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/549.png",
+    dexEntry:
+      "Das aus seiner Blume gewonnene ätherische Öl verströmt den allerfeinsten Duft, doch es kostet ein Vermögen.",
     pokewikiUrl: "https://www.pokewiki.de/Dressella",
   },
   {
@@ -9357,6 +10447,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/550.png",
+    dexEntry:
+      "Früher standen sie oft auf dem Speiseplan. Das Fleisch rotliniger Exemplare war wegen seines hohen Fettanteils bei jungen Leuten sehr beliebt.",
     pokewikiUrl: "https://www.pokewiki.de/Barschuft",
   },
   {
@@ -9374,6 +10466,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/551.png",
+    dexEntry:
+      "Ganovil ist zwar klein, verfügt aber über kräftige Beine, mit denen es sich durch den Wüstensand fortbewegt, als würde es schwimmen.",
     pokewikiUrl: "https://www.pokewiki.de/Ganovil",
   },
   {
@@ -9391,6 +10485,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/552.png",
+    dexEntry:
+      "Obwohl es dank seiner besonderen Augen auch im Dunkeln gut sehen kann, bewegt es sich nachts nur selten, da die Wüste dann abkühlt.",
     pokewikiUrl: "https://www.pokewiki.de/Rokkaiman",
   },
   {
@@ -9408,6 +10504,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 96.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/553.png",
+    dexEntry:
+      "Rabigator ist zwar aggressiv, doch wenn es bei der Jagd nach Beute auf der Lauer liegt, kann es auch mehrere Tage geduldig im Sand ausharren.",
     pokewikiUrl: "https://www.pokewiki.de/Rabigator",
   },
   {
@@ -9425,6 +10523,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 37.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/554.png",
+    dexEntry:
+      "Während es schläft, lässt es sich nicht mal mit Gewalt umstoßen. Aus diesem Grund ist es ein beliebtes Motiv für Glücksbringer.",
     pokewikiUrl: "https://www.pokewiki.de/Flampion",
   },
   {
@@ -9442,6 +10542,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 92.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/555.png",
+    dexEntry:
+      "Je heißer das Feuer in ihm brennt, desto mehr Kraft steht ihm zur Verfügung. Seine innere Temperatur erreicht mitunter mehr als 1 400 ºC.",
     pokewikiUrl: "https://www.pokewiki.de/Flampivian",
   },
   {
@@ -9459,6 +10561,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/556.png",
+    dexEntry:
+      "Es verstreut ein Mal im Jahr Samen, die jede Menge Nährstoffe enthalten und in der Wüste als kostbares Nahrungsmittel gelten.",
     pokewikiUrl: "https://www.pokewiki.de/Maracamba",
   },
   {
@@ -9476,6 +10580,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/557.png",
+    dexEntry:
+      "Wenn es keinen Stein findet, der sich als Haus eignet, lässt es sich manchmal in den Öffnungen im Körper eines Hippoterus’ nieder.",
     pokewikiUrl: "https://www.pokewiki.de/Lithomith",
   },
   {
@@ -9493,6 +10599,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 200,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/558.png",
+    dexEntry:
+      "Seine kräftigen Scheren sind robuste Waffen. Sie sind hart genug, um selbst in den Schützern von Rihornior Risse zu hinterlassen.",
     pokewikiUrl: "https://www.pokewiki.de/Castellith",
   },
   {
@@ -9510,6 +10618,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/559.png",
+    dexEntry:
+      "Es hat besonders robuste Haut, die seinen Körper schützt. Es heißt, wenn sich die Haut nicht weiter dehnen lässt, steht die Entwicklung bevor.",
     pokewikiUrl: "https://www.pokewiki.de/Zurrokex",
   },
   {
@@ -9527,6 +10637,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/560.png",
+    dexEntry:
+      "Es gibt sich gerne wild, aber seine Familie, seine Kameraden und sein Revier liegen ihm sehr am Herzen.",
     pokewikiUrl: "https://www.pokewiki.de/Irokex",
   },
   {
@@ -9544,6 +10656,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/561.png",
+    dexEntry:
+      "In den Wüsten, in denen man Symvolara fliegen sieht, wurden Ruinen gefunden, die man für die Überreste einer Stadt aus uralten Zeiten hält.",
     pokewikiUrl: "https://www.pokewiki.de/Symvolara",
   },
   {
@@ -9561,6 +10675,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/562.png",
+    dexEntry:
+      "Makabaja sind Seelen von Menschen aus uralten Zeiten, die zu Pokémon wurden. Sie suchen in Ruinen nach Leuten, die ihr Gesicht kennen.",
     pokewikiUrl: "https://www.pokewiki.de/Makabaja",
   },
   {
@@ -9578,6 +10694,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 76.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/563.png",
+    dexEntry:
+      "Darstellungen von Echnatoll auf den Wänden alter Königsgräber sind ein Zeichen dafür, dass der dort begrabene Regent wohlhabend war.",
     pokewikiUrl: "https://www.pokewiki.de/Echnatoll",
   },
   {
@@ -9595,6 +10713,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/564.png",
+    dexEntry:
+      "Man vermutet, Galapaflos sei der Vorfahr vieler Schildkröten-Pokémon. Es wurde aus einem urzeitlichen Fossil wieder zum Leben erweckt.",
     pokewikiUrl: "https://www.pokewiki.de/Galapaflos",
   },
   {
@@ -9612,6 +10732,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 81,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/565.png",
+    dexEntry:
+      "Obwohl es sich außerhalb des Wassers langsamer fortbewegt, kommt es an Land, um nach Beute zu suchen.",
     pokewikiUrl: "https://www.pokewiki.de/Karippas",
   },
   {
@@ -9629,6 +10751,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/566.png",
+    dexEntry:
+      "Flapteryx wird oft als Urahn der Vogel-Pokémon bezeichnet. Es lebte in Baumwipfeln und ernährte sich von Beeren und Käfer-Pokémon.",
     pokewikiUrl: "https://www.pokewiki.de/Flapteryx",
   },
   {
@@ -9646,6 +10770,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 32,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/567.png",
+    dexEntry:
+      "Es konnte zwar auch fliegen, schien aber sehr viel geschickter darin zu sein, am Boden Jagd auf Beute zu machen.",
     pokewikiUrl: "https://www.pokewiki.de/Aeropteryx",
   },
   {
@@ -9663,6 +10789,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/568.png",
+    dexEntry:
+      "Es ist aus einer überfüllten Mülltüte entstanden. Die Smogmog der Galar-Region sind verrückt nach den giftigen Gasen, die es ausstößt.",
     pokewikiUrl: "https://www.pokewiki.de/Unrat%C3%BCtox",
   },
   {
@@ -9680,6 +10808,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 107.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/569.png",
+    dexEntry:
+      "Die toxische Flüssigkeit aus seinem rechten Arm ist sehr gefährlich. Angeschlagene Lebewesen kommen bei Kontakt sofort ums Leben.",
     pokewikiUrl: "https://www.pokewiki.de/Deponitox",
   },
   {
@@ -9697,6 +10827,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/570.png",
+    dexEntry:
+      "Auf der Suche nach Nahrung verschlägt es Zorua manchmal auch in Städte. Dort tarnt es sich üblicherweise als Menschenkind.",
     pokewikiUrl: "https://www.pokewiki.de/Zorua",
   },
   {
@@ -9714,6 +10846,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 81.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/571.png",
+    dexEntry:
+      "Trainer, denen es an Gesellschaft fehlt, weisen Zoroark manchmal dazu an, ihnen eine Illusion zu zeigen, um sich von ihrer Einsamkeit abzulenken.",
     pokewikiUrl: "https://www.pokewiki.de/Zoroark",
   },
   {
@@ -9731,6 +10865,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/572.png",
+    dexEntry:
+      "Sie begrüßen sich, indem sie sich gegenseitig mit ihren Schweifen streicheln. Das Picochilla mit dem buschigeren Schweif gibt damit oft an.",
     pokewikiUrl: "https://www.pokewiki.de/Picochilla",
   },
   {
@@ -9748,6 +10884,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/573.png",
+    dexEntry:
+      "Sein Fell ist mit einem körpereigenen Öl bedeckt, das Attacken abwehren kann. Öl von Chillabell ist wertvoll und wird zu hohen Preisen gehandelt.",
     pokewikiUrl: "https://www.pokewiki.de/Chillabell",
   },
   {
@@ -9765,6 +10903,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/574.png",
+    dexEntry:
+      "Manchmal stößt es Rufe aus, obwohl niemand da ist. Man vermutet, dass es sich mit irgendetwas unterhält, das für niemanden sonst sichtbar ist.",
     pokewikiUrl: "https://www.pokewiki.de/Mollimorba",
   },
   {
@@ -9782,6 +10922,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/575.png",
+    dexEntry:
+      "An sternklaren Abenden erreicht es angeblich den Höhepunkt seiner Psycho-Kräfte. Seine genaue Verbindung zum Weltraum ist unklar.",
     pokewikiUrl: "https://www.pokewiki.de/Hypnomorba",
   },
   {
@@ -9799,6 +10941,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 44,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/576.png",
+    dexEntry:
+      "Ein böser Mensch verschwand einst am selben Tag, an dem ein Morbitesse ihm die letzten Momente seines Lebens gezeigt hatte.",
     pokewikiUrl: "https://www.pokewiki.de/Morbitesse",
   },
   {
@@ -9816,6 +10960,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/577.png",
+    dexEntry:
+      "Sein Körper ist von einer speziellen Flüssigkeit umgeben. Es heißt, dass es dank dieser Blase sogar im Weltraum überleben könne.",
     pokewikiUrl: "https://www.pokewiki.de/Monozyto",
   },
   {
@@ -9833,6 +10979,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/578.png",
+    dexEntry:
+      "Weil die beiden Hälften seines gespaltenen Denkapparates fast nie einer Meinung sind, ist es auf gewisse Weise unberechenbar.",
     pokewikiUrl: "https://www.pokewiki.de/Mitodos",
   },
   {
@@ -9850,6 +10998,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/579.png",
+    dexEntry:
+      "Seine seltsame Flüssigkeit soll große Intelligenz verleihen, wenn man sie trinkt. Leider ist sie ein tödliches Gift für alle außer Zytomega.",
     pokewikiUrl: "https://www.pokewiki.de/Zytomega",
   },
   {
@@ -9867,6 +11017,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/580.png",
+    dexEntry:
+      "Es schwimmt besser, als es fliegen kann. Am liebsten taucht es ins kühle Nass ab, um Torfmoos, seine Leibspeise, zu essen.",
     pokewikiUrl: "https://www.pokewiki.de/Piccolente",
   },
   {
@@ -9884,6 +11036,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/581.png",
+    dexEntry:
+      "Wenn der Morgen dämmert, fangen sie an zu tanzen. Das Swaroness in der Mitte führt die Gruppe an.",
     pokewikiUrl: "https://www.pokewiki.de/Swaroness",
   },
   {
@@ -9901,6 +11055,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/582.png",
+    dexEntry:
+      "Es entstand angeblich aus einem Eiszapfen und speit -50 ºC kalte Luft aus, um die Umgebung auf seine Wohlfühltemperatur abzukühlen.",
     pokewikiUrl: "https://www.pokewiki.de/Gelatini",
   },
   {
@@ -9918,6 +11074,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 41,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/583.png",
+    dexEntry:
+      "Dieses Pokémon ist gutmütig. Es friert zwar Gegner mit kalter Luft von -100 ºC ein, raubt ihnen aber nie das Leben.",
     pokewikiUrl: "https://www.pokewiki.de/Gelatroppo",
   },
   {
@@ -9935,6 +11093,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 57.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/584.png",
+    dexEntry:
+      "Seine Körpertemperatur beträgt circa -6 ºC. Angeblich ist es aus der Verschmelzung von zwei Gelatroppo hervorgegangen.",
     pokewikiUrl: "https://www.pokewiki.de/Gelatwino",
   },
   {
@@ -9952,6 +11112,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/585.png",
+    dexEntry:
+      "Sein Fell und sein Geruch ändern sich mit dem Wechsel der Jahreszeiten. Es ist der Bote des Saisonwechsels.",
     pokewikiUrl: "https://www.pokewiki.de/Sesokitz",
   },
   {
@@ -9969,6 +11131,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 92.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/586.png",
+    dexEntry:
+      "Mancherorts sagt man, sie brächten den Frühling, da sie je nach Jahreszeit ihr Revier wechseln.",
     pokewikiUrl: "https://www.pokewiki.de/Kronjuwild",
   },
   {
@@ -9986,6 +11150,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/587.png",
+    dexEntry:
+      "Emolga liebt süße Beeren. Manchmal hortet es so viel Futter in seinen Backentaschen, dass es nicht mehr richtig fliegen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Emolga",
   },
   {
@@ -10003,6 +11169,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/588.png",
+    dexEntry:
+      "Es nutzt die Flüssigkeit aus seinem Mund, um die Muschel von Schnuthelm aufzulösen. Dann verspeist es den Inhalt.",
     pokewikiUrl: "https://www.pokewiki.de/Laukaps",
   },
   {
@@ -10020,6 +11188,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/589.png",
+    dexEntry:
+      "Es greift Gegner mit seinen Lanzen an. Auf einem berühmten Gemälde ist ein Duell zwischen ihm und Lauchzelot zu sehen.",
     pokewikiUrl: "https://www.pokewiki.de/Cavalanzas",
   },
   {
@@ -10037,6 +11207,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/590.png",
+    dexEntry:
+      "Die Sporen, die es aus seinen zwei Gliedmaßen versprüht, sind sehr giftig. In getrockneter Form eignen sie sich jedoch als Magenmedizin.",
     pokewikiUrl: "https://www.pokewiki.de/Tarnpignon",
   },
   {
@@ -10054,6 +11226,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/591.png",
+    dexEntry:
+      "Die meiste Zeit über bewegt es sich kaum und steht einfach nur regungslos neben Pokébällen, die am Boden liegen.",
     pokewikiUrl: "https://www.pokewiki.de/Hutsassa",
   },
   {
@@ -10071,6 +11245,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/592.png",
+    dexEntry:
+      "Einer Sage nach sind Quabbel in Wirklichkeit Bewohner einer uralten, im Meer versunkenen Stadt, die zu Pokémon wurden.",
     pokewikiUrl: "https://www.pokewiki.de/Quabbel",
   },
   {
@@ -10088,6 +11264,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 135,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/593.png",
+    dexEntry:
+      "Bei Vollmond treiben Apoquallyp in Schwärmen an die Meeresoberfläche und lauern dort ihrer Beute auf.",
     pokewikiUrl: "https://www.pokewiki.de/Apoquallyp",
   },
   {
@@ -10105,6 +11283,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/594.png",
+    dexEntry:
+      "Mamolida kümmert sich offenbar um verletzte Pokémon, um nicht selbst von denen angegriffen zu werden, die es auf diese abgesehen haben.",
     pokewikiUrl: "https://www.pokewiki.de/Mamolida",
   },
   {
@@ -10122,6 +11302,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/595.png",
+    dexEntry:
+      "Es heftet sich an andere Pokémon und saugt ihnen statische Elektrizität aus. Häufig wird es an Hinterteilen von Voldi gesichtet.",
     pokewikiUrl: "https://www.pokewiki.de/Wattzapf",
   },
   {
@@ -10139,6 +11321,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/596.png",
+    dexEntry:
+      "Es spinnt Fallen aus elektrischen Fäden nahe den Nestern von Vogel-Pokémon, um vor allem jene Jungen zu fangen, die nicht gut fliegen können.",
     pokewikiUrl: "https://www.pokewiki.de/Voltula",
   },
   {
@@ -10156,6 +11340,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/597.png",
+    dexEntry:
+      "Es fühlt sich in moosbewachsenen Höhlen wohl. Die im Moos enthaltenen Enzyme lassen seine Stacheln besonders groß und kräftig werden.",
     pokewikiUrl: "https://www.pokewiki.de/Kastadur",
   },
   {
@@ -10173,6 +11359,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 110,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/598.png",
+    dexEntry:
+      "Seine Dornen sind härter als Stahl. Es bewegt sich fort, indem es seine dornengespickten Schlingen in Felswänden verhakt und sich vorwärtszieht.",
     pokewikiUrl: "https://www.pokewiki.de/Tentantel",
   },
   {
@@ -10190,6 +11378,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/599.png",
+    dexEntry:
+      "Man sagt, dass vor langer Zeit ein Mensch das Zahnrad erfand, weil er so von der Begegnung mit diesem Pokémon inspiriert wurde.",
     pokewikiUrl: "https://www.pokewiki.de/Klikk",
   },
   {
@@ -10207,6 +11397,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 51,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/600.png",
+    dexEntry:
+      "Da es symbolisch für die Industriebranche steht, ist es im Logo unzähliger Firmen Galars abgebildet.",
     pokewikiUrl: "https://www.pokewiki.de/Kliklak",
   },
   {
@@ -10224,6 +11416,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 81,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/601.png",
+    dexEntry:
+      "Dieses Pokémon besteht aus drei schnell rotierenden Zahnrädern. Das neue dritte Rad mit den Stacheln ist unbelebt.",
     pokewikiUrl: "https://www.pokewiki.de/Klikdiklak",
   },
   {
@@ -10241,6 +11435,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/602.png",
+    dexEntry:
+      "Alleine erzeugen sie nur geringe Mengen an Elektrizität, aber im Schwarm können sie mächtige Stromsalven abfeuern.",
     pokewikiUrl: "https://www.pokewiki.de/Zapplardin",
   },
   {
@@ -10258,6 +11454,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 22,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/603.png",
+    dexEntry:
+      "Hat es seine Beute erspäht, lähmt es sie mit Elektrizität und verspeist sie anschließend.",
     pokewikiUrl: "https://www.pokewiki.de/Zapplalek",
   },
   {
@@ -10275,6 +11473,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 80.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/604.png",
+    dexEntry:
+      "Es schleppt sich mithilfe seiner Arme an Land, schnappt nach seiner Beute und zerrt sie augenblicklich ins Meer.",
     pokewikiUrl: "https://www.pokewiki.de/Zapplarang",
   },
   {
@@ -10292,6 +11492,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/605.png",
+    dexEntry:
+      "Ein Pokémon, das vor 50 Jahren entdeckt wurde. Sein hochentwickeltes Gehirn verleiht ihm Psycho-Kräfte.",
     pokewikiUrl: "https://www.pokewiki.de/Pygraulon",
   },
   {
@@ -10309,6 +11511,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 34.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/606.png",
+    dexEntry:
+      "Es kann die Gedanken anderer manipulieren. Manchmal wird es dabei beobachtet, wie es über Weizenfelder gleitet.",
     pokewikiUrl: "https://www.pokewiki.de/Megalon",
   },
   {
@@ -10326,6 +11530,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/607.png",
+    dexEntry:
+      "Je jünger das Opfer, dem es die Lebensenergie entzieht, desto höher und unheimlicher brennt die Flamme auf seinem Kopf.",
     pokewikiUrl: "https://www.pokewiki.de/Lichtel",
   },
   {
@@ -10343,6 +11549,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/608.png",
+    dexEntry:
+      "Es gibt sich als Lampe aus und lungert in Städten herum. Entdeckt es einen Menschen, dessen Todesstunde naht, folgt es ihm leise.",
     pokewikiUrl: "https://www.pokewiki.de/Laternecto",
   },
   {
@@ -10360,6 +11568,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 34.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/609.png",
+    dexEntry:
+      "Angeblich soll früher in Häusern, wo Skelabra zur Beleuchtung verwendet wurden, eine Beerdigung auf die andere gefolgt sein.",
     pokewikiUrl: "https://www.pokewiki.de/Skelabra",
   },
   {
@@ -10377,6 +11587,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/610.png",
+    dexEntry:
+      "Sie rammen sich spielerisch mit ihren Fangzähnen. Brechen diese ab, wachsen sie sofort nach.",
     pokewikiUrl: "https://www.pokewiki.de/Milza",
   },
   {
@@ -10394,6 +11606,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 36,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/611.png",
+    dexEntry:
+      "Seine harte Haut schützt es wie eine Rüstung. Eine seiner besten Taktiken besteht darin, Gegner beim Tackle mit seinen Hauern zu durchbohren.",
     pokewikiUrl: "https://www.pokewiki.de/Sharfax",
   },
   {
@@ -10411,6 +11625,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 105.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/612.png",
+    dexEntry:
+      "Es ist von Natur aus sanftmütig, aber wehe dem, der es wütend macht. Seine Stoßzähne reißen selbst Stahlträger in Stücke.",
     pokewikiUrl: "https://www.pokewiki.de/Maxax",
   },
   {
@@ -10428,6 +11644,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/613.png",
+    dexEntry:
+      "Es zieht vor jeder Attacke die Nase hoch. Die extreme Kälte in seinem Nasenschleim liefert die Energie für seine Eis-Attacken.",
     pokewikiUrl: "https://www.pokewiki.de/Petznief",
   },
   {
@@ -10445,6 +11663,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 260,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/614.png",
+    dexEntry:
+      "Es schwimmt fröhlich durch kalte Meere. Wenn es müde wird, gefriert es mit seinem Eisatem die Wasseroberfläche und ruht sich darauf aus.",
     pokewikiUrl: "https://www.pokewiki.de/Siberio",
   },
   {
@@ -10462,6 +11682,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 148,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/615.png",
+    dexEntry: "Bei Hitze wird es zu Wasserdampf. Im Sommer bekommt man es daher kaum zu Gesicht.",
     pokewikiUrl: "https://www.pokewiki.de/Frigometri",
   },
   {
@@ -10479,6 +11700,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/616.png",
+    dexEntry:
+      "Sein Körper reagiert unerklärlicherweise auf Elektrizität. Es heißt, die Anwesenheit von Laukaps löse bei ihm die Entwicklung aus.",
     pokewikiUrl: "https://www.pokewiki.de/Schnuthelm",
   },
   {
@@ -10496,6 +11719,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/617.png",
+    dexEntry:
+      "Seit es seine Muschel abgestreift hat, ist es viel leichter und agiler. Es umhüllt sich mit einer Schleimhaut, die es vor dem Austrocknen schützt.",
     pokewikiUrl: "https://www.pokewiki.de/Hydragil",
   },
   {
@@ -10513,6 +11738,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/618.png",
+    dexEntry:
+      "Es verteilt über das gelbe Muster auf seinem Körper starke Stromstöße. Immer wenn es Strom absondert, grinst es. Niemand weiß, wieso.",
     pokewikiUrl: "https://www.pokewiki.de/Flunschlik",
   },
   {
@@ -10530,6 +11757,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/619.png",
+    dexEntry:
+      "Lin-Fu ist klein, hat aber ein wildes Temperament. Gegnern, die sich ihm unbedacht nähern, setzt es mit einer eleganten Schlagfolge zu.",
     pokewikiUrl: "https://www.pokewiki.de/Lin-Fu",
   },
   {
@@ -10547,6 +11776,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/620.png",
+    dexEntry:
+      "Seine mit atemberaubender Geschwindigkeit ausgeführten Tritte können selbst riesige Felsen in winzige Stücke zerschmettern.",
     pokewikiUrl: "https://www.pokewiki.de/Wie-Shu",
   },
   {
@@ -10564,6 +11795,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 139,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/621.png",
+    dexEntry:
+      "Shardrago ist grausam und gerissen. Es nimmt die selbstgegrabenen Höhlen anderer Pokémon ein, um sie zu seinem Unterschlupf zu machen.",
     pokewikiUrl: "https://www.pokewiki.de/Shardrago",
   },
   {
@@ -10581,6 +11814,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 92,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/622.png",
+    dexEntry:
+      "Golbit wurde aus Lehm erschaffen. Es führt heute noch Befehle aus, die ihm vor Jahrtausenden von seinem Meister aufgetragen wurden.",
     pokewikiUrl: "https://www.pokewiki.de/Golbit",
   },
   {
@@ -10598,6 +11833,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 330,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/623.png",
+    dexEntry:
+      "Man sagt, in seinem Körper befinde sich eine unerschöpfliche Energiequelle, doch bisher ist es niemandem gelungen, dies nachzuweisen.",
     pokewikiUrl: "https://www.pokewiki.de/Golgantes",
   },
   {
@@ -10615,6 +11852,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/624.png",
+    dexEntry:
+      "Gladiantri bilden Gruppen mit einem Caesurio an der Spitze. Jedes von ihnen trainiert hart, um irgendwann selbst Anführer zu werden.",
     pokewikiUrl: "https://www.pokewiki.de/Gladiantri",
   },
   {
@@ -10632,6 +11871,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 70,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/625.png",
+    dexEntry:
+      "Sie streiten sich mit Sharfax aufs Heftigste um das Vorrecht auf Orte mit Felsen, an denen sie ihre Klingen schärfen können.",
     pokewikiUrl: "https://www.pokewiki.de/Caesurio",
   },
   {
@@ -10649,6 +11890,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 94.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/626.png",
+    dexEntry:
+      "Es lebt in Gruppen von circa 20 Artgenossen. Verrät ein Bisofank seine Herde, fällt ihm aus unbekannten Gründen das Fell am Kopf aus.",
     pokewikiUrl: "https://www.pokewiki.de/Bisofank",
   },
   {
@@ -10666,6 +11909,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/627.png",
+    dexEntry:
+      "Seine starken Klauen können selbst harte Beeren zermalmen. Es ist so streitsüchtig, dass es jeden zum Kampf herausfordert, dem es begegnet.",
     pokewikiUrl: "https://www.pokewiki.de/Geronimatz",
   },
   {
@@ -10683,6 +11928,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 41,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/628.png",
+    dexEntry:
+      "Da es hitzköpfig und aggressiv ist, hat es den Posten als Kurier in Galar an Krarmor verloren.",
     pokewikiUrl: "https://www.pokewiki.de/Washakwil",
   },
   {
@@ -10700,6 +11947,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/629.png",
+    dexEntry:
+      "Sie werden rasend schnell größer. Wenn sie aus Schädelwindeln herauswachsen, werden diese von jüngeren Nestgefährten getragen.",
     pokewikiUrl: "https://www.pokewiki.de/Skallyk",
   },
   {
@@ -10717,6 +11966,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/630.png",
+    dexEntry:
+      "Es schmückt sich mit Knochen. Man kann wohl Trends beobachten, was für Knochenformen bei ihnen gerade besonders angesagt sind.",
     pokewikiUrl: "https://www.pokewiki.de/Grypheldis",
   },
   {
@@ -10734,6 +11985,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 58,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/631.png",
+    dexEntry:
+      "Es nutzt eine Flamme als Zunge. Damit bringt es die Panzer von Fermicula zum Schmelzen und verspeist im Anschluss ihr Inneres.",
     pokewikiUrl: "https://www.pokewiki.de/Furnifra%C3%9F",
   },
   {
@@ -10751,6 +12004,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/632.png",
+    dexEntry:
+      "Ihre mächtigen Kiefer können Felsen zerbeißen. Sie rotten sich zu Gruppen zusammen, um ihre Eier vor Sanaconda zu beschützen.",
     pokewikiUrl: "https://www.pokewiki.de/Fermicula",
   },
   {
@@ -10768,6 +12023,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/633.png",
+    dexEntry:
+      "Da es nichts sehen kann, beißt es zur Orientierung in alles hinein, was sich in seiner Umgebung befindet.",
     pokewikiUrl: "https://www.pokewiki.de/Kapuno",
   },
   {
@@ -10785,6 +12042,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 50,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/634.png",
+    dexEntry:
+      "Sein Körper weist immer Narben auf, selbst wenn es gar nicht gekämpft hat. Die beiden Köpfe nehmen sich ständig gegenseitig das Futter weg.",
     pokewikiUrl: "https://www.pokewiki.de/Duodino",
   },
   {
@@ -10802,6 +12061,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 160,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/635.png",
+    dexEntry:
+      "Im Kampf beißen die drei Köpfe abwechselnd zu und lassen nicht ab, bis ihr Opfer am Boden liegt.",
     pokewikiUrl: "https://www.pokewiki.de/Trikephalo",
   },
   {
@@ -10819,6 +12080,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/636.png",
+    dexEntry:
+      "Sein Körper ist ziemlich warm. Aus seinen Hörnern feuert es Flammen ab, um Feinde und Beute einzuschüchtern.",
     pokewikiUrl: "https://www.pokewiki.de/Ignivor",
   },
   {
@@ -10836,6 +12099,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 46,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/637.png",
+    dexEntry:
+      "Ramoth wurde aus einem lodernden Kokon geboren. In antiken Wandmalereien ist es als Feuergottheit abgebildet.",
     pokewikiUrl: "https://www.pokewiki.de/Ramoth",
   },
   {
@@ -10853,6 +12118,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 250,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/638.png",
+    dexEntry:
+      "Kobalium ist der geborene Anführer. Selbst die gefährlichsten Gegner unterwerfen sich ihm.",
     pokewikiUrl: "https://www.pokewiki.de/Kobalium",
   },
   {
@@ -10870,6 +12137,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 260,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/639.png",
+    dexEntry:
+      "Eine Legende aus der Einall-Region handelt davon, wie sich Terrakium gegen die Menschen stellte, um die Pokémon zu beschützen.",
     pokewikiUrl: "https://www.pokewiki.de/Terrakium",
   },
   {
@@ -10887,6 +12156,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 200,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/640.png",
+    dexEntry:
+      "Es täuscht seine Gegner mit flinken Bewegungen, um sie dann blitzartig anzugreifen und ohne jede Gnade mit seinen Hörnern aufzuschlitzen.",
     pokewikiUrl: "https://www.pokewiki.de/Viridium",
   },
   {
@@ -10904,6 +12175,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 63,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/641.png",
+    dexEntry:
+      "Mit der Energie aus seiner Rute erzeugt es wilde Stürme, die stark genug sind, um ganze Wohnhäuser davonzuwehen.",
     pokewikiUrl: "https://www.pokewiki.de/Boreos",
   },
   {
@@ -10921,6 +12194,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 61,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/642.png",
+    dexEntry:
+      "Es ist bei den Leuten verhasst, weil es auf seinen Rundflügen immer wieder Blitze erzeugt, die Waldbrände verursachen.",
     pokewikiUrl: "https://www.pokewiki.de/Voltolos",
   },
   {
@@ -10938,6 +12213,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 330,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/643.png",
+    dexEntry:
+      "Alte Mythen warnen, dass es alle Welt in Brand setzen wird, wenn die Menschen die Wirklichkeit missachten und der Gier verfallen.",
     pokewikiUrl: "https://www.pokewiki.de/Reshiram",
   },
   {
@@ -10955,6 +12232,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 345,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/644.png",
+    dexEntry:
+      "Viele Mythen besingen den Donner, mit dem es die Welt vernichten wird, wenn die Menschen den Sinn für die Gerechtigkeit verlieren.",
     pokewikiUrl: "https://www.pokewiki.de/Zekrom",
   },
   {
@@ -10972,6 +12251,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 68,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/645.png",
+    dexEntry:
+      "Seine aus Wind und Donner gewonnene Energie sorgt für reiche Ernten, da sie den Boden mit Nährstoffen anreichert.",
     pokewikiUrl: "https://www.pokewiki.de/Demeteros",
   },
   {
@@ -10989,6 +12270,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 325,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/646.png",
+    dexEntry:
+      "Es erzeugt Kälteenergie, mit der es seinen Körper gefroren hält. Damit verfolgt es offenbar das Ziel, seine Zellstruktur zu stabilisieren.",
     pokewikiUrl: "https://www.pokewiki.de/Kyurem",
   },
   {
@@ -11006,6 +12289,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 48.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/647.png",
+    dexEntry:
+      "Man sagt, wenn Keldeo schwere Kämpfe übersteht und das Horn an seiner Stirn stärker wird, erwache irgendwann seine wahre Kraft.",
     pokewikiUrl: "https://www.pokewiki.de/Keldeo",
   },
   {
@@ -11023,6 +12308,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/648.png",
+    dexEntry:
+      "Wer die Melodie hört, die es in einer speziellen Stimmlage von sich gibt, steht voll in seinem Bann.",
     pokewikiUrl: "https://www.pokewiki.de/Meloetta",
   },
   {
@@ -11040,6 +12327,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 82.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/649.png",
+    dexEntry:
+      "Es lebte vor 300 Millionen Jahren. Team Plasma modifizierte es und pflanzte ihm am Rücken eine Kanone ein.",
     pokewikiUrl: "https://www.pokewiki.de/Genesect",
   },
   {
@@ -11057,6 +12346,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/650.png",
+    dexEntry:
+      "Sein Kopf und Rücken werden von einer harten Hülle bedeckt, die so robust ist, dass sie selbst einer Kollision mit einem LKW standhalten würde.",
     pokewikiUrl: "https://www.pokewiki.de/Igamaro",
   },
   {
@@ -11074,6 +12365,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/651.png",
+    dexEntry:
+      "Sie stärken ihre Beinmuskeln, indem sie sich gegenseitig anrempeln. Sie sind sehr freundlich und würden niemals einen Streit anfangen.",
     pokewikiUrl: "https://www.pokewiki.de/Igastarnish",
   },
   {
@@ -11091,6 +12384,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 90,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/652.png",
+    dexEntry:
+      "Wenn es seine Fäuste vors Gesicht hält und so eine Verteidigungshaltung einnimmt, kann es selbst eine Explosion überstehen.",
     pokewikiUrl: "https://www.pokewiki.de/Brigaron",
   },
   {
@@ -11108,6 +12403,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/653.png",
+    dexEntry:
+      "Anstelle eines Snacks kaut es unterwegs auf einem Zweig herum. Es schreckt Gegner ab, indem es über seine Ohren heiße Luft ausstößt.",
     pokewikiUrl: "https://www.pokewiki.de/Fynx",
   },
   {
@@ -11125,6 +12422,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/654.png",
+    dexEntry:
+      "Sein Zweig entzündet sich durch die Reibung, die beim Herausziehen aus seinem Schweif entsteht. Mit der Flamme sendet es Signale an Kameraden.",
     pokewikiUrl: "https://www.pokewiki.de/Rutena",
   },
   {
@@ -11142,6 +12441,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/655.png",
+    dexEntry:
+      "Mit seinen übernatürlichen Kräften kontrolliert es einen 3 000 °C heißen Flammenwirbel, mit dem es seine Gegner umhüllt und sie verbrennt.",
     pokewikiUrl: "https://www.pokewiki.de/Fennexis",
   },
   {
@@ -11159,6 +12460,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/656.png",
+    dexEntry:
+      "Es schützt seine Haut mit feinen Blasen, die seinen Körper umhüllen. Es mag unbekümmert aussehen, behält die Umgebung aber immer aufmerksam im Auge.",
     pokewikiUrl: "https://www.pokewiki.de/Froxy",
   },
   {
@@ -11176,6 +12479,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/657.png",
+    dexEntry:
+      "Seine Flinkheit sucht ihresgleichen. Es kann einen 600 m hohen Turm in weniger als einer Minute erklimmen.",
     pokewikiUrl: "https://www.pokewiki.de/Amphizel",
   },
   {
@@ -11193,6 +12498,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png",
+    dexEntry:
+      "Kaum hat man es erspäht, verschwindet es auch schon wieder. Mit der Agilität eines Ninjas verwirrt es seine Gegner, um sie dann mit Wasser-Shuriken anzugreifen.",
     pokewikiUrl: "https://www.pokewiki.de/Quajutsu",
   },
   {
@@ -11210,6 +12517,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/659.png",
+    dexEntry:
+      "Es ist permanent in Alarmbereitschaft. Sobald es die Flügel eines Krarmors rascheln hört, gräbt es ein Loch und verschwindet im Boden.",
     pokewikiUrl: "https://www.pokewiki.de/Scoppel",
   },
   {
@@ -11227,6 +12536,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 42.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/660.png",
+    dexEntry:
+      "Das Fell an seinem Bauch hält es schön warm. Früher haben die Menschen daraus Kleidung gefertigt, die sie vor Kälte schützte.",
     pokewikiUrl: "https://www.pokewiki.de/Grebbit",
   },
   {
@@ -11244,6 +12555,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/661.png",
+    dexEntry:
+      "Ist es aufgeregt, steigt seine Körpertemperatur so stark an, dass man sich verbrennen kann, wenn man es mit bloßen Händen anfasst.",
     pokewikiUrl: "https://www.pokewiki.de/Dartiri",
   },
   {
@@ -11261,6 +12574,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/662.png",
+    dexEntry:
+      "Dieses kriegerische Pokémon hat ein stark ausgeprägtes Revierverhalten. Es kämpft mit anderen Dartignis um Futterplätze.",
     pokewikiUrl: "https://www.pokewiki.de/Dartignis",
   },
   {
@@ -11278,6 +12593,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 24.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/663.png",
+    dexEntry:
+      "Fiaro greift mit einer Geschwindigkeit von bis zu 500 km/h an. Mit einem kräftigen Tritt erlegt es seine Beute und gibt ihr keine Chance zur Flucht.",
     pokewikiUrl: "https://www.pokewiki.de/Fiaro",
   },
   {
@@ -11295,6 +12612,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/664.png",
+    dexEntry:
+      "Es reguliert seine Körpertemperatur mit dem Puder, das seinen Körper bedeckt, und kommt deswegen in jedem Klima und jeder Region zurecht.",
     pokewikiUrl: "https://www.pokewiki.de/Purmel",
   },
   {
@@ -11312,6 +12631,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/665.png",
+    dexEntry:
+      "Der Schnabel eines Vogel-Pokémon kann seinem harten Körper keinen Kratzer zufügen. Es verteidigt sich, indem es Puder spuckt.",
     pokewikiUrl: "https://www.pokewiki.de/Puponcho",
   },
   {
@@ -11329,6 +12650,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/666.png",
+    dexEntry:
+      "Je nach Klima und geographischer Beschaffenheit seines Habitats ändert sich die Musterung seiner Flügel. Es verstreut bunten Flügelstaub.",
     pokewikiUrl: "https://www.pokewiki.de/Vivillon",
   },
   {
@@ -11346,6 +12669,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/667.png",
+    dexEntry:
+      "Ein sehr aktives und neugieriges Pokémon. Bei Kampfbeginn und wenn es wütend ist, wird seine Mähne heiß.",
     pokewikiUrl: "https://www.pokewiki.de/Leufeo",
   },
   {
@@ -11363,6 +12688,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 81.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/668.png",
+    dexEntry:
+      "Es kann 6 000 °C heiße Atemluft ausstoßen, die es jedoch nicht bei der Jagd verwendet. Seine Beute verspeist es nämlich lieber roh.",
     pokewikiUrl: "https://www.pokewiki.de/Pyroleo",
   },
   {
@@ -11380,6 +12707,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/669.png",
+    dexEntry:
+      "Ohne die Kräfte einer Blume ist es relativ schutzlos. Es sucht jedoch so lange, bis es eine findet, deren Form und Farbe ihm zusagt.",
     pokewikiUrl: "https://www.pokewiki.de/Flab%C3%A9b%C3%A9",
   },
   {
@@ -11397,6 +12726,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/670.png",
+    dexEntry:
+      "Es überträgt seine Kraft auf Blumen und pflegt diese mit ganzem Herzen. Es verzeiht keinem, der sein Blumenbeet verwüstet.",
     pokewikiUrl: "https://www.pokewiki.de/Floette",
   },
   {
@@ -11414,6 +12745,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/671.png",
+    dexEntry:
+      "Es hat eine Lebenserwartung von mehreren Hundert Jahren. Man sagt, es widme sein ganzes Dasein beharrlich der Pflege von Blumengärten.",
     pokewikiUrl: "https://www.pokewiki.de/Florges",
   },
   {
@@ -11431,6 +12764,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/672.png",
+    dexEntry:
+      "Solange es Wasser und Sonnenlicht hat, kann es mit den Blättern auf seinem Rücken Energie erzeugen. Deswegen kommt es auch ohne Futter zurecht.",
     pokewikiUrl: "https://www.pokewiki.de/M%C3%A4hikel",
   },
   {
@@ -11448,6 +12783,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 91,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/673.png",
+    dexEntry:
+      "Sie leben im Gebirge. Der Herdenanführer wird durch ein Kräftemessen gewählt, bei dem die Anwärter ihre Hörner gegeneinander rammen.",
     pokewikiUrl: "https://www.pokewiki.de/Chevrumm",
   },
   {
@@ -11465,6 +12802,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/674.png",
+    dexEntry:
+      "Es starrt den Gegner finster an, um nicht unterschätzt zu werden, doch wenn es sich entspannt, muss es unwillkürlich grinsen.",
     pokewikiUrl: "https://www.pokewiki.de/Pam-Pam",
   },
   {
@@ -11482,6 +12821,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 136,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/675.png",
+    dexEntry:
+      "Mit seinem Blatt erspürt es die Bewegungen des Gegners. Seine Schläge sind so stark, dass es sogar Kipplaster zu Schrott verarbeiten kann.",
     pokewikiUrl: "https://www.pokewiki.de/Pandagro",
   },
   {
@@ -11499,6 +12840,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/676.png",
+    dexEntry:
+      "Trimmt man sein Fell nicht regelmäßig, wächst es ohne Unterlass. Allerdings lässt es sich nur von jemandem frisieren, dem es traut.",
     pokewikiUrl: "https://www.pokewiki.de/Coiffwaff",
   },
   {
@@ -11516,6 +12859,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/677.png",
+    dexEntry:
+      "Mit seinen Psycho-Kräften könnte es selbst Profi-Wrestler vom Platz fegen. Es fällt ihm aber schwer, diese Kräfte zu kontrollieren.",
     pokewikiUrl: "https://www.pokewiki.de/Psiau",
   },
   {
@@ -11533,6 +12878,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/678.png",
+    dexEntry:
+      "Männliche Psiaugon haben einen ausgeprägten Beschützerinstinkt. Sie sind dann am stärksten, wenn sie sich oder ihren Trainer verteidigen.",
     pokewikiUrl: "https://www.pokewiki.de/Psiaugon",
   },
   {
@@ -11550,6 +12897,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/679.png",
+    dexEntry:
+      "Das blaue Auge auf der Parierstange ist sein wahrer Körper. Mithilfe eines alten Tuchs absorbiert es die Lebenskraft von Menschen.",
     pokewikiUrl: "https://www.pokewiki.de/Gramokles",
   },
   {
@@ -11567,6 +12916,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/680.png",
+    dexEntry:
+      "Seine zwei Schwerter wechseln sich in einer hektischen Aufeinanderfolge von Angriff und Verteidigung ab, um seine Beute zu erlegen.",
     pokewikiUrl: "https://www.pokewiki.de/Duokles",
   },
   {
@@ -11584,6 +12935,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 53,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/681.png",
+    dexEntry:
+      "Mithilfe seiner mysteriösen Kräfte kontrollierte es Menschen und Pokémon und ließ sie ein Land nach seinen Vorstellungen erschaffen.",
     pokewikiUrl: "https://www.pokewiki.de/Durengard",
   },
   {
@@ -11601,6 +12954,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/682.png",
+    dexEntry:
+      "Von seinem Körper geht ein süßer Duft aus, der einfach jeden bezaubert. Bei den vornehmen Damen des Adels war es besonders beliebt.",
     pokewikiUrl: "https://www.pokewiki.de/Parfi",
   },
   {
@@ -11618,6 +12973,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/683.png",
+    dexEntry:
+      "Es kann üblen Gestank verströmen, der seinen Gegnern den Kampfeswillen raubt, oder wohlige Düfte erzeugen, die seinen Mitstreitern helfen.",
     pokewikiUrl: "https://www.pokewiki.de/Parfinesse",
   },
   {
@@ -11635,6 +12992,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/684.png",
+    dexEntry:
+      "Sein flauschiges Fell duftet süß wie Zuckerwatte. Es stößt klebrige Fäden aus, mit denen es seine Gegner umwickelt.",
     pokewikiUrl: "https://www.pokewiki.de/Flauschling",
   },
   {
@@ -11652,6 +13011,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/685.png",
+    dexEntry:
+      "Da in seinem Fell eine Menge Luft eingeschlossen ist, fühlt es sich unheimlich weich an und ist leichter, als es auf den ersten Blick aussieht.",
     pokewikiUrl: "https://www.pokewiki.de/Sabbaione",
   },
   {
@@ -11669,6 +13030,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/686.png",
+    dexEntry:
+      "Es lässt die Punkte auf seinem Körper blinken, um Gegnern den Kampfeswillen zu rauben. Diesen Moment nutzt es dann, um zu fliehen.",
     pokewikiUrl: "https://www.pokewiki.de/Iscalar",
   },
   {
@@ -11686,6 +13049,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 47,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/687.png",
+    dexEntry:
+      "Man erzählt sich, dass die hypnotischen Kräfte dieses Pokémon mit einigen geschichtsträchtigen Ereignissen in Verbindung stehen.",
     pokewikiUrl: "https://www.pokewiki.de/Calamanero",
   },
   {
@@ -11703,6 +13068,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/688.png",
+    dexEntry:
+      "Wenn die beiden Exemplare sich nicht gut verstehen, werden sie in Angriff und Verteidigung nachlässig und ihre Überlebenschancen sinken.",
     pokewikiUrl: "https://www.pokewiki.de/Bithora",
   },
   {
@@ -11720,6 +13087,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 96,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/689.png",
+    dexEntry:
+      "Die Augen auf den Händen überwachen sein gesamtes Umfeld. In Notsituationen greifen Arme und Beine eigenständig an.",
     pokewikiUrl: "https://www.pokewiki.de/Thanathora",
   },
   {
@@ -11737,6 +13106,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/690.png",
+    dexEntry:
+      "Da es wie verfaulter Seetang aussieht, versteckt es sich zwischen den im Meer treibenden Algen, um sich den Blicken seiner Feinde zu entziehen.",
     pokewikiUrl: "https://www.pokewiki.de/Algitt",
   },
   {
@@ -11754,6 +13125,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 81.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/691.png",
+    dexEntry:
+      "Indem Tandrak seinen Kopfschmuck aus dem Wasser reckt und ihn im Sonnenlicht badet, produziert es Drachen-Energie.",
     pokewikiUrl: "https://www.pokewiki.de/Tandrak",
   },
   {
@@ -11771,6 +13144,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/692.png",
+    dexEntry:
+      "Scampisto erledigt seine Feinde, indem es durch die Explosion von Gasen, die es in seiner rechten Schere speichert, Wasser wie Projektile abfeuert.",
     pokewikiUrl: "https://www.pokewiki.de/Scampisto",
   },
   {
@@ -11788,6 +13163,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/693.png",
+    dexEntry:
+      "Mit seiner rechten Schere, die ihm als Kanone dient, feuert es Geschosse aus Meerwasser ab, die selbst Tankschiffe versenken können.",
     pokewikiUrl: "https://www.pokewiki.de/Wummer",
   },
   {
@@ -11805,6 +13182,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/694.png",
+    dexEntry:
+      "Es kann aus Sonnenlicht Elektrizität erzeugen. Unterbricht man es jedoch bei diesem Prozess, verliert es vor lauter Stress all seine Kraft.",
     pokewikiUrl: "https://www.pokewiki.de/Eguana",
   },
   {
@@ -11822,6 +13201,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/695.png",
+    dexEntry:
+      "Stellt es seine kragenartigen Hautlappen auf und absorbiert damit Sonnenlicht, kann ein Elezard genug Strom für eine Großstadt produzieren.",
     pokewikiUrl: "https://www.pokewiki.de/Elezard",
   },
   {
@@ -11839,6 +13220,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 26,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/696.png",
+    dexEntry:
+      "Es ist eigennützig und verzogen. Selbst wenn Balgoras nur spielen will, verletzt es dabei seinen Trainer manchmal schwer.",
     pokewikiUrl: "https://www.pokewiki.de/Balgoras",
   },
   {
@@ -11856,6 +13239,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 270,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/697.png",
+    dexEntry:
+      "Ein Biss seines starken Kiefers reicht, um ein Auto zu zermalmen. Dieses Pokémon war der Regent der Urzeit.",
     pokewikiUrl: "https://www.pokewiki.de/Monargoras",
   },
   {
@@ -11873,6 +13258,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/698.png",
+    dexEntry:
+      "Ein ausgestorbenes Pokémon aus der Urzeit. Manchmal werden im Eis erhalten gebliebene Exemplare entdeckt.",
     pokewikiUrl: "https://www.pokewiki.de/Amarino",
   },
   {
@@ -11890,6 +13277,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 225,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/699.png",
+    dexEntry:
+      "Wenn es von wildem Zorn erfüllt ist, entströmt ihm gewaltige Kälte, die seine ganze Umgebung einfriert.",
     pokewikiUrl: "https://www.pokewiki.de/Amagarga",
   },
   {
@@ -11907,6 +13296,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 23.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/700.png",
+    dexEntry:
+      "Ein in der Galar-Region überliefertes Märchen erzählt von einem bildhübschen Feelinara, das ein grässliches Drachen-Pokémon bezwingt.",
     pokewikiUrl: "https://www.pokewiki.de/Feelinara",
   },
   {
@@ -11924,6 +13315,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/701.png",
+    dexEntry:
+      "Bevor es seinem Gegner mit einer Spezialtechnik ein Ende setzt, posiert es stets. Diesen Moment nutzt so mancher für einen Gegenangriff.",
     pokewikiUrl: "https://www.pokewiki.de/Resladero",
   },
   {
@@ -11941,6 +13334,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/702.png",
+    dexEntry:
+      "Dedenne selbst kann nur wenig Elektrizität erzeugen, weshalb es Strom von anderen Elektro-Pokémon oder aus Steckdosen stiehlt.",
     pokewikiUrl: "https://www.pokewiki.de/Dedenne",
   },
   {
@@ -11958,6 +13353,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/703.png",
+    dexEntry:
+      "Es heißt, irgendwo auf der Welt gäbe es eine Gesteinsader aus schlafenden Rocara. Dort soll man auch ihre Königin antreffen können.",
     pokewikiUrl: "https://www.pokewiki.de/Rocara",
   },
   {
@@ -11975,6 +13372,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/704.png",
+    dexEntry:
+      "Seine Fühler sind hochentwickelte Sinnesorgane. Da es dank ihnen Feinde sofort spüren und sich verstecken kann, hat es bis heute überlebt.",
     pokewikiUrl: "https://www.pokewiki.de/Viscora",
   },
   {
@@ -11992,6 +13391,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/705.png",
+    dexEntry:
+      "In dem Fortsatz auf seinem Rücken befindet sich sein winziges Gehirn. Es kann nur ans Fressen und an die Flucht vor seinen Feinden denken.",
     pokewikiUrl: "https://www.pokewiki.de/Viscargot",
   },
   {
@@ -12009,6 +13410,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 150.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/706.png",
+    dexEntry:
+      "Es greift mit seinen ausfahrbaren Fühlern an, deren Durchschlagskraft hundertmal so stark wie der Faustschlag eines Schwergewichtsboxers ist.",
     pokewikiUrl: "https://www.pokewiki.de/Viscogon",
   },
   {
@@ -12026,6 +13429,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/707.png",
+    dexEntry:
+      "Mit dem Fortsatz an seinem Kopf saugt Clavion Metall-Ionen ein. Anscheinend liebt es Schlüssel so sehr, dass es sie mit seinem Aussehen imitiert.",
     pokewikiUrl: "https://www.pokewiki.de/Clavion",
   },
   {
@@ -12043,6 +13448,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/708.png",
+    dexEntry:
+      "Es imitiert das Schluchzen eines Menschenkindes, um Erwachsene tief in den Wald zu locken und dafür zu sorgen, dass diese sich verlaufen.",
     pokewikiUrl: "https://www.pokewiki.de/Paragoni",
   },
   {
@@ -12060,6 +13467,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 71,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/709.png",
+    dexEntry:
+      "Es streckt die dünnen Wurzeln an seinen Beinen aus, um sich so mit den Bäumen im Wald zu verbinden und sie nach Belieben zu kontrollieren.",
     pokewikiUrl: "https://www.pokewiki.de/Trombork",
   },
   {
@@ -12077,6 +13486,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/710.png",
+    dexEntry:
+      "Blicken Menschen und Pokémon in das Licht, das aus den Löchern seines Kürbisses dringt, werden sie hypnotisiert und von Irrbis kontrolliert.",
     pokewikiUrl: "https://www.pokewiki.de/Irrbis",
   },
   {
@@ -12094,6 +13505,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/711.png",
+    dexEntry:
+      "In Neumondnächten klopft Pumpdjinn an die Eingangstüren der Häuser. Wer sie ihm öffnet, wird von ihm ins Jenseits entführt.",
     pokewikiUrl: "https://www.pokewiki.de/Pumpdjinn",
   },
   {
@@ -12111,6 +13524,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 99.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/712.png",
+    dexEntry:
+      "Es lebt in extrem kalten Gebieten. Um sich an Arktilas zu befestigen, lässt es seine Beine an dessen Rücken festfrieren.",
     pokewikiUrl: "https://www.pokewiki.de/Arktip",
   },
   {
@@ -12128,6 +13543,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 505,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/713.png",
+    dexEntry:
+      "Die Risse auf seinem Körper werden im Zuge seiner täglichen Aktivitäten tiefer. Ihm genügt jedoch eine Nacht, um sie wieder zu schließen.",
     pokewikiUrl: "https://www.pokewiki.de/Arktilas",
   },
   {
@@ -12145,6 +13562,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png",
+    dexEntry:
+      "Es kann Schallwellen verschiedenster Frequenzen freisetzen. Selbst große Pokémon können seinem Beschuss mit Ultraschallwellen nicht standhalten.",
     pokewikiUrl: "https://www.pokewiki.de/eF-eM",
   },
   {
@@ -12162,6 +13581,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 85,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/715.png",
+    dexEntry:
+      "Es fliegt durch die Dunkelheit und verletzt Feinde mit Ultraschallwellen, die auch Felsen zermalmen können. Dann erledigt es sie mit spitzen Zähnen.",
     pokewikiUrl: "https://www.pokewiki.de/UHaFnir",
   },
   {
@@ -12179,6 +13600,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 215,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/716.png",
+    dexEntry:
+      "Es heißt, dieses Pokémon spende ewiges Leben, sobald das Geweih auf seinem Haupt in sieben verschiedenen Farben leuchtet.",
     pokewikiUrl: "https://www.pokewiki.de/Xerneas",
   },
   {
@@ -12196,6 +13619,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 203,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/717.png",
+    dexEntry:
+      "Neigt sich seine Lebensspanne dem Ende zu, entzieht es anderen Lebewesen deren Energie und verwandelt sich zurück in einen Kokon.",
     pokewikiUrl: "https://www.pokewiki.de/Yveltal",
   },
   {
@@ -12213,6 +13638,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 305,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/718.png",
+    dexEntry:
+      "Im Kampf gegen all jene, die das Ökosystem in Gefahr bringen, nimmt es angeblich eine noch mächtigere Form an.",
     pokewikiUrl: "https://www.pokewiki.de/Zygarde",
   },
   {
@@ -12230,6 +13657,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/719.png",
+    dexEntry:
+      "Es kann im Nu viele Diamanten erzeugen, indem es luftgebundene Kohlenstoffpartikel mit seinen Händen komprimiert.",
     pokewikiUrl: "https://www.pokewiki.de/Diancie",
   },
   {
@@ -12247,6 +13676,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/720.png",
+    dexEntry:
+      "Mit seinen sechs Ringen und seinen sechs riesigen Armen kann es alles an sich reißen, was es möchte. Wenn seine Kraft versiegelt wird, nimmt es jedoch eine kleinere Gestalt an.",
     pokewikiUrl: "https://www.pokewiki.de/Hoopa",
   },
   {
@@ -12264,6 +13695,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 195,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/721.png",
+    dexEntry:
+      "Über die Arme auf seinem Rücken stößt es Wasserdampf aus. Seine Kraft reicht aus, um Berge zu versetzen.",
     pokewikiUrl: "https://www.pokewiki.de/Volcanion",
   },
   {
@@ -12281,6 +13714,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/722.png",
+    dexEntry:
+      "Tagsüber sammelt es per Photosynthese Kräfte, um nachts lautlos durch die Lüfte zu fliegen und nach Beute zu suchen.",
     pokewikiUrl: "https://www.pokewiki.de/Bauz",
   },
   {
@@ -12298,6 +13733,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/723.png",
+    dexEntry:
+      "Die Pflege seines Gefieders versäumt es nie. So bewahrt es nicht nur ein gepflegtes Äußeres, sondern auch die Schärfe seiner Federn.",
     pokewikiUrl: "https://www.pokewiki.de/Arboretoss",
   },
   {
@@ -12315,6 +13752,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 36.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/724.png",
+    dexEntry:
+      "In 0,1 Sekunden spannt es eine Feder in seine Flügelranke und schießt sie wie einen Pfeil auf die Schwachstellen seines ahnungslosen Ziels.",
     pokewikiUrl: "https://www.pokewiki.de/Silvarro",
   },
   {
@@ -12332,6 +13771,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/725.png",
+    dexEntry:
+      "Personen, denen es nicht vertraut, sollten sich davor hüten, es zu streicheln. Mit seinen scharfen Krallen verteilt es nämlich üble Kratzwunden.",
     pokewikiUrl: "https://www.pokewiki.de/Flamiau",
   },
   {
@@ -12349,6 +13790,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/726.png",
+    dexEntry:
+      "Wenn es sich einem starken Gegner stellt, steigt nicht nur sein Kampfeswille, sondern auch die Heizkraft seines feurigen Glöckchens.",
     pokewikiUrl: "https://www.pokewiki.de/Miezunder",
   },
   {
@@ -12366,6 +13809,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 83,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/727.png",
+    dexEntry:
+      "Obwohl es sich auffällig rau und wild aufführt, hat es auch eine freundliche Seite an sich und hilft kleineren Pokémon aus Notlagen.",
     pokewikiUrl: "https://www.pokewiki.de/Fuegro",
   },
   {
@@ -12383,6 +13828,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/728.png",
+    dexEntry:
+      "Es trainiert jeden Tag fleißig, um irgendwann eine Blase zu erschaffen, welche die perfekte Form und Größe vorweist.",
     pokewikiUrl: "https://www.pokewiki.de/Robball",
   },
   {
@@ -12400,6 +13847,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/729.png",
+    dexEntry:
+      "In Nächten mit ruhigem Wellengang tanzt es mit seinen Artgenossen zusammen zu einem Lied, das ihr Rudelführer, ein Primarene, vorsingt.",
     pokewikiUrl: "https://www.pokewiki.de/Marikeck",
   },
   {
@@ -12417,6 +13866,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 44,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/730.png",
+    dexEntry:
+      "Jeder Kampf ist für es wie eine Aufführung. Wer seinen Gesang und seinen Tanz mit den Blasen miterleben darf, wird davon ganz verzaubert.",
     pokewikiUrl: "https://www.pokewiki.de/Primarene",
   },
   {
@@ -12434,6 +13885,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/731.png",
+    dexEntry:
+      "Es sieht schmächtig und schwach aus, doch es hat sehr kräftige Halsmuskeln. Dadurch kann es 16-mal pro Sekunde auf Bäume einpicken.",
     pokewikiUrl: "https://www.pokewiki.de/Peppeck",
   },
   {
@@ -12451,6 +13904,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/732.png",
+    dexEntry:
+      "Es feuert mit seinem Schnabel Samen von gefressenen Beeren ab. Aus den Samen, die am Boden liegenbleiben, entstehen neue Pflanzen.",
     pokewikiUrl: "https://www.pokewiki.de/Trompeck",
   },
   {
@@ -12468,6 +13923,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 26,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/733.png",
+    dexEntry:
+      "Tukanon-Pärchen sind für ihr harmonisches Zusammenleben bekannt. Daher werden sie oft als Glücksbringer zu Hochzeiten mitgebracht.",
     pokewikiUrl: "https://www.pokewiki.de/Tukanon",
   },
   {
@@ -12485,6 +13942,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/734.png",
+    dexEntry:
+      "Es ist zwar ein Allesfresser, bevorzugt aber frische oder lebendige Nahrung. Auf der Suche nach Beute marschiert es die Straßen entlang.",
     pokewikiUrl: "https://www.pokewiki.de/Mangunior",
   },
   {
@@ -12502,6 +13961,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/735.png",
+    dexEntry:
+      "Dieses Pokémon ist eigentlich sehr geduldig. Sieht es jedoch ein Rattfratz, seine Leibspeise, stürzt es sich völlig außer Kontrolle auf es.",
     pokewikiUrl: "https://www.pokewiki.de/Manguspektor",
   },
   {
@@ -12519,6 +13980,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/736.png",
+    dexEntry:
+      "Mit seinem großen Kiefer gräbt es sich seinen Bau im Waldboden. Zu seinen Leibspeisen gehört süßer Baumsaft.",
     pokewikiUrl: "https://www.pokewiki.de/Mabula",
   },
   {
@@ -12536,6 +13999,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/737.png",
+    dexEntry:
+      "Gefressenes Laub verwandelt es während der Verdauung in elektrische Energie, die in einem Strombeutel in seinem Magen gespeichert wird.",
     pokewikiUrl: "https://www.pokewiki.de/Akkup",
   },
   {
@@ -12553,6 +14018,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 45,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/738.png",
+    dexEntry:
+      "Wenn es ein Akkup als Reservebatterie trägt, kann es im Flug eine Salve aus extrem starken Elektrostrahlen abfeuern.",
     pokewikiUrl: "https://www.pokewiki.de/Donarion",
   },
   {
@@ -12570,6 +14037,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/739.png",
+    dexEntry:
+      "Manchmal hält es ein Kokowei für eine Palme und klettert es hinauf. Dieses schüttelt es dann wütend ab und verpasst ihm einen Tritt.",
     pokewikiUrl: "https://www.pokewiki.de/Krabbox",
   },
   {
@@ -12587,6 +14056,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 180,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/740.png",
+    dexEntry:
+      "Es denkt nicht lange nach und schlägt einfach zu. Laut manchen Berichten kann es mit seinen schnellen Schlägen selbst Lawinen stoppen.",
     pokewikiUrl: "https://www.pokewiki.de/Krawell",
   },
   {
@@ -12604,6 +14075,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/741.png",
+    dexEntry:
+      "Ein Choreogel, das roten Nektar geschlürft hat. Es neigt zur Theatralik. Gibt ihm sein Trainer einen falschen Befehl, macht es ihm eine Szene.",
     pokewikiUrl: "https://www.pokewiki.de/Choreogel",
   },
   {
@@ -12621,6 +14094,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/742.png",
+    dexEntry:
+      "Es nimmt die Aura seiner Feinde wahr und erahnt ihren nächsten Zug. So kann es Angriffen geschickt ausweichen und zurückschlagen.",
     pokewikiUrl: "https://www.pokewiki.de/Wommel",
   },
   {
@@ -12638,6 +14113,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/743.png",
+    dexEntry:
+      "Bandelby hassen es, vom Regen nass zu werden. Da die Galar-Region zu bewölktem Wetter neigt, lassen sie sich nur selten blicken.",
     pokewikiUrl: "https://www.pokewiki.de/Bandelby",
   },
   {
@@ -12655,6 +14132,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/744.png",
+    dexEntry:
+      "Mit seinem steinernen Fellkragen schlägt Wuffels auf den Boden, um Gegner einzuschüchtern. Schrecken diese zurück, greift es sie sofort an.",
     pokewikiUrl: "https://www.pokewiki.de/Wuffels",
   },
   {
@@ -12672,6 +14151,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/745.png",
+    dexEntry:
+      "Es treibt seine Beute mit schnellen Bewegungen geduldig in die Enge. Dann stürzt es sich mit den Fangzähnen auf deren Schwachpunkt.",
     pokewikiUrl: "https://www.pokewiki.de/Wolwerock",
   },
   {
@@ -12689,6 +14170,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/746.png",
+    dexEntry:
+      "Wenn es Gefahr verspürt, tränen seine Augen. Das Leuchten der Tränen fungiert als Signal, mit dem es etliche Artgenossen zu sich ruft.",
     pokewikiUrl: "https://www.pokewiki.de/Lusardin",
   },
   {
@@ -12706,6 +14189,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/747.png",
+    dexEntry:
+      "Im Gegensatz zu den Garstella in Alola haben die der Galar-Region noch nicht bemerkt, wie köstlich die Arme von Corasonn sind.",
     pokewikiUrl: "https://www.pokewiki.de/Garstella",
   },
   {
@@ -12723,6 +14208,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/748.png",
+    dexEntry:
+      "In dem Giftbeutel in seinem Inneren bewahrt es große Mengen eines Gifts auf, das selbst einem Wailord drei Tage und Nächte lang stark zusetzt.",
     pokewikiUrl: "https://www.pokewiki.de/Aggrostella",
   },
   {
@@ -12740,6 +14227,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 110,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/749.png",
+    dexEntry:
+      "Es frisst Erde und verwandelt sie in Schlamm, den es an seine Hufe schmiert. Damit kann es selbst unwegsames Gelände ohne Rutschen überqueren.",
     pokewikiUrl: "https://www.pokewiki.de/Pampuli",
   },
   {
@@ -12757,6 +14246,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 920,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/750.png",
+    dexEntry:
+      "Es verfügt über genügend Ausdauer, um eine über zehn Tonnen schwere Last ohne Pause durch die gesamte Galar-Region zu ziehen.",
     pokewikiUrl: "https://www.pokewiki.de/Pampross",
   },
   {
@@ -12774,6 +14265,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/751.png",
+    dexEntry:
+      "Es verlässt das Wasser nur selten. Wenn es auf Futtersuche an Land kommt, hüllt es seinen Kopf in eine Wasserblase.",
     pokewikiUrl: "https://www.pokewiki.de/Araqua",
   },
   {
@@ -12791,6 +14284,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 82,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/752.png",
+    dexEntry:
+      "Es lässt Araqua in der Wasserblase um seinen Kopf Platz nehmen und kümmert sich um es, indem es ihm Futterreste überlässt.",
     pokewikiUrl: "https://www.pokewiki.de/Aranestro",
   },
   {
@@ -12808,6 +14303,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/753.png",
+    dexEntry:
+      "Tagsüber badet Imantis im Sonnenlicht und hält Nickerchen. Nachts wacht es auf und wird aktiv.",
     pokewikiUrl: "https://www.pokewiki.de/Imantis",
   },
   {
@@ -12825,6 +14322,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/754.png",
+    dexEntry:
+      "Die Blütenblätter an seinen Armen sind dünn und scharfkantig. Mantidea absorbiert mit ihnen Licht, das es in Form von Strahlen abschießen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Mantidea",
   },
   {
@@ -12842,6 +14341,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/755.png",
+    dexEntry:
+      "Auch die hellsten Tage verbringt Bubungus in dunklen Wäldern. Es streut blinkende Sporen aus, um seine Gegner in den Schlaf zu lullen.",
     pokewikiUrl: "https://www.pokewiki.de/Bubungus",
   },
   {
@@ -12859,6 +14360,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/756.png",
+    dexEntry:
+      "Stößt man im nächtlichen Wald auf ein Leuchten, sollte man sich diesem nicht nähern. Sonst wird man nämlich von Lamellux in den Schlaf gelullt.",
     pokewikiUrl: "https://www.pokewiki.de/Lamellux",
   },
   {
@@ -12876,6 +14379,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/757.png",
+    dexEntry:
+      "Es schleicht sich von hinten an seine Beute heran. Noch bevor diese auf es aufmerksam wird, setzt es sie mit seinem Giftgas außer Gefecht.",
     pokewikiUrl: "https://www.pokewiki.de/Molunk",
   },
   {
@@ -12893,6 +14398,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 22.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/758.png",
+    dexEntry:
+      "Kommt es unter ihnen zu Streitereien, setzt sich offenbar immer das Amfira durch, das von den meisten männlichen Molunk verehrt wird.",
     pokewikiUrl: "https://www.pokewiki.de/Amfira",
   },
   {
@@ -12910,6 +14417,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/759.png",
+    dexEntry:
+      "Strampelt es zum Schutz mit den Vorderbeinen, sieht das zwar niedlich aus, aber ein Treffer mit ihnen ist stark genug, um große Bäume zu fällen.",
     pokewikiUrl: "https://www.pokewiki.de/Velursi",
   },
   {
@@ -12927,6 +14436,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 135,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/760.png",
+    dexEntry:
+      "Es schlägt seine Beute mit Attacken nieder, die Profikampfsportler erblassen lassen. Danach trägt es sie unter seinen beiden Armen in sein Versteck.",
     pokewikiUrl: "https://www.pokewiki.de/Kosturso",
   },
   {
@@ -12944,6 +14455,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/761.png",
+    dexEntry:
+      "Wenn es angegriffen wird, sondert es einen köstlich süß duftenden Angstschweiß ab, der leider meist nur noch weitere Feinde anlockt.",
     pokewikiUrl: "https://www.pokewiki.de/Frubberl",
   },
   {
@@ -12961,6 +14474,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/762.png",
+    dexEntry:
+      "Nach ihm pickende Kranoviz greift es mit dem Blütenkelch auf seinem Kopf an, bevor es sie mit agilen Kicktechniken bearbeitet.",
     pokewikiUrl: "https://www.pokewiki.de/Frubaila",
   },
   {
@@ -12978,6 +14493,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/763.png",
+    dexEntry:
+      "Es tritt mit seinen harten Fußspitzen auf seine Gegner ein und hinterlässt dabei sowohl körperliche als auch seelische Narben.",
     pokewikiUrl: "https://www.pokewiki.de/Fruyal",
   },
   {
@@ -12995,6 +14512,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/764.png",
+    dexEntry:
+      "Dieses Pokémon riecht äußerst angenehm. Da jedes Curelei andere Blumen trägt, unterscheiden sie sich in ihrem Duft.",
     pokewikiUrl: "https://www.pokewiki.de/Curelei",
   },
   {
@@ -13012,6 +14531,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 76,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/765.png",
+    dexEntry:
+      "Es kennt jeden Winkel des Waldes. Trifft es ein verletztes Pokémon, findet es in Windeseile das passende Heilkraut und schreitet zur Behandlung.",
     pokewikiUrl: "https://www.pokewiki.de/Kommandutan",
   },
   {
@@ -13029,6 +14550,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 82.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/766.png",
+    dexEntry:
+      "Sie bilden Gruppen von 20 Exemplaren. Durch klare Aufgabenteilung haben sie den Gefahren der Natur getrotzt und bis heute überlebt.",
     pokewikiUrl: "https://www.pokewiki.de/Quartermak",
   },
   {
@@ -13046,6 +14569,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/767.png",
+    dexEntry:
+      "Sie schließen sich zu Schwärmen zusammen und halten stets Ausschau nach Gefahr. Sichten sie einen Feind, nehmen sie in alle Winde Reißaus.",
     pokewikiUrl: "https://www.pokewiki.de/Rei%C3%9Flaus",
   },
   {
@@ -13063,6 +14588,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 108,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/768.png",
+    dexEntry:
+      "Tectass leben in Tiefseehöhlen und versunkenen Schiffswracks. Sie liefern sich Kämpfe mit Kaocto, nach denen der Sieger den Verlierer verspeist.",
     pokewikiUrl: "https://www.pokewiki.de/Tectass",
   },
   {
@@ -13080,6 +14607,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 70,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/769.png",
+    dexEntry:
+      "Für gewöhnlich lebt es an Stränden. Es kann alle kontrollieren, die ihre Hand in sein Maul stecken, und bringt sie dazu, seinen Körper zu vergrößern.",
     pokewikiUrl: "https://www.pokewiki.de/Sankabuh",
   },
   {
@@ -13097,6 +14626,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 250,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/770.png",
+    dexEntry:
+      "Es lebt an Stränden, obwohl es Wasser hasst. Wird es von starkem Regen erwischt, so kann es seine sandburgartige Form nicht aufrechterhalten.",
     pokewikiUrl: "https://www.pokewiki.de/Colossand",
   },
   {
@@ -13114,6 +14645,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/771.png",
+    dexEntry:
+      "Seine Schleimschicht hydriert seine Haut so effizient, dass es mehrere Tage an Land leben kann, ohne auszutrocknen.",
     pokewikiUrl: "https://www.pokewiki.de/Gufa",
   },
   {
@@ -13131,6 +14664,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/772.png",
+    dexEntry:
+      "Typ:Null ist eine künstliche Nachbildung eines Pokémon aus einer alten Sage. Die Maske dient dazu, seine Kräfte unter Kontrolle zu halten.",
     pokewikiUrl: "https://www.pokewiki.de/Typ%3ANull",
   },
   {
@@ -13148,6 +14683,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 100.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/773.png",
+    dexEntry:
+      "Der entscheidende Faktor, durch den es seine wahren Kräfte freisetzen kann, ist die enge Bindung zu einem Trainer, dem es vertraut.",
     pokewikiUrl: "https://www.pokewiki.de/Amigento",
   },
   {
@@ -13165,6 +14702,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/774.png",
+    dexEntry:
+      "Seine äußere Schale ist zwar sehr robust, durch den Aufprall auf der Oberfläche des Planeten zersplittert sie allerdings.",
     pokewikiUrl: "https://www.pokewiki.de/Meteno",
   },
   {
@@ -13182,6 +14721,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/775.png",
+    dexEntry:
+      "Es verbringt sein Leben schlafend, bis es stirbt. Das liegt an den narkotisierenden Wirkstoffen, die in den Blättern enthalten sind, die es frisst.",
     pokewikiUrl: "https://www.pokewiki.de/Koalelu",
   },
   {
@@ -13199,6 +14740,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 212,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/776.png",
+    dexEntry:
+      "Da es in Vulkanen lebt, nimmt es mit der Nahrung viel Schwefel auf, was seinen Panzer und seinen Kot explosiv macht. Letzterer ist ein Gefahrengut.",
     pokewikiUrl: "https://www.pokewiki.de/Tortunator",
   },
   {
@@ -13216,6 +14759,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/777.png",
+    dexEntry:
+      "Bei Gefahr rollt es sich zusammen, stellt seine Rückenstacheln auf und schießt willkürlich mit Elektrizität um sich.",
     pokewikiUrl: "https://www.pokewiki.de/Togedemaru",
   },
   {
@@ -13233,6 +14778,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png",
+    dexEntry:
+      "Alle Wissenschaftler, die zu Forschungszwecken einen Blick unter seinen Lumpen gewagt haben, sind an einer rätselhaften Krankheit gestorben.",
     pokewikiUrl: "https://www.pokewiki.de/Mimigma",
   },
   {
@@ -13250,6 +14797,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/779.png",
+    dexEntry:
+      "Seine Haut ist so hart, dass selbst die Nadeln eines Garstella sie nicht durchdringen. Mit seinen kräftigen Zähnen zerkaut es sie einfach.",
     pokewikiUrl: "https://www.pokewiki.de/Knirfish",
   },
   {
@@ -13267,6 +14816,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 185,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/780.png",
+    dexEntry:
+      "Ein zutrauliches und gutmütiges Pokémon. Wird es jedoch wütend, beschwört es heftige Stürme herauf, die alles und jeden davonfegen.",
     pokewikiUrl: "https://www.pokewiki.de/Sen-Long",
   },
   {
@@ -13284,6 +14835,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 210,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/781.png",
+    dexEntry:
+      "Im Meer wirft es seinen Anker aus und legt sich auf die Lauer. Es fängt sich möglichst große Beute wie Wailord und saugt ihr die Lebensenergie aus.",
     pokewikiUrl: "https://www.pokewiki.de/Moruda",
   },
   {
@@ -13301,6 +14854,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 29.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/782.png",
+    dexEntry:
+      "Es kommuniziert mit Artgenossen, indem es mit seinen Schuppen rasselt, die aus erhärtetem Fell bestehen und eine metallartige Konsistenz haben.",
     pokewikiUrl: "https://www.pokewiki.de/Miniras",
   },
   {
@@ -13318,6 +14873,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 47,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/783.png",
+    dexEntry:
+      "Bevor es angreift, rasselt es mit den Schuppen und stößt einen Kampfschrei aus. Dann reißt es den Gegner mit seinen scharfen Klauen in Stücke.",
     pokewikiUrl: "https://www.pokewiki.de/Mediras",
   },
   {
@@ -13335,6 +14892,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 78.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/784.png",
+    dexEntry:
+      "In Ruinen finden sich uralte Abbildungen von Kriegern, die Rüstungen aus Grandiras-Schuppen tragen.",
     pokewikiUrl: "https://www.pokewiki.de/Grandiras",
   },
   {
@@ -13352,6 +14911,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 20.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/785.png",
+    dexEntry:
+      "Der Schutzpatron Mele-Meles gebietet über Blitz und Donner. Dieses lebhafte, neugierige Pokémon zeigt sich ab und an den Menschen.",
     pokewikiUrl: "https://www.pokewiki.de/Kapu-Riki",
   },
   {
@@ -13369,6 +14930,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/786.png",
+    dexEntry:
+      "Obwohl man es Schutzpatron nennt, verkörpert sein zugleich unschuldiges und grausames Gemüt das zwiegespaltene Wesen der Natur.",
     pokewikiUrl: "https://www.pokewiki.de/Kapu-Fala",
   },
   {
@@ -13386,6 +14949,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 45.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/787.png",
+    dexEntry:
+      "Als Gebieter über die Pflanzen macht Ula-Ulas Schutzpatron mit seinem Schweif auf sich aufmerksam, um unnötige Kämpfe zu vermeiden.",
     pokewikiUrl: "https://www.pokewiki.de/Kapu-Toro",
   },
   {
@@ -13403,6 +14968,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/788.png",
+    dexEntry:
+      "Man bezeichnet es zwar als Schutzpatron, doch all jene, die sich ihm unbedacht nähern, werden von furchtbaren Katastrophen heimgesucht.",
     pokewikiUrl: "https://www.pokewiki.de/Kapu-Kime",
   },
   {
@@ -13420,6 +14987,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/789.png",
+    dexEntry:
+      "Es ist sehr neugierig und handelt oft unüberlegt, weshalb es häufig in brenzlige Situationen gerät. Wenn es in Gefahr ist, teleportiert es sich weg.",
     pokewikiUrl: "https://www.pokewiki.de/Cosmog",
   },
   {
@@ -13437,6 +15006,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 999.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/790.png",
+    dexEntry:
+      "Es zieht mit unglaublicher Wucht Staub aus der Luft und produziert damit in seinem Kern fleißig Energie für seine Entwicklung.",
     pokewikiUrl: "https://www.pokewiki.de/Cosmovum",
   },
   {
@@ -13454,6 +15025,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 230,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/791.png",
+    dexEntry:
+      "Einst wurde es „Sonnenverschlinger“ genannt. Es strahlt unerschöpfliche Lichtenergie aus.",
     pokewikiUrl: "https://www.pokewiki.de/Solgaleo",
   },
   {
@@ -13471,6 +15044,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/792.png",
+    dexEntry:
+      "Es raubt seiner Umgebung all ihr Licht und nimmt die Gestalt des Vollmondes an. So leuchtet es in der Dunkelheit der Nacht.",
     pokewikiUrl: "https://www.pokewiki.de/Lunala",
   },
   {
@@ -13488,6 +15063,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 55.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/793.png",
+    dexEntry:
+      "Anego kam durch eine Ultrapforte in diese Welt. Es scheint ein Parasit zu sein, der Pokémon und Menschen befällt.",
     pokewikiUrl: "https://www.pokewiki.de/Anego",
   },
   {
@@ -13505,6 +15082,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 333.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/794.png",
+    dexEntry: "Diese Ultrabestie stellt gerne ihre extrem angeschwollenen Muskeln stolz zur Schau.",
     pokewikiUrl: "https://www.pokewiki.de/Masskito",
   },
   {
@@ -13522,6 +15100,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 25,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/795.png",
+    dexEntry:
+      "In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen.",
     pokewikiUrl: "https://www.pokewiki.de/Schabelle",
   },
   {
@@ -13539,6 +15119,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 100,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/796.png",
+    dexEntry:
+      "Eine der sogenannten Ultrabestien. Es gibt auch Exemplare, die ihre Gliedmaßen in den Boden rammen und regungslos wie Bäume verharren.",
     pokewikiUrl: "https://www.pokewiki.de/Voltriant",
   },
   {
@@ -13556,6 +15138,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 999.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/797.png",
+    dexEntry:
+      "In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen.",
     pokewikiUrl: "https://www.pokewiki.de/Kaguron",
   },
   {
@@ -13573,6 +15157,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/798.png",
+    dexEntry:
+      "In dieser Welt wirkt sein Aussehen gefährlich und fremdartig, doch in seiner ursprünglichen Welt ist es ein ganz gewöhnliches Lebewesen.",
     pokewikiUrl: "https://www.pokewiki.de/Katagami",
   },
   {
@@ -13590,6 +15176,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 888,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/799.png",
+    dexEntry:
+      "Eine unbekannte Lebensform, die zu den Ultrabestien gehört. Sie scheint immer hungrig zu sein, da sie ununterbrochen frisst.",
     pokewikiUrl: "https://www.pokewiki.de/Schlingking",
   },
   {
@@ -13607,6 +15195,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 230,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/800.png",
+    dexEntry:
+      "Auf der Suche nach Licht, das es zum Überleben benötigt, wütet es umher. Es setzt Laserstrahlen frei, die alles zerteilen.",
     pokewikiUrl: "https://www.pokewiki.de/Necrozma",
   },
   {
@@ -13624,6 +15214,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 80.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/801.png",
+    dexEntry:
+      "Es wurde vor ungefähr 500 Jahren von einem Wissenschaftler erschaffen. Sein eigentlicher Körper ist der als „Seelenherz“ bezeichnete Teil.",
     pokewikiUrl: "https://www.pokewiki.de/Magearna",
   },
   {
@@ -13641,6 +15233,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 22.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/802.png",
+    dexEntry:
+      "Da es in der Lage ist, mit jedem Schatten zu verschmelzen, ist es lange Zeit unentdeckt geblieben.",
     pokewikiUrl: "https://www.pokewiki.de/Marshadow",
   },
   {
@@ -13658,6 +15252,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/803.png",
+    dexEntry:
+      "Diese Ultrabestie aus einer anderen Welt besprüht Gegner laut lachend mit einer giftigen Flüssigkeit aus den Stacheln auf ihrem Kopf.",
     pokewikiUrl: "https://www.pokewiki.de/Venicro",
   },
   {
@@ -13675,6 +15271,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 150,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/804.png",
+    dexEntry:
+      "Diese Ultrabestie verschießt aus ihren Giftstacheln ein leuchtendes, dickflüssiges Gift.",
     pokewikiUrl: "https://www.pokewiki.de/Agoyon",
   },
   {
@@ -13692,6 +15290,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 820,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/805.png",
+    dexEntry:
+      "Diese rätselhafte Lebensform ist vermutlich eine Ultrabestie. Sie sieht aus wie eine Steinmauer, bis sie sich plötzlich bewegt und angreift.",
     pokewikiUrl: "https://www.pokewiki.de/Muramura",
   },
   {
@@ -13709,6 +15309,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/806.png",
+    dexEntry:
+      "Eine Ultrabestie, die durch eine Ultrapforte kam. Sie erschreckt ihre Gegner mit Explosionen und raubt ihnen dann ihre Lebenskraft.",
     pokewikiUrl: "https://www.pokewiki.de/Kopplosio",
   },
   {
@@ -13726,6 +15328,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 44.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/807.png",
+    dexEntry:
+      "Über die Ballen an seinen Pfoten entlädt es Elektrizität. Wenn Zeraora an einem vorbeirennt, zuckt ein Blitz auf und man hört Donnergrollen.",
     pokewikiUrl: "https://www.pokewiki.de/Zeraora",
   },
   {
@@ -13743,6 +15347,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/808.png",
+    dexEntry:
+      "Sie leben in Gruppen. Doch wenn die Zeit reif ist, nimmt ein starkes Meltan seine Artgenossen in sich auf und entwickelt sich.",
     pokewikiUrl: "https://www.pokewiki.de/Meltan",
   },
   {
@@ -13760,6 +15366,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 800,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/809.png",
+    dexEntry:
+      "Es holt mit Fliehkraft Schwung, um mit seinen schweren Muttern Hiebe auszuteilen, die stärker sein sollen als die aller anderen Pokémon.",
     pokewikiUrl: "https://www.pokewiki.de/Melmetal",
   },
   {
@@ -13777,6 +15385,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/810.png",
+    dexEntry:
+      "Es greift an, indem es wiederholt seinen Schlägel schwingt. Diese rasanten Trommelbewegungen bringen es immer mehr in Fahrt.",
     pokewikiUrl: "https://www.pokewiki.de/Chimpep",
   },
   {
@@ -13794,6 +15404,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/811.png",
+    dexEntry:
+      "Verliert es sich im Kampf in seinem wilden Beat, bemerkt es ab und zu nicht mal, dass sein Gegner bereits zu Boden gegangen ist.",
     pokewikiUrl: "https://www.pokewiki.de/Chimstix",
   },
   {
@@ -13811,6 +15423,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 90,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/812.png",
+    dexEntry:
+      "Wer die beste Trommeltechnik hat, wird zum Anführer. Da es ein ruhiges Gemüt hat, legt es viel Wert auf Harmonie in der Gruppe.",
     pokewikiUrl: "https://www.pokewiki.de/Gortrom",
   },
   {
@@ -13828,6 +15442,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/813.png",
+    dexEntry:
+      "Ist es kampfbereit, verströmt es von seiner Nasenspitze und von den Ballen an seinen Läufen Hitze.",
     pokewikiUrl: "https://www.pokewiki.de/Hopplo",
   },
   {
@@ -13845,6 +15461,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/814.png",
+    dexEntry:
+      "Es pflückt Beeren von Ästen, ohne seine Hände zu benutzen, und jongliert sie mit den Füßen. Damit trainiert es seine Fußfertigkeiten.",
     pokewikiUrl: "https://www.pokewiki.de/Kickerlo",
   },
   {
@@ -13862,6 +15480,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/815.png",
+    dexEntry:
+      "Jubel für besonders gelungene Spielzüge schüren seinen Enthusiasmus. Spielt es aber zu sehr für die Publikumswirkung, geht dies oft nach hinten los.",
     pokewikiUrl: "https://www.pokewiki.de/Liberlo",
   },
   {
@@ -13879,6 +15499,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/816.png",
+    dexEntry:
+      "Wird seine Haut feucht, ändert sich ihre Farbe. Dies dient ihm zur Tarnung, da man es dann nicht mehr sehen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Memmeon",
   },
   {
@@ -13896,6 +15518,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/817.png",
+    dexEntry:
+      "Es ist intelligent, fühlt sich aber schnell von jeder Kleinigkeit genervt. Damit kein Feind in sein Revier eindringt, stellt es überall Fallen auf.",
     pokewikiUrl: "https://www.pokewiki.de/Phlegleon",
   },
   {
@@ -13913,6 +15537,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 45.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/818.png",
+    dexEntry:
+      "Die Wasserschüsse aus seinen Fingern erreichen Geschwindigkeiten von bis zu Mach 3. Mit seiner Nickhaut erkennt es Schwachpunkte des Gegners.",
     pokewikiUrl: "https://www.pokewiki.de/Intelleon",
   },
   {
@@ -13930,6 +15556,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/819.png",
+    dexEntry:
+      "Da es unentwegt Beeren futtert, ist es zäher als es aussieht. Man sieht es oft auf Feldern, wo es nach Beeren sucht.",
     pokewikiUrl: "https://www.pokewiki.de/Raffel",
   },
   {
@@ -13947,6 +15575,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/820.png",
+    dexEntry:
+      "Diesem Pokémon begegnet man häufig in Galar. Es ist sehr stolz auf seine Zähne, mit denen es jede noch so harte Beerenschale knacken kann.",
     pokewikiUrl: "https://www.pokewiki.de/Schlaraffel",
   },
   {
@@ -13964,6 +15594,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/821.png",
+    dexEntry:
+      "Mit seinem kleinen Körper kann es flink fliegen und so mithilfe von trickreichen Taktiken größere Gegner überlisten.",
     pokewikiUrl: "https://www.pokewiki.de/Meikro",
   },
   {
@@ -13981,6 +15613,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/822.png",
+    dexEntry:
+      "Es hat viele heftige Kämpfe überstanden und dabei gelernt, die Stärke seiner Gegner stets korrekt einzuschätzen.",
     pokewikiUrl: "https://www.pokewiki.de/Kranoviz",
   },
   {
@@ -13998,6 +15632,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 75,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png",
+    dexEntry:
+      "Aufgrund seiner unübertroffenen Flugfertigkeiten und seiner hohen Intelligenz ist es in der Galar-Region als Flugtaxi im Einsatz.",
     pokewikiUrl: "https://www.pokewiki.de/Krarmor",
   },
   {
@@ -14015,6 +15651,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/824.png",
+    dexEntry:
+      "Dieses Pokémon trifft man oft auf Feldern an. Mit den Haaren, die an seinem Körper wachsen, spürt es, was in der Umgebung vor sich geht.",
     pokewikiUrl: "https://www.pokewiki.de/Sensect",
   },
   {
@@ -14032,6 +15670,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/825.png",
+    dexEntry:
+      "Im Inneren seines Panzers wächst es. Während es sich auf die Entwicklung vorbereitet, prüft es mit seinen Psycho-Kräften, was im Freien geschieht.",
     pokewikiUrl: "https://www.pokewiki.de/Keradar",
   },
   {
@@ -14049,6 +15689,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/826.png",
+    dexEntry:
+      "Indem es Psycho-Kräfte ausstrahlt, erfasst es die Umgebung. Seine Observation umfasst dabei einen beeindruckenden Umkreis von 10 km.",
     pokewikiUrl: "https://www.pokewiki.de/Maritellit",
   },
   {
@@ -14066,6 +15708,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/827.png",
+    dexEntry:
+      "Es ist sehr vorsichtig und gerissen. Nachdem es Futter stibitzt hat, macht es sich davon und verwischt dabei seine Spuren mit seinem Schweif.",
     pokewikiUrl: "https://www.pokewiki.de/Kleptifux",
   },
   {
@@ -14083,6 +15727,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 19.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/828.png",
+    dexEntry:
+      "Dank seines agilen Körpers und seiner scharfen Klauen ist es ihm ein Leichtes, überall Futter und Eier zu stehlen. Bellektro ist sein Erzfeind.",
     pokewikiUrl: "https://www.pokewiki.de/Gaunux",
   },
   {
@@ -14100,6 +15746,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/829.png",
+    dexEntry:
+      "Viele Leute werden ihre Trainer, weil sie es niedlich finden, wie diese Pokémon in sanften Brisen herumwirbeln und voller Freude singen.",
     pokewikiUrl: "https://www.pokewiki.de/Cottini",
   },
   {
@@ -14117,6 +15765,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/830.png",
+    dexEntry:
+      "Aus dem Flaum auf seinem Kopf werden wunderschöne, glänzende Fäden gesponnen. Die Galar-Region ist bekannt für dieses Produkt.",
     pokewikiUrl: "https://www.pokewiki.de/Cottomi",
   },
   {
@@ -14134,6 +15784,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/831.png",
+    dexEntry:
+      "Werden seine Haare zu lang, kann es sich nicht mehr bewegen. Der aus Wollys Wolle gewobene Stoff ist unglaublich robust.",
     pokewikiUrl: "https://www.pokewiki.de/Wolly",
   },
   {
@@ -14151,6 +15803,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 43,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/832.png",
+    dexEntry:
+      "Seine prächtig gewachsenen Hörner dienen dazu, dem anderen Geschlecht zu imponieren. Es nutzt sie nicht als Waffe.",
     pokewikiUrl: "https://www.pokewiki.de/Zwollock",
   },
   {
@@ -14168,6 +15822,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/833.png",
+    dexEntry:
+      "Im Kampf greift es mit dem steinharten Horn auf seinem Kopf an. Schreckt der Gegner zurück, schnappt es zu und lässt nicht wieder los.",
     pokewikiUrl: "https://www.pokewiki.de/Kamehaps",
   },
   {
@@ -14185,6 +15841,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 115.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/834.png",
+    dexEntry:
+      "Sein streckbarer Hals ermöglicht es ihm, auch entfernte Gegner zu erreichen, die es dann mit seinen scharfen Zähnen ausschaltet.",
     pokewikiUrl: "https://www.pokewiki.de/Kamalm",
   },
   {
@@ -14202,6 +15860,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/835.png",
+    dexEntry:
+      "Im Austausch gegen Leckerlis hilft dieser kleine Vielfraß Menschen bei der Arbeit. Beim Rennen wird es von knisternder Elektrizität umhüllt.",
     pokewikiUrl: "https://www.pokewiki.de/Voldi",
   },
   {
@@ -14219,6 +15879,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 34,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/836.png",
+    dexEntry:
+      "Mit Elektrizität verstärkt es seine Beinkraft. So erreicht es mit Leichtigkeit eine Höchstgeschwindigkeit von über 90 km/h.",
     pokewikiUrl: "https://www.pokewiki.de/Bellektro",
   },
   {
@@ -14236,6 +15898,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/837.png",
+    dexEntry:
+      "Auch auf steinigen, schlecht befahrbaren Wegen fährt es problemlos, als wäre es ein Einrad. Es verbrennt Steinkohle, um zu überleben.",
     pokewikiUrl: "https://www.pokewiki.de/Klonkett",
   },
   {
@@ -14253,6 +15917,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 78,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/838.png",
+    dexEntry:
+      "Es dreht seine Füße mit hoher Geschwindigkeit und kann sich dadurch bis zu 30 km/h schnell bewegen. Es speit 1 000 ºC heiße Flammen.",
     pokewikiUrl: "https://www.pokewiki.de/Wagong",
   },
   {
@@ -14270,6 +15936,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 310.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/839.png",
+    dexEntry:
+      "Kommt es zum Kampf, so lodert sein Kohleberg tiefrot auf und es sprüht glühende Funken, die seine Umgebung versengen.",
     pokewikiUrl: "https://www.pokewiki.de/Montecarbo",
   },
   {
@@ -14287,6 +15955,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/840.png",
+    dexEntry:
+      "Nach der Geburt kriecht es sofort in einen Apfel und verspeist dessen Inneres, um zu wachsen. Seine Entwicklung hängt von dessen Aroma ab.",
     pokewikiUrl: "https://www.pokewiki.de/Knapfel",
   },
   {
@@ -14304,6 +15974,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/841.png",
+    dexEntry:
+      "Dieses Pokémon fliegt mit seinen Flügeln aus Apfelschale und spuckt extrem sauren Speichel aus. Es nimmt die Gestalt eines Apfels an.",
     pokewikiUrl: "https://www.pokewiki.de/Drapfel",
   },
   {
@@ -14321,6 +15993,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 13,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/842.png",
+    dexEntry:
+      "Sein Körper wird von süßem Nektar bedeckt und die Schale auf seinem Rücken ist besonders süß. Früher war diese ein Leckerbissen für Kinder.",
     pokewikiUrl: "https://www.pokewiki.de/Schlapfel",
   },
   {
@@ -14338,6 +16012,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/843.png",
+    dexEntry:
+      "Aus seinen Nasenlöchern verschießt es Sand. Sobald der Feind dadurch nichts mehr sieht, versteckt es sich flugs unter der Erde.",
     pokewikiUrl: "https://www.pokewiki.de/Salanga",
   },
   {
@@ -14355,6 +16031,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 65.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/844.png",
+    dexEntry:
+      "Es rollt sich auf diese eigentümliche Weise zusammen, damit es den Sand aus seinem Sandbeutel effizienter verschießen kann.",
     pokewikiUrl: "https://www.pokewiki.de/Sanaconda",
   },
   {
@@ -14372,6 +16050,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 18,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/845.png",
+    dexEntry:
+      "Es ist ein Vielfraß, der seine Beute, Pikuda, im Ganzen verschlingt. Manchmal erwischt es jedoch irrtümlicherweise ein anderes Pokémon.",
     pokewikiUrl: "https://www.pokewiki.de/Urgl",
   },
   {
@@ -14389,6 +16069,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/846.png",
+    dexEntry:
+      "Seine Bewegungsfreiheit ist stark eingeschränkt, wenn es vollgefressen ist. So wird es zu leichter Beute für Urgl, das es im Ganzen verschlingt.",
     pokewikiUrl: "https://www.pokewiki.de/Pikuda",
   },
   {
@@ -14406,6 +16088,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/847.png",
+    dexEntry:
+      "Es lässt seine Schwanzflosse rotieren und stößt mit einem Mal zu. Es durchsticht seine Beute mit einer Geschwindigkeit von über 100 Knoten.",
     pokewikiUrl: "https://www.pokewiki.de/Barrakiefa",
   },
   {
@@ -14423,6 +16107,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/848.png",
+    dexEntry:
+      "Es ändert sein Toxin auf chemischer Ebene, um Strom zu erzeugen. Dieser ist zwar schwach, kann aber einen lähmenden Schlag verursachen.",
     pokewikiUrl: "https://www.pokewiki.de/Toxel",
   },
   {
@@ -14440,6 +16126,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/849.png",
+    dexEntry:
+      "Dieses streitsüchtige und leicht reizbare Pokémon kippt abgestandenes Wasser in sich hinein und nimmt die darin enthaltenen Giftstoffe in sich auf.",
     pokewikiUrl: "https://www.pokewiki.de/Riffex",
   },
   {
@@ -14457,6 +16145,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/850.png",
+    dexEntry:
+      "Es nimmt Beute mit seinem aufgeheizten Körper in die Mangel. Sobald sie gut durchgebraten ist, frisst es sie genüsslich.",
     pokewikiUrl: "https://www.pokewiki.de/Thermopod",
   },
   {
@@ -14474,6 +16164,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/851.png",
+    dexEntry:
+      "Es ist angriffslustig veranlagt. Sein entflammter Körper und sein großes, scharfes Mundwerkzeug stellen eine enorme Gefahr dar.",
     pokewikiUrl: "https://www.pokewiki.de/Infernopod",
   },
   {
@@ -14491,6 +16183,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/852.png",
+    dexEntry:
+      "Sein Verstand ist ungefähr auf dem Level eines dreijährigen Kindes. Es macht ihm nichts aus, dass seine Tentakel oft abreißen, da sie nachwachsen.",
     pokewikiUrl: "https://www.pokewiki.de/Klopptopus",
   },
   {
@@ -14508,6 +16202,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/853.png",
+    dexEntry:
+      "Um sein Können zu testen, kommt es an Land und begibt sich auf die Suche nach Gegnern. Sind die Kämpfe vorbei, kehrt es ins Meer zurück.",
     pokewikiUrl: "https://www.pokewiki.de/Kaocto",
   },
   {
@@ -14525,6 +16221,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/854.png",
+    dexEntry:
+      "Die Teetasse, die es bewohnt, ist eine berühmte Antiquität. Es befinden sich allerdings auch viele Fälschungen im Umlauf.",
     pokewikiUrl: "https://www.pokewiki.de/Fatalitee",
   },
   {
@@ -14542,6 +16240,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/855.png",
+    dexEntry:
+      "Entdeckt es zurückgelassenen Schwarztee, so gießt es seinen Körper hinein. Der Tee wird dann zu einem Mortipot.",
     pokewikiUrl: "https://www.pokewiki.de/Mortipot",
   },
   {
@@ -14559,6 +16259,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/856.png",
+    dexEntry:
+      "Es liebt Orte, wo sonst niemand ist. Nimmt es starke Emotionen wahr, macht es sich so schnell es kann aus dem Staub.",
     pokewikiUrl: "https://www.pokewiki.de/Brimova",
   },
   {
@@ -14576,6 +16278,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/857.png",
+    dexEntry:
+      "Ein Schlag mit den Quasten an seinem Kopf bringt Gegner zum Schweigen. Ein Treffer genügt, um einen Profiboxer auf die Bretter zu schicken.",
     pokewikiUrl: "https://www.pokewiki.de/Brimano",
   },
   {
@@ -14593,6 +16297,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/858.png",
+    dexEntry:
+      "Es wird auch „Hexe des Waldes“ genannt. Wer Lärm veranstaltet, wird unter Umständen von der Klaue an seinem Fühler auseinandergenommen.",
     pokewikiUrl: "https://www.pokewiki.de/Silembrim",
   },
   {
@@ -14610,6 +16316,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/859.png",
+    dexEntry:
+      "Es schleicht sich in Häuser ein und geht dort auf Diebeszug. Zudem verleibt es sich die negative Energie der deshalb verärgerten Menschen ein.",
     pokewikiUrl: "https://www.pokewiki.de/B%C3%A4hmon",
   },
   {
@@ -14627,6 +16335,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/860.png",
+    dexEntry:
+      "Es hat einen Hang zur Verschlagenheit und versucht, nachts seine Beute in den Wald zu locken. Angeblich kann es Äcker gedeihen lassen.",
     pokewikiUrl: "https://www.pokewiki.de/Pelzebub",
   },
   {
@@ -14644,6 +16354,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 61,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/861.png",
+    dexEntry:
+      "Seine Haare funktionieren wie Muskelfasern. Es kann diese vom Körper lösen und wie Tentakel verwenden, um Gegner einzufangen.",
     pokewikiUrl: "https://www.pokewiki.de/Olangaar",
   },
   {
@@ -14661,6 +16373,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 46,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/862.png",
+    dexEntry:
+      "Durch das Austragen unzähliger Kämpfe hat es sich entwickelt. Formt es mit den Armen ein „X“ und stößt einen Schrei aus, verschreckt das jeden.",
     pokewikiUrl: "https://www.pokewiki.de/Barrikadax",
   },
   {
@@ -14678,6 +16392,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/863.png",
+    dexEntry:
+      "Es entwickelte sich nach einer langen Zeit voller Kämpfe. Nun kann es seine Krallen ausfahren, um sie als Dolche zu nutzen.",
     pokewikiUrl: "https://www.pokewiki.de/Mauzinger",
   },
   {
@@ -14695,6 +16411,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/864.png",
+    dexEntry:
+      "Vor dem geisterhaften Ektoplasma, das seine Seele umhüllt, ist Vorsicht geboten. Berührt man es, erstarrt man wie zu Stein.",
     pokewikiUrl: "https://www.pokewiki.de/Gorgasonn",
   },
   {
@@ -14712,6 +16430,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 117,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/865.png",
+    dexEntry:
+      "Der Lauch dient ihm als Waffe und zur Abwehr, aber viele essen ihn auch. Mit den harten Blättern pariert es und mit der scharfen Stange kontert es.",
     pokewikiUrl: "https://www.pokewiki.de/Lauchzelot",
   },
   {
@@ -14729,6 +16449,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 58.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/866.png",
+    dexEntry:
+      "Dank seiner unterhaltsamen Bewegungen ist es allseits sehr beliebt. Von dem Muster auf seinem Bauch sendet es Psycho-Kräfte aus.",
     pokewikiUrl: "https://www.pokewiki.de/Pantifrost",
   },
   {
@@ -14746,6 +16468,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 66.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/867.png",
+    dexEntry:
+      "Man sollte seinen schattenhaften Körper nicht berühren, sonst zeigt es einem die schauerlichen Erinnerungen, die in sein Bild eingraviert wurden.",
     pokewikiUrl: "https://www.pokewiki.de/Oghnatoll",
   },
   {
@@ -14763,6 +16487,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/868.png",
+    dexEntry:
+      "Es heißt, dass den Konditoreien, in denen sich Hokumil zeigt, großer Wohlstand verheißen sei.",
     pokewikiUrl: "https://www.pokewiki.de/Hokumil",
   },
   {
@@ -14780,6 +16506,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/869.png",
+    dexEntry:
+      "Die Sahne, die Pokusan aus seinen Händen hervorbringt, wird noch süßer und intensiver im Geschmack, wenn es glücklich ist.",
     pokewikiUrl: "https://www.pokewiki.de/Pokusan",
   },
   {
@@ -14797,6 +16525,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 62,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/870.png",
+    dexEntry:
+      "Sie bilden zu sechst ein Pokémon. Es kann im Kampf seine Formation nach Belieben ändern und legt bemerkenswerte Teamarbeit an den Tag.",
     pokewikiUrl: "https://www.pokewiki.de/Legios",
   },
   {
@@ -14814,6 +16544,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/871.png",
+    dexEntry:
+      "In jedem einzelnen seiner Stacheln speichert es Elektrizität. Selbst abgebrochene Stacheln sind noch drei Stunden lang geladen.",
     pokewikiUrl: "https://www.pokewiki.de/Britzigel",
   },
   {
@@ -14831,6 +16563,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/872.png",
+    dexEntry:
+      "Es frisst den Schnee, der sich am Boden angesammelt hat. Je mehr es frisst, desto größer werden die Stacheln auf seinem Rücken.",
     pokewikiUrl: "https://www.pokewiki.de/Snomnom",
   },
   {
@@ -14848,6 +16582,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 42,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/873.png",
+    dexEntry:
+      "Verwüstet jemand Felder und Berge, vergibt es ihm niemals. Es bestraft den Täter, indem es mit seinen kalten Flügeln einen Schneesturm erzeugt.",
     pokewikiUrl: "https://www.pokewiki.de/Mottineva",
   },
   {
@@ -14865,6 +16601,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 520,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/874.png",
+    dexEntry:
+      "Sie haben die Angewohnheit, sich einmal im Jahr zu einer bestimmten Zeit wie aus dem Nichts zu versammeln und in einem Kreis aufzustellen.",
     pokewikiUrl: "https://www.pokewiki.de/Humanolith",
   },
   {
@@ -14882,6 +16620,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 89,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/875.png",
+    dexEntry:
+      "Es kühlt sein Gesicht ständig mit Eis, da dieses Hitze nicht gut verträgt. Das Haar auf dem Kopf hängt es ins Meer und angelt sich damit Beute.",
     pokewikiUrl: "https://www.pokewiki.de/Kubuin",
   },
   {
@@ -14899,6 +16639,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 28,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/876.png",
+    dexEntry:
+      "Mit seinen Hörnern erfasst es die Gefühle von Lebewesen, die sich in seiner Nähe aufhalten. Positive Gefühle sind die Quelle seiner Kraft.",
     pokewikiUrl: "https://www.pokewiki.de/Servol",
   },
   {
@@ -14916,6 +16658,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/877.png",
+    dexEntry:
+      "Egal, wie viel es auch frisst, es wird sofort wieder hungrig. Es röstet Samen mit seiner Elektrizität und trägt diese dann vorsichtig mit sich herum.",
     pokewikiUrl: "https://www.pokewiki.de/Morpeko",
   },
   {
@@ -14933,6 +16677,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 100,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/878.png",
+    dexEntry:
+      "Harte Knochenarbeit kann man problemlos ihm überlassen. Sein Körper aus Kupfer rostet im Regen und nimmt eine leuchtend grüne Farbe an.",
     pokewikiUrl: "https://www.pokewiki.de/Kupfanti",
   },
   {
@@ -14950,6 +16696,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 650,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/879.png",
+    dexEntry:
+      "Diese Pokémon leben in Herden. Drücken sie mit ihren kräftigen Rüsseln zu, können sie selbst massive Felsen zu Staub zermahlen.",
     pokewikiUrl: "https://www.pokewiki.de/Patinaraja",
   },
   {
@@ -14967,6 +16715,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 190,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/880.png",
+    dexEntry:
+      "Mit den kräftigen Muskeln in seinem Schwanz erzeugt es Elektrizität. Sein Oberkörper ist im Vergleich zu seinem Unterkörper zu klein.",
     pokewikiUrl: "https://www.pokewiki.de/Lectragon",
   },
   {
@@ -14984,6 +16734,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 150,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/881.png",
+    dexEntry:
+      "In der Urzeit lebte es am Strand und konnte mit seinem kalten Körper Futter haltbar machen. Es starb wegen seiner trägen Bewegungen aus.",
     pokewikiUrl: "https://www.pokewiki.de/Lecryodon",
   },
   {
@@ -15001,6 +16753,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 215,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/882.png",
+    dexEntry:
+      "Seine außergewöhnlich kräftigen Beine lassen es zwar über 60 km/h schnell laufen, doch atmen kann es nur unter Wasser.",
     pokewikiUrl: "https://www.pokewiki.de/Pescragon",
   },
   {
@@ -15018,6 +16772,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 175,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/883.png",
+    dexEntry:
+      "Kein Angriff konnte seine Gesichtshaut verletzen, doch es war in seiner Atmung eingeschränkt und starb daher aus.",
     pokewikiUrl: "https://www.pokewiki.de/Pescryodon",
   },
   {
@@ -15035,6 +16791,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 40,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/884.png",
+    dexEntry:
+      "Es ist sehr beweglich, weil sein Körper aus einem speziellen, leichten Metall besteht. Da es Regen nicht mag, lebt es in Höhlen.",
     pokewikiUrl: "https://www.pokewiki.de/Duraludon",
   },
   {
@@ -15052,6 +16810,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/885.png",
+    dexEntry:
+      "Alleine ist es sogar gegen ein Kind machtlos, doch mit der Hilfe seiner Gefährten trainiert es, entwickelt sich und wird so stärker.",
     pokewikiUrl: "https://www.pokewiki.de/Grolldra",
   },
   {
@@ -15069,6 +16829,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/886.png",
+    dexEntry:
+      "Hat es kein Grolldra auf seinem Kopf, auf das es aufpassen kann, wird es nervös. Dann versucht es, ein anderes Pokémon auf seinen Kopf zu setzen.",
     pokewikiUrl: "https://www.pokewiki.de/Phandra",
   },
   {
@@ -15086,6 +16848,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 50,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/887.png",
+    dexEntry:
+      "Die Grolldra, die in seinen Hörnern sitzen, warten angeblich voller Spannung darauf, mit Mach-Geschwindigkeit abgefeuert zu werden.",
     pokewikiUrl: "https://www.pokewiki.de/Katapuldra",
   },
   {
@@ -15103,6 +16867,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 110,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/888.png",
+    dexEntry:
+      "Man sagt, es sei wie ein älteres Geschwisterteil, aber auch wie ein Rivale zu Zamazenta, welches in einen langen Schlaf gefallen war.",
     pokewikiUrl: "https://www.pokewiki.de/Zacian",
   },
   {
@@ -15120,6 +16886,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 210,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/889.png",
+    dexEntry:
+      "Dieses Pokémon fiel in Form einer Steinstatue in solch einen langen Schlaf, dass es in Vergessenheit geraten ist.",
     pokewikiUrl: "https://www.pokewiki.de/Zamazenta",
   },
   {
@@ -15137,6 +16905,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 950,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/890.png",
+    dexEntry:
+      "Es steckte in einem Meteorit, der vor 20 000 Jahren herabstürzte. Es scheint in Verbindung mit dem Dynamax-Phänomen zu stehen.",
     pokewikiUrl: "https://www.pokewiki.de/Endynalos",
   },
   {
@@ -15154,6 +16924,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/891.png",
+    dexEntry:
+      "Zieht es an dem langen weißen Fell an seinem Hinterkopf, steigert das seinen Kampfgeist und aus seiner Körpermitte steigt Kraft empor.",
     pokewikiUrl: "https://www.pokewiki.de/Dakuma",
   },
   {
@@ -15171,6 +16943,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 105,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/892.png",
+    dexEntry:
+      "Wulaosu lebt in den Bergen einer fernen Region. Um die Beine zu stählen und seine Kampftechnik zu verbessern, rennt es steile Klippen entlang.",
     pokewikiUrl: "https://www.pokewiki.de/Wulaosu",
   },
   {
@@ -15188,6 +16962,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 70,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/893.png",
+    dexEntry:
+      "Reißen die an seinem Körper wachsenden Ranken ab, werden sie zu Nährstoffen für den Boden, was den Pflanzen im Wald zum Wachstum verhilft.",
     pokewikiUrl: "https://www.pokewiki.de/Zarude",
   },
   {
@@ -15205,6 +16981,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 145,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/894.png",
+    dexEntry:
+      "Sein Körper besteht aus einem Organ, das elektrische Energie erzeugt. Regieleki kann genug Strom produzieren, um ganz Galar zu versorgen.",
     pokewikiUrl: "https://www.pokewiki.de/Regieleki",
   },
   {
@@ -15222,6 +17000,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 200,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/895.png",
+    dexEntry:
+      "Sein ganzer Körper besteht aus kristallisierter Drachen-Energie. Es soll über die Kräfte aller Drachen-Pokémon verfügen.",
     pokewikiUrl: "https://www.pokewiki.de/Regidrago",
   },
   {
@@ -15239,6 +17019,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 800,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/896.png",
+    dexEntry:
+      "Das Gesicht dieses außergewöhnlich starken Pokémon wird von einer Maske aus Eis bedeckt, die hundertmal härter als Diamant ist.",
     pokewikiUrl: "https://www.pokewiki.de/Polaross",
   },
   {
@@ -15256,6 +17038,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 44.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/897.png",
+    dexEntry:
+      "Es galoppiert durch die finstere Nacht und absorbiert die Lebensenergie der Schlafenden. Phantoross bevorzugt Einsamkeit und Stille.",
     pokewikiUrl: "https://www.pokewiki.de/Phantoross",
   },
   {
@@ -15273,6 +17057,8 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 7.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/898.png",
+    dexEntry:
+      "Ein legendärer König, der einst Galar regierte. Coronospa besitzt die Macht, Herzen zu besänftigen und Pflanzen gedeihen zu lassen.",
     pokewikiUrl: "https://www.pokewiki.de/Coronospa",
   },
   {
@@ -15290,6 +17076,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 95.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/899.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Damythir",
   },
   {
@@ -15307,6 +17094,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 89,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/900.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Axantor",
   },
   {
@@ -15324,6 +17112,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 290,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/901.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Ursaluna",
   },
   {
@@ -15341,6 +17130,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 110,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/902.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Salmagnis",
   },
   {
@@ -15358,6 +17148,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 43,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/903.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Snieboss",
   },
   {
@@ -15375,6 +17166,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/904.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Myriador",
   },
   {
@@ -15392,6 +17184,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 48,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/905.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Cupidos",
   },
   {
@@ -15409,6 +17202,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/906.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Felori",
   },
   {
@@ -15426,6 +17220,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/907.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Feliospa",
   },
   {
@@ -15443,6 +17238,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 31.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/908.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Maskagato",
   },
   {
@@ -15460,6 +17256,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/909.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Krokel",
   },
   {
@@ -15477,6 +17274,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/910.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Lokroko",
   },
   {
@@ -15494,6 +17292,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 326.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/911.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Skelokrok",
   },
   {
@@ -15511,6 +17310,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/912.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Kwaks",
   },
   {
@@ -15528,6 +17328,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/913.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Fuentente",
   },
   {
@@ -15545,6 +17346,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 61.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/914.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Bailonda",
   },
   {
@@ -15562,6 +17364,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/915.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Ferkuli",
   },
   {
@@ -15579,6 +17382,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/916.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Fragrunz",
   },
   {
@@ -15596,6 +17400,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/917.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Tarundel",
   },
   {
@@ -15613,6 +17418,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/918.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Spinsidias",
   },
   {
@@ -15630,6 +17436,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/919.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Micrick",
   },
   {
@@ -15647,6 +17454,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/920.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Lextremo",
   },
   {
@@ -15664,6 +17472,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/921.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Pamo",
   },
   {
@@ -15681,6 +17490,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/922.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Pamamo",
   },
   {
@@ -15698,6 +17508,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 41,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/923.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Pamomamo",
   },
   {
@@ -15715,6 +17526,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/924.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Zwieps",
   },
   {
@@ -15732,6 +17544,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/925.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Famieps",
   },
   {
@@ -15749,6 +17562,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/926.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Hefel",
   },
   {
@@ -15766,6 +17580,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 14.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/927.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Backel",
   },
   {
@@ -15783,6 +17598,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/928.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Olini",
   },
   {
@@ -15800,6 +17616,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/929.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Olivinio",
   },
   {
@@ -15817,6 +17634,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 48.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/930.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Olithena",
   },
   {
@@ -15834,6 +17652,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/931.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Krawalloro",
   },
   {
@@ -15851,6 +17670,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/932.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Geosali",
   },
   {
@@ -15868,6 +17688,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 105,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/933.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Sedisal",
   },
   {
@@ -15885,6 +17706,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 240,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/934.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Saltigant",
   },
   {
@@ -15902,6 +17724,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 10.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/935.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Knarbon",
   },
   {
@@ -15919,6 +17742,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 85,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/936.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Crimanzo",
   },
   {
@@ -15936,6 +17760,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 62,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/937.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Azugladis",
   },
   {
@@ -15953,6 +17778,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/938.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Blipp",
   },
   {
@@ -15970,6 +17796,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 113,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/939.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Wampitz",
   },
   {
@@ -15987,6 +17814,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/940.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Voltrel",
   },
   {
@@ -16004,6 +17832,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 38.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/941.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Voltrean",
   },
   {
@@ -16021,6 +17850,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 16,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/942.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Mobtiff",
   },
   {
@@ -16038,6 +17868,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 61,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/943.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Mastifioso",
   },
   {
@@ -16055,6 +17886,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/944.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Sproxi",
   },
   {
@@ -16072,6 +17904,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 27.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/945.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Affiti",
   },
   {
@@ -16089,6 +17922,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/946.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Weherba",
   },
   {
@@ -16106,6 +17940,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/947.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Horrerba",
   },
   {
@@ -16123,6 +17958,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 33,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/948.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Tentagra",
   },
   {
@@ -16140,6 +17976,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 58,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/949.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Tenterra",
   },
   {
@@ -16157,6 +17994,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 79,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/950.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Klibbe",
   },
   {
@@ -16174,6 +18012,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/951.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Chilingel",
   },
   {
@@ -16191,6 +18030,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/952.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Halupenjo",
   },
   {
@@ -16208,6 +18048,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/953.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Relluk",
   },
   {
@@ -16225,6 +18066,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 3.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/954.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Skarabaks",
   },
   {
@@ -16242,6 +18084,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/955.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Flattutu",
   },
   {
@@ -16259,6 +18102,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 90,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/956.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Psiopatra",
   },
   {
@@ -16276,6 +18120,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/957.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Forgita",
   },
   {
@@ -16293,6 +18138,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 59.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/958.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Tafforgita",
   },
   {
@@ -16310,6 +18156,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 112.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/959.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Granforgita",
   },
   {
@@ -16327,6 +18174,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/960.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Schligda",
   },
   {
@@ -16344,6 +18192,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5.4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/961.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Schligdri",
   },
   {
@@ -16361,6 +18210,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 42.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/962.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Adebom",
   },
   {
@@ -16378,6 +18228,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/963.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Normifin",
   },
   {
@@ -16395,6 +18246,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/964.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Delfinator",
   },
   {
@@ -16412,6 +18264,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/965.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Knattox",
   },
   {
@@ -16429,6 +18282,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/966.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Knattatox",
   },
   {
@@ -16446,6 +18300,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 63,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/967.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Mopex",
   },
   {
@@ -16463,6 +18318,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 310,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/968.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Schlurm",
   },
   {
@@ -16480,6 +18336,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/969.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Lumispross",
   },
   {
@@ -16497,6 +18354,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 45,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/970.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Lumiflora",
   },
   {
@@ -16514,6 +18372,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/971.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Gruff",
   },
   {
@@ -16531,6 +18390,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 15,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/972.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Friedwuff",
   },
   {
@@ -16548,6 +18408,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 37,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/973.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Flaminkno",
   },
   {
@@ -16565,6 +18426,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 45,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/974.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Flaniwal",
   },
   {
@@ -16582,6 +18444,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 700,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/975.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Kolowal",
   },
   {
@@ -16599,6 +18462,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 90,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/976.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Agiluza",
   },
   {
@@ -16616,6 +18480,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 220,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/977.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Heerashai",
   },
   {
@@ -16633,6 +18498,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/978.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Nigiragi",
   },
   {
@@ -16650,6 +18516,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 56,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/979.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Epitaff",
   },
   {
@@ -16667,6 +18534,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 223,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/980.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Suelord",
   },
   {
@@ -16684,6 +18552,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 160,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/981.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Farigiraf",
   },
   {
@@ -16701,6 +18570,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/982.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Dummimisel",
   },
   {
@@ -16718,6 +18588,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 120,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/983.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Gladimperio",
   },
   {
@@ -16735,6 +18606,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 320,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/984.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Riesenzahn",
   },
   {
@@ -16752,6 +18624,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/985.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Br%C3%BCllschweif",
   },
   {
@@ -16769,6 +18642,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 21,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/986.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Wutpilz",
   },
   {
@@ -16786,6 +18660,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/987.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Flatterhaar",
   },
   {
@@ -16803,6 +18678,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 92,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/988.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Kriechfl%C3%BCgel",
   },
   {
@@ -16820,6 +18696,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/989.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Sandfell",
   },
   {
@@ -16837,6 +18714,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 240,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/990.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenrad",
   },
   {
@@ -16854,6 +18732,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 11,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/991.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenb%C3%BCndel",
   },
   {
@@ -16871,6 +18750,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 380.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/992.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenhand",
   },
   {
@@ -16888,6 +18768,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 111,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/993.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenhals",
   },
   {
@@ -16905,6 +18786,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 36,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/994.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenfalter",
   },
   {
@@ -16922,6 +18804,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 303,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/995.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisendorn",
   },
   {
@@ -16939,6 +18822,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 17,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/996.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Frospino",
   },
   {
@@ -16956,6 +18840,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/997.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Cryospino",
   },
   {
@@ -16973,6 +18858,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 210,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/998.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Espinodon",
   },
   {
@@ -16990,6 +18876,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/999.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Gierspenst",
   },
   {
@@ -17007,6 +18894,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1000.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Monetigo",
   },
   {
@@ -17024,6 +18912,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 74.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1001.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Chongjian",
   },
   {
@@ -17041,6 +18930,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 152.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1002.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Baojian",
   },
   {
@@ -17058,6 +18948,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 699.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1003.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Dinglu",
   },
   {
@@ -17075,6 +18966,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 4.9,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1004.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Yuyu",
   },
   {
@@ -17092,6 +18984,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 380,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1005.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Donnersichel",
   },
   {
@@ -17109,6 +19002,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 35,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1006.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenkrieger",
   },
   {
@@ -17126,6 +19020,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 303,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1007.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Koraidon",
   },
   {
@@ -17143,6 +19038,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 240,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1008.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Miraidon",
   },
   {
@@ -17160,6 +19056,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 280,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1009.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Windewoge",
   },
   {
@@ -17177,6 +19074,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 125,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1010.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenblatt",
   },
   {
@@ -17194,6 +19092,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 9.7,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1011.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Sirapfel",
   },
   {
@@ -17211,6 +19110,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 1.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1012.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Mortcha",
   },
   {
@@ -17228,6 +19128,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 2.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1013.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Fatalitcha",
   },
   {
@@ -17245,6 +19146,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 92.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1014.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Boninu",
   },
   {
@@ -17262,6 +19164,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 12.2,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1015.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Benesaru",
   },
   {
@@ -17279,6 +19182,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 30.1,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1016.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Beatori",
   },
   {
@@ -17296,6 +19200,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 39.8,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1017.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Ogerpon",
   },
   {
@@ -17313,6 +19218,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 60,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1018.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Briduradon",
   },
   {
@@ -17330,6 +19236,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 93,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1019.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Hydrapfel",
   },
   {
@@ -17347,6 +19254,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 590,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1020.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Keilflamme",
   },
   {
@@ -17364,6 +19272,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 480,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1021.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Furienblitz",
   },
   {
@@ -17381,6 +19290,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 162.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1022.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenfels",
   },
   {
@@ -17398,6 +19308,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 156,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1023.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Eisenhaupt",
   },
   {
@@ -17415,6 +19326,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 6.5,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1024.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Terapagos",
   },
   {
@@ -17432,6 +19344,7 @@ export const pokemonData: PokemonEntry[] = [
     weightKg: 0.3,
     sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1025.png",
+    dexEntry: "",
     pokewikiUrl: "https://www.pokewiki.de/Infamomo",
   },
 ];

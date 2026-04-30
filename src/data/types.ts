@@ -12,6 +12,7 @@ export interface PokemonEntry {
   heightM: number;
   weightKg: number;
   sprite: string;
+  dexEntry: string;
   pokewikiUrl: string;
 }
 

@@ -16,6 +16,10 @@ interface PokemonSpecies {
   name: string;
   names: LocalizedName[];
   genera: LocalizedName[];
+  flavor_text_entries: Array<{
+    flavor_text: string;
+    language: NamedApiResource;
+  }>;
   color: NamedApiResource;
   egg_groups: NamedApiResource[];
   generation: NamedApiResource;
@@ -56,6 +60,7 @@ interface PokemonEntry {
   heightM: number;
   weightKg: number;
   sprite: string;
+  dexEntry: string;
   pokewikiUrl: string;
 }
 
@@ -143,6 +148,19 @@ function pokewikiUrl(name: string): string {
   return `https://www.pokewiki.de/${encodeURIComponent(name).replaceAll("%20", "_")}`;
 }
 
+function cleanFlavorText(text: string): string {
+  return text.replaceAll("\n", " ").replaceAll("\f", " ").replace(/\s+/g, " ").trim();
+}
+
+function dexEntry(species: PokemonSpecies): string {
+  const germanEntries = species.flavor_text_entries
+    .filter((entry) => entry.language.name === "de")
+    .map((entry) => cleanFlavorText(entry.flavor_text))
+    .filter(Boolean);
+
+  return germanEntries.at(-1) ?? "";
+}
+
 async function mapLimit<T, R>(
   items: T[],
   limit: number,
@@ -215,6 +233,7 @@ async function buildEntry(resource: NamedApiResource, index: number): Promise<Po
     heightM,
     weightKg: pokemon.weight / 10,
     sprite: artwork ?? fallbackSprite ?? "",
+    dexEntry: dexEntry(species),
     pokewikiUrl: pokewikiUrl(germanName),
   };
 }

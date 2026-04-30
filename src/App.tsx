@@ -451,10 +451,37 @@ function DetailPanel({
       <h2 className="mt-1 text-3xl font-black text-[#17170f]">
         {solved ? target.name : "Pokémon gesucht"}
       </h2>
-      <p className="mt-3 text-lg leading-relaxed">
-        Wähle einen Knoten im Baum aus, um Details zu sehen. Falsche Tipps zeigen den genauesten
-        gemeinsamen Knoten mit der Lösung oder einem früheren Tipp.
-      </p>
+      {solved ? (
+        <div className="mt-4 grid gap-4 sm:grid-cols-[7rem_1fr]">
+          <div className="flex aspect-square items-center justify-center rounded-md border border-[#c5ce93] bg-white/55 p-2">
+            <img
+              className="h-full w-full object-contain"
+              src={target.sprite}
+              alt={target.name}
+              loading="lazy"
+            />
+          </div>
+          <div className="min-w-0">
+            <p className="text-lg font-semibold text-[#516122]">{target.category}</p>
+            <p className="mt-2 text-lg leading-relaxed">
+              {target.dexEntry ||
+                "Für dieses Pokémon ist kein deutscher Pokédex-Eintrag verfügbar."}
+            </p>
+            <a
+              className="mt-3 inline-flex font-bold text-[#692018] underline underline-offset-4"
+              href={target.pokewikiUrl}
+              target="_blank"
+            >
+              PokéWiki öffnen
+            </a>
+          </div>
+        </div>
+      ) : (
+        <p className="mt-3 text-lg leading-relaxed">
+          Wähle einen Knoten im Baum aus, um Details zu sehen. Falsche Tipps zeigen den genauesten
+          gemeinsamen Knoten mit der Lösung oder einem früheren Tipp.
+        </p>
+      )}
     </section>
   );
 }
