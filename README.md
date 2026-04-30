@@ -14,8 +14,20 @@ bun run dev
 
 ```fish
 bun run format:check
+bun run test
 bun run lint
 bun run build
 ```
+
+## Deployment
+
+Pushes to `main` deploy the static build through GitHub Actions. Configure these repository
+secrets before relying on the workflow:
+
+- `DEPLOY_HOST`
+- `DEPLOY_USER`
+- `DEPLOY_SSH_KEY`
+- `DEPLOY_PATH`
+- `DEPLOY_PORT` (optional; defaults to `22`)
 
 Die Pokémon-Daten werden in `src/data/pokemon.generated.ts` generiert. Grundlage sind PokéAPI-Metadaten mit deutschen Lokalisierungen; die App verlinkt pro Pokémon auf die passende PokéWiki-Seite.
