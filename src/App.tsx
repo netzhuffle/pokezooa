@@ -322,6 +322,66 @@ function ResultColumn({
   );
 }
 
+function PokemonDetailCard({ pokemon }: { pokemon: PokemonEntry }) {
+  return (
+    <section className="rounded-md border border-[#74813a] bg-[#eef0d8] p-4 shadow-lg">
+      <div className="flex items-start justify-between gap-4">
+        <div>
+          <p className="text-sm font-bold uppercase tracking-wide text-[#6f7727]">
+            #{pokemon.id.toString().padStart(4, "0")} · {pokemon.generation}
+          </p>
+          <h2 className="mt-1 text-3xl font-black text-[#17170f]">{pokemon.name}</h2>
+          <p className="text-lg font-semibold text-[#516122]">{pokemon.category}</p>
+        </div>
+        <img
+          className="h-20 w-20 shrink-0 object-contain sm:h-24 sm:w-24"
+          src={pokemon.sprite}
+          alt={pokemon.name}
+          loading="lazy"
+        />
+      </div>
+      <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">
+        <div>
+          <dt className="font-bold text-[#6f7727]">Typ</dt>
+          <dd>{pokemon.types.join(" / ")}</dd>
+        </div>
+        <div>
+          <dt className="font-bold text-[#6f7727]">Region</dt>
+          <dd>{pokemon.region}</dd>
+        </div>
+        <div>
+          <dt className="font-bold text-[#6f7727]">Ei-Gruppe</dt>
+          <dd>{pokemon.eggGroups.join(" / ")}</dd>
+        </div>
+        <div>
+          <dt className="font-bold text-[#6f7727]">Farbe</dt>
+          <dd>{pokemon.color}</dd>
+        </div>
+        <div>
+          <dt className="font-bold text-[#6f7727]">Größe</dt>
+          <dd>
+            {pokemon.sizeClass} · {formatMeters(pokemon.heightM)}
+          </dd>
+        </div>
+        <div>
+          <dt className="font-bold text-[#6f7727]">Gewicht</dt>
+          <dd>{formatKilograms(pokemon.weightKg)}</dd>
+        </div>
+      </dl>
+      <p className="mt-4 text-base leading-relaxed">
+        {pokemon.dexEntry || "Für dieses Pokémon ist kein deutscher Pokédex-Eintrag verfügbar."}
+      </p>
+      <a
+        className="mt-4 inline-flex font-bold text-[#692018] underline underline-offset-4"
+        href={pokemon.pokewikiUrl}
+        target="_blank"
+      >
+        PokéWiki öffnen
+      </a>
+    </section>
+  );
+}
+
 function DetailPanel({
   selected,
   target,
@@ -332,61 +392,7 @@ function DetailPanel({
   solved: boolean;
 }) {
   if (selected?.pokemon) {
-    const pokemon = selected.pokemon;
-    return (
-      <section className="rounded-md border border-[#74813a] bg-[#eef0d8] p-4 shadow-lg">
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <p className="text-sm font-bold uppercase tracking-wide text-[#6f7727]">
-              #{pokemon.id.toString().padStart(4, "0")} · {pokemon.generation}
-            </p>
-            <h2 className="mt-1 text-3xl font-black text-[#17170f]">{pokemon.name}</h2>
-            <p className="text-lg font-semibold text-[#516122]">{pokemon.category}</p>
-          </div>
-          <img
-            className="h-20 w-20 shrink-0 object-contain sm:h-24 sm:w-24"
-            src={pokemon.sprite}
-            alt={pokemon.name}
-            loading="lazy"
-          />
-        </div>
-        <dl className="mt-4 grid grid-cols-2 gap-3 text-sm">
-          <div>
-            <dt className="font-bold text-[#6f7727]">Typ</dt>
-            <dd>{pokemon.types.join(" / ")}</dd>
-          </div>
-          <div>
-            <dt className="font-bold text-[#6f7727]">Region</dt>
-            <dd>{pokemon.region}</dd>
-          </div>
-          <div>
-            <dt className="font-bold text-[#6f7727]">Ei-Gruppe</dt>
-            <dd>{pokemon.eggGroups.join(" / ")}</dd>
-          </div>
-          <div>
-            <dt className="font-bold text-[#6f7727]">Farbe</dt>
-            <dd>{pokemon.color}</dd>
-          </div>
-          <div>
-            <dt className="font-bold text-[#6f7727]">Größe</dt>
-            <dd>
-              {pokemon.sizeClass} · {formatMeters(pokemon.heightM)}
-            </dd>
-          </div>
-          <div>
-            <dt className="font-bold text-[#6f7727]">Gewicht</dt>
-            <dd>{formatKilograms(pokemon.weightKg)}</dd>
-          </div>
-        </dl>
-        <a
-          className="mt-4 inline-flex font-bold text-[#692018] underline underline-offset-4"
-          href={pokemon.pokewikiUrl}
-          target="_blank"
-        >
-          PokéWiki öffnen
-        </a>
-      </section>
-    );
+    return <PokemonDetailCard pokemon={selected.pokemon} />;
   }
 
   if (selected) {
@@ -403,43 +409,18 @@ function DetailPanel({
     );
   }
 
+  if (solved) {
+    return <PokemonDetailCard pokemon={target} />;
+  }
+
   return (
     <section className="rounded-md border border-[#74813a] bg-[#eef0d8] p-4 shadow-lg">
       <p className="text-sm font-bold uppercase tracking-wide text-[#6f7727]">Rätsel</p>
-      <h2 className="mt-1 text-3xl font-black text-[#17170f]">
-        {solved ? target.name : "Pokémon gesucht"}
-      </h2>
-      {solved ? (
-        <div className="mt-4 grid gap-4 sm:grid-cols-[7rem_1fr]">
-          <div className="flex aspect-square items-center justify-center rounded-md border border-[#c5ce93] bg-white/55 p-2">
-            <img
-              className="h-full w-full object-contain"
-              src={target.sprite}
-              alt={target.name}
-              loading="lazy"
-            />
-          </div>
-          <div className="min-w-0">
-            <p className="text-lg font-semibold text-[#516122]">{target.category}</p>
-            <p className="mt-2 text-lg leading-relaxed">
-              {target.dexEntry ||
-                "Für dieses Pokémon ist kein deutscher Pokédex-Eintrag verfügbar."}
-            </p>
-            <a
-              className="mt-3 inline-flex font-bold text-[#692018] underline underline-offset-4"
-              href={target.pokewikiUrl}
-              target="_blank"
-            >
-              PokéWiki öffnen
-            </a>
-          </div>
-        </div>
-      ) : (
-        <p className="mt-3 text-lg leading-relaxed">
-          Wähle einen Knoten im Baum aus, um Details zu sehen. Falsche Tipps zeigen den genauesten
-          gemeinsamen Knoten mit der Lösung oder einem früheren Tipp.
-        </p>
-      )}
+      <h2 className="mt-1 text-3xl font-black text-[#17170f]">Pokémon gesucht</h2>
+      <p className="mt-3 text-lg leading-relaxed">
+        Wähle einen Knoten im Baum aus, um Details zu sehen. Falsche Tipps zeigen den genauesten
+        gemeinsamen Knoten mit der Lösung oder einem früheren Tipp.
+      </p>
     </section>
   );
 }
