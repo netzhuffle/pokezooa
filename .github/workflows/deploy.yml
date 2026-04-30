@@ -54,7 +54,11 @@ jobs:
           install -m 700 -d ~/.ssh
           printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          ssh-keyscan -p "${DEPLOY_PORT:-22}" "$DEPLOY_HOST" >> ~/.ssh/known_hosts
+          for attempt in 1 2 3 4 5; do
+            ssh-keyscan -T 10 -p "${DEPLOY_PORT:-22}" "$DEPLOY_HOST" >> ~/.ssh/known_hosts && break
+            sleep 2
+          done
+          test -s ~/.ssh/known_hosts
 
       - name: Deploy static build
         env:
