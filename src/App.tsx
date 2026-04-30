@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { datasetMeta, pokemonData } from "./data/pokemon.generated";
 import type { PokemonEntry } from "./data/types";
 import { buildVisibleTree, groupCount, normalizeName, targetMatch, type VisibleNode } from "./game";
@@ -6,6 +6,35 @@ import { buildVisibleTree, groupCount, normalizeName, targetMatch, type VisibleN
 const MAX_TRIES = 20;
 const FIRST_DAILY_PUZZLE = { year: 2026, month: 4, day: 30 };
 const ZURICH_TIMEZONE = "Europe/Zurich";
+const ROUND_STORAGE_KEY = "pokezooa:active-round:v1";
+const STREAK_STORAGE_KEY = "pokezooa:daily-streak:v1";
+const START_MESSAGE = "Gib ein Pokémon ein und decke den Baum auf.";
+
+interface RoundSnapshot {
+  roundNumber: number | null;
+  target: PokemonEntry;
+  guesses: PokemonEntry[];
+  input: string;
+  message: string;
+  showTable: boolean;
+}
+
+interface StoredRoundSnapshot {
+  dailyNumber: number;
+  guessSlugs: string[];
+  input: string;
+  message: string;
+  roundNumber: number | null;
+  showTable: boolean;
+  targetSlug: string;
+  version: 1;
+}
+
+interface StoredStreak {
+  current: number;
+  lastWonDaily: number;
+  version: 1;
+}
 
 function randomTarget(): PokemonEntry {
   const random =
@@ -55,6 +84,125 @@ function seededRandom(seed: number): number {
 function dailyTarget(puzzleNumber: number): PokemonEntry {
   const random = seededRandom(hashSeed(`pokezooa:${puzzleNumber}`));
   return pokemonData[Math.floor(random * pokemonData.length)];
+}
+
+function pokemonBySlug(slug: string): PokemonEntry | undefined {
+  return pokemonData.find((pokemon) => pokemon.slug === slug);
+}
+
+function defaultDailyRound(currentDailyNumber: number): RoundSnapshot {
+  return {
+    guesses: [],
+    input: "",
+    message: START_MESSAGE,
+    roundNumber: currentDailyNumber,
+    showTable: false,
+    target: dailyTarget(currentDailyNumber),
+  };
+}
+
+function loadStoredRound(currentDailyNumber: number): RoundSnapshot {
+  if (typeof localStorage === "undefined") {
+    return defaultDailyRound(currentDailyNumber);
+  }
+
+  const raw = localStorage.getItem(ROUND_STORAGE_KEY);
+  if (!raw) {
+    return defaultDailyRound(currentDailyNumber);
+  }
+
+  try {
+    const stored = JSON.parse(raw) as Partial<StoredRoundSnapshot>;
+    if (stored.version !== 1 || stored.dailyNumber !== currentDailyNumber) {
+      return defaultDailyRound(currentDailyNumber);
+    }
+
+    const storedRoundNumber = stored.roundNumber;
+    const isPracticeRound = storedRoundNumber === null;
+    const isDailyRound = typeof storedRoundNumber === "number";
+    if (!isPracticeRound && !isDailyRound) {
+      return defaultDailyRound(currentDailyNumber);
+    }
+
+    const target = isPracticeRound
+      ? pokemonBySlug(String(stored.targetSlug))
+      : dailyTarget(storedRoundNumber);
+    if (!target) {
+      return defaultDailyRound(currentDailyNumber);
+    }
+
+    const guesses = (stored.guessSlugs ?? [])
+      .map((slug) => pokemonBySlug(slug))
+      .filter((pokemon): pokemon is PokemonEntry => Boolean(pokemon));
+
+    return {
+      guesses,
+      input: String(stored.input ?? ""),
+      message: String(stored.message ?? START_MESSAGE),
+      roundNumber: isDailyRound ? storedRoundNumber : null,
+      showTable: Boolean(stored.showTable),
+      target,
+    };
+  } catch {
+    return defaultDailyRound(currentDailyNumber);
+  }
+}
+
+function saveStoredRound(currentDailyNumber: number, snapshot: RoundSnapshot): void {
+  if (typeof localStorage === "undefined") {
+    return;
+  }
+
+  const stored: StoredRoundSnapshot = {
+    dailyNumber: currentDailyNumber,
+    guessSlugs: snapshot.guesses.map((guess) => guess.slug),
+    input: snapshot.input,
+    message: snapshot.message,
+    roundNumber: snapshot.roundNumber,
+    showTable: snapshot.showTable,
+    targetSlug: snapshot.target.slug,
+    version: 1,
+  };
+  localStorage.setItem(ROUND_STORAGE_KEY, JSON.stringify(stored));
+}
+
+function loadStoredStreak(): StoredStreak {
+  if (typeof localStorage === "undefined") {
+    return { current: 0, lastWonDaily: 0, version: 1 };
+  }
+
+  try {
+    const stored = JSON.parse(
+      localStorage.getItem(STREAK_STORAGE_KEY) ?? "",
+    ) as Partial<StoredStreak>;
+    if (
+      stored.version === 1 &&
+      typeof stored.current === "number" &&
+      typeof stored.lastWonDaily === "number"
+    ) {
+      return { current: stored.current, lastWonDaily: stored.lastWonDaily, version: 1 };
+    }
+  } catch {
+    // Ignore invalid storage and start a new streak record.
+  }
+
+  return { current: 0, lastWonDaily: 0, version: 1 };
+}
+
+function recordDailyWin(dailyNumberValue: number): number {
+  const streak = loadStoredStreak();
+  if (streak.lastWonDaily === dailyNumberValue) {
+    return streak.current;
+  }
+
+  const nextCurrent = streak.lastWonDaily === dailyNumberValue - 1 ? streak.current + 1 : 1;
+  const nextStreak: StoredStreak = {
+    current: nextCurrent,
+    lastWonDaily: dailyNumberValue,
+    version: 1,
+  };
+  localStorage.setItem(STREAK_STORAGE_KEY, JSON.stringify(nextStreak));
+  return nextCurrent;
 }
 
 function formatMeters(value: number): string {
@@ -365,12 +513,14 @@ function GuessTable({ guesses, target }: { guesses: PokemonEntry[]; target: Poke
 }
 
 function App() {
-  const [roundNumber, setRoundNumber] = useState<number | null>(() => dailyPuzzleNumber());
-  const [target, setTarget] = useState(() => dailyTarget(dailyPuzzleNumber()));
-  const [guesses, setGuesses] = useState<PokemonEntry[]>([]);
-  const [input, setInput] = useState("");
-  const [message, setMessage] = useState("Gib ein Pokémon ein und decke den Baum auf.");
-  const [showTable, setShowTable] = useState(false);
+  const [currentDailyNumber] = useState(() => dailyPuzzleNumber());
+  const [initialSnapshot] = useState(() => loadStoredRound(currentDailyNumber));
+  const [roundNumber, setRoundNumber] = useState<number | null>(initialSnapshot.roundNumber);
+  const [target, setTarget] = useState(initialSnapshot.target);
+  const [guesses, setGuesses] = useState<PokemonEntry[]>(initialSnapshot.guesses);
+  const [input, setInput] = useState(initialSnapshot.input);
+  const [message, setMessage] = useState(initialSnapshot.message);
+  const [showTable, setShowTable] = useState(initialSnapshot.showTable);
   const [selected, setSelected] = useState<VisibleNode | null>(null);
 
   const guessedTarget = guesses.some((guess) => guess.slug === target.slug);
@@ -387,6 +537,17 @@ function App() {
     () => new Map(pokemonData.map((pokemon) => [normalizeName(pokemon.name), pokemon])),
     [],
   );
+
+  useEffect(() => {
+    saveStoredRound(currentDailyNumber, {
+      guesses,
+      input,
+      message,
+      roundNumber,
+      showTable,
+      target,
+    });
+  }, [currentDailyNumber, guesses, input, message, roundNumber, showTable, target]);
 
   function submitGuess(event: React.FormEvent<HTMLFormElement>): void {
     event.preventDefault();
@@ -410,7 +571,17 @@ function App() {
     setSelected(null);
 
     if (pokemon.slug === target.slug) {
-      setMessage(`Gewonnen. Die Antwort ist ${target.name}.`);
+      const attemptLabel = nextGuesses.length === 1 ? "Versuch" : "Versuche";
+      if (roundNumber === null) {
+        setMessage(
+          `Gewonnen! Du hast ${nextGuesses.length} ${attemptLabel} gebraucht. Die Antwort ist ${target.name}.`,
+        );
+      } else {
+        const streak = recordDailyWin(roundNumber);
+        setMessage(
+          `Gewonnen! Du hast ${nextGuesses.length} ${attemptLabel} gebraucht. Aktuelle Serie: ${streak}. Die Antwort ist ${target.name}.`,
+        );
+      }
     } else if (nextGuesses.length >= MAX_TRIES) {
       setMessage(`Keine Versuche mehr. Die Antwort war ${target.name}.`);
     } else {
