@@ -5,6 +5,8 @@ import { buildVisibleTree, groupCount, normalizeName, targetMatch, type VisibleN
 
 const MAX_TRIES = 20;
 const FIRST_DAILY_PUZZLE = { year: 2026, month: 4, day: 30 };
+// Freeze the daily pool so regenerating metadata or adding later Pokémon cannot move old puzzles.
+const DAILY_TARGET_POOL_SIZE = 1025;
 const ZURICH_TIMEZONE = "Europe/Zurich";
 const ROUND_STORAGE_KEY = "pokezooa:active-round:v1";
 const STREAK_STORAGE_KEY = "pokezooa:daily-streak:v1";
@@ -35,6 +37,8 @@ interface StoredStreak {
   lastWonDaily: number;
   version: 1;
 }
+
+const pokemonById = new Map(pokemonData.map((pokemon) => [pokemon.id, pokemon]));
 
 function randomTarget(): PokemonEntry {
   const random =
@@ -83,7 +87,8 @@ function seededRandom(seed: number): number {
 
 function dailyTarget(puzzleNumber: number): PokemonEntry {
   const random = seededRandom(hashSeed(`pokezooa:${puzzleNumber}`));
-  return pokemonData[Math.floor(random * pokemonData.length)];
+  const targetId = Math.floor(random * DAILY_TARGET_POOL_SIZE) + 1;
+  return pokemonById.get(targetId) ?? pokemonData[Math.floor(random * pokemonData.length)];
 }
 
 function pokemonBySlug(slug: string): PokemonEntry | undefined {
@@ -124,9 +129,8 @@ function loadStoredRound(currentDailyNumber: number): RoundSnapshot {
       return defaultDailyRound(currentDailyNumber);
     }
 
-    const target = isPracticeRound
-      ? pokemonBySlug(String(stored.targetSlug))
-      : dailyTarget(storedRoundNumber);
+    const storedTarget = pokemonBySlug(String(stored.targetSlug));
+    const target = storedTarget ?? (isDailyRound ? dailyTarget(storedRoundNumber) : undefined);
     if (!target) {
       return defaultDailyRound(currentDailyNumber);
     }
