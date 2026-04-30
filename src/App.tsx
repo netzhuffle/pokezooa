@@ -4,6 +4,8 @@ import type { PokemonEntry } from "./data/types";
 import { buildVisibleTree, groupCount, normalizeName, targetMatch, type VisibleNode } from "./game";
 
 const MAX_TRIES = 20;
+const FIRST_DAILY_PUZZLE = { year: 2026, month: 4, day: 30 };
+const ZURICH_TIMEZONE = "Europe/Zurich";
 
 function randomTarget(): PokemonEntry {
   const random =
@@ -11,10 +13,48 @@ function randomTarget(): PokemonEntry {
   return pokemonData[Math.floor((random / 2 ** 32) * pokemonData.length)];
 }
 
-function randomRoundNumber(): number {
-  const random =
-    globalThis.crypto?.getRandomValues(new Uint32Array(1))[0] ?? Math.random() * 2 ** 32;
-  return 1000 + Math.floor((random / 2 ** 32) * 9000);
+function zurichDateParts(date: Date): { year: number; month: number; day: number } {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    day: "2-digit",
+    month: "2-digit",
+    timeZone: ZURICH_TIMEZONE,
+    year: "numeric",
+  }).formatToParts(date);
+
+  return {
+    day: Number(parts.find((part) => part.type === "day")?.value),
+    month: Number(parts.find((part) => part.type === "month")?.value),
+    year: Number(parts.find((part) => part.type === "year")?.value),
+  };
+}
+
+function utcDayNumber({ year, month, day }: { year: number; month: number; day: number }): number {
+  return Math.floor(Date.UTC(year, month - 1, day) / 86_400_000);
+}
+
+function dailyPuzzleNumber(date = new Date()): number {
+  return utcDayNumber(zurichDateParts(date)) - utcDayNumber(FIRST_DAILY_PUZZLE) + 1;
+}
+
+function hashSeed(value: string): number {
+  let hash = 2_166_136_261;
+  for (const character of value) {
+    hash ^= character.charCodeAt(0);
+    hash = Math.imul(hash, 16_777_619);
+  }
+  return hash >>> 0;
+}
+
+function seededRandom(seed: number): number {
+  let value = seed + 0x6d2b79f5;
+  value = Math.imul(value ^ (value >>> 15), value | 1);
+  value ^= value + Math.imul(value ^ (value >>> 7), value | 61);
+  return ((value ^ (value >>> 14)) >>> 0) / 4_294_967_296;
+}
+
+function dailyTarget(puzzleNumber: number): PokemonEntry {
+  const random = seededRandom(hashSeed(`pokezooa:${puzzleNumber}`));
+  return pokemonData[Math.floor(random * pokemonData.length)];
 }
 
 function formatMeters(value: number): string {
@@ -325,8 +365,8 @@ function GuessTable({ guesses, target }: { guesses: PokemonEntry[]; target: Poke
 }
 
 function App() {
-  const [target, setTarget] = useState(() => randomTarget());
-  const [roundNumber, setRoundNumber] = useState(() => randomRoundNumber());
+  const [roundNumber, setRoundNumber] = useState<number | null>(() => dailyPuzzleNumber());
+  const [target, setTarget] = useState(() => dailyTarget(dailyPuzzleNumber()));
   const [guesses, setGuesses] = useState<PokemonEntry[]>([]);
   const [input, setInput] = useState("");
   const [message, setMessage] = useState("Gib ein Pokémon ein und decke den Baum auf.");
@@ -380,7 +420,7 @@ function App() {
 
   function newRound(): void {
     setTarget(randomTarget());
-    setRoundNumber(randomRoundNumber());
+    setRoundNumber(null);
     setGuesses([]);
     setInput("");
     setMessage("Neue Runde. Gib ein Pokémon ein und decke den Baum auf.");
@@ -389,7 +429,8 @@ function App() {
   }
 
   async function shareScore(): Promise<void> {
-    const text = `Pokézooa: ${guessedTarget ? guesses.length : "X"}/${MAX_TRIES} - ${target.name}`;
+    const prefix = roundNumber === null ? "Pokézooa Übungsrunde" : `Pokézooa #${roundNumber}`;
+    const text = `${prefix}: ${guessedTarget ? guesses.length : "X"}/${MAX_TRIES} - ${target.name}`;
     await navigator.clipboard?.writeText(text);
     setMessage("Punktzahl kopiert.");
   }
@@ -414,7 +455,7 @@ function App() {
         <aside className="min-w-0 space-y-6">
           <section>
             <h2 className="break-words text-3xl font-black sm:text-4xl">
-              Rätsel-Pokémon #{roundNumber.toString().padStart(4, "0")}
+              {roundNumber === null ? "Übungsrunde" : `Rätsel-Pokémon #${roundNumber}`}
             </h2>
             <div className="mt-6 grid gap-5 sm:grid-cols-[1fr_auto]">
               <p className="text-2xl font-semibold leading-relaxed">{message}</p>
